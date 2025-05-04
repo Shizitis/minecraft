@@ -1,0 +1,22 @@
+location: world_spawn:65.700:43.700:-4.700
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&6&lБитва с боссом'
+    height: 0.3
+  - content: '&bПонедельник, Среда, Пятница &6в &b17:30'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&aОдолейте &bсильнего босса &aи получите &bнаграду!'
+    height: 0.3
+  - content: '&aДля входа на арену используйте &b/boss join'
+    height: 0.3
+  - content: '&aИли &bкликните &aна NPC'
+    height: 0.3
+  actions: {}

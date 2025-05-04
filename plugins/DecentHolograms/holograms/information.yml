@@ -1,0 +1,34 @@
+location: world_spawn:-11.500:69.000:0.500
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&x&F&B&6&C&0&5m&x&F&B&7&3&0&5c&x&F&C&7&9&0&4.&x&F&C&8&0&0&4F&x&F&C&8&6&0&4a&x&F&C&8&D&0&3k&x&F&D&9&3&0&3e&x&F&D&9&A&0&3W&x&F&D&A&0&0&2o&x&F&E&A&7&0&2r&x&F&E&A&D&0&1l&x&F&E&B&4&0&1d&x&F&E&B&A&0&1.&x&F&F&C&1&0&0s&x&F&F&C&7&0&0u'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&6☄ &fПривет, &6{player}&f'
+    height: 0.3
+  - content: '&6☄ &fты попал &fна &x&F&B&6&C&0&5Г&x&F&B&7&4&0&5р&x&F&C&7&D&0&4и&x&F&C&8&5&0&4ф&x&F&C&8&D&0&3е&x&F&D&9&5&0&3р&x&F&D&9&E&0&2с&x&F&E&A&6&0&2к&x&F&E&A&E&0&1и&x&F&E&B&6&0&1й&x&F&F&B&F&0&0-&x&F&F&C&7&0&01'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&x&F&C&6&A&1&C🔥 &fСайт сервера &8» &x&F&B&6&C&0&5F&x&F&B&7&4&0&5a&x&F&C&7&D&0&4k&x&F&C&8&5&0&4e&x&F&C&8&D&0&3W&x&F&D&9&5&0&3o&x&F&D&9&E&0&2r&x&F&E&A&6&0&2l&x&F&E&A&E&0&1d&x&F&E&B&6&0&1.&x&F&F&B&F&0&0s&x&F&F&C&7&0&0u'
+    height: 0.3
+  - content: '&x&F&C&6&A&1&C🔥 &fДонат привилегии &8» &x&F&B&6&C&0&5/&x&F&C&7&B&0&4d&x&F&C&8&A&0&3o&x&F&D&9&A&0&3n&x&F&E&A&9&0&2a&x&F&E&B&8&0&1t&x&F&F&C&7&0&0e'
+    height: 0.3
+  - content: '&x&F&C&6&A&1&C🔥 &fБесплатный донат &8» &x&F&B&6&C&0&5/&x&F&C&7&E&0&4c&x&F&D&9&0&0&3o&x&F&D&A&3&0&2d&x&F&E&B&5&0&1e&x&F&F&C&7&0&0s'
+    height: 0.3
+  - content: '&x&F&C&6&A&1&C🔥 &fМеню Сервера &8» &x&F&B&6&C&0&5/&x&F&C&8&3&0&4m&x&F&D&9&A&0&3e&x&F&E&B&0&0&1n&x&F&F&C&7&0&0u'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&x&F&C&6&A&1&C🔥 &fНаш &#0070FF&lДС&7 &8» &x&F&B&6&C&0&5d&x&F&B&7&1&0&5s&x&F&B&7&6&0&4c&x&F&C&7&B&0&4.&x&F&C&8&0&0&4g&x&F&C&8&5&0&4g&x&F&C&8&A&0&3/&x&F&D&8&F&0&3F&x&F&D&9&4&0&3a&x&F&D&9&A&0&3k&x&F&D&9&F&0&2e&x&F&D&A&4&0&2W&x&F&E&A&9&0&2o&x&F&E&A&E&0&1r&x&F&E&B&3&0&1l&x&F&E&B&8&0&1d&x&F&F&B&D&0&1O&x&F&F&C&2&0&0F&x&F&F&C&7&0&0F'
+    height: 0.3
+  - content: '&x&F&C&6&A&1&C🔥 &fТелеграмм канал &8» &x&F&B&6&C&0&5t&x&F&B&7&3&0&5.&x&F&C&7&9&0&4m&x&F&C&8&0&0&4e&x&F&C&8&6&0&4/&x&F&C&8&D&0&3F&x&F&D&9&3&0&3a&x&F&D&9&A&0&3k&x&F&D&A&0&0&2e&x&F&E&A&7&0&2W&x&F&E&A&D&0&1o&x&F&E&B&4&0&1r&x&F&E&B&A&0&1l&x&F&F&C&1&0&0d&x&F&F&C&7&0&0s'
+    height: 0.3
+  actions: {}

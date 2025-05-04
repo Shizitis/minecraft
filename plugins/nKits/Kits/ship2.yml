@@ -1,0 +1,73 @@
+Name: ship2
+Cooldown: 0
+Permission: nKits.kits.ship2
+Order: 0
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"text":"§2§lШар Шипов 2"}'
+      lore:
+      - '{"text":"§c§c§c§cПроклятье утраты"}'
+      - '{"text":""}'
+      - '{"text":"§7Когда во второй руке:"}'
+      - '{"text":"  §7Шипы V"}'
+      - '{"text":""}'
+      - '{"text":"§7======================"}'
+      enchants:
+        THORNS: 5
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      internal: H4sIAAAAAAAA/02PMU+DQBiGP40mFY2DcfYXaAKcYBrTwXi2PdI7hBYo59TSqxTusKGgMDv7M5xdTBz8czK6PU+ed3k1AA1Opnkt5WP5st5IoYHW0VaU1UbsjqBXiaaqS7HTAGCvB4fhQtYCvkXr6Hye6qu5I5OW2J3Pprp0Sba9IUXYLu+JTVTXx3f2pO3/21rVIrJkjJyUF169VKE+Qb4UY99IVPDKokB3cdywyFdMEcRHvqLmMGc4Nyj2GhcnJsd5wzK54SNquZil1ORp5ylVwyyePbwxM7jmGTFoFCOWPSNSGP21NxgAHMM+WXVHDi7z37Pzr9vPd3Tx9HN1+gHwBwLWvwQKAQAA
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  Armor:
+  - null
+  - null
+  - null
+  - null

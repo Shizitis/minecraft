@@ -1,0 +1,79 @@
+Name: sila2
+Cooldown: 0
+Permission: nKits.kits.sila2
+Order: 0
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"text":"§4§lШар Силы 2"}'
+      lore:
+      - '{"text":"§c§c§c§cПроклятье утраты"}'
+      - '{"text":""}'
+      - '{"text":"§7Когда во второй руке:"}'
+      - '{"text":"  §7+3.5 к урону"}'
+      - '{"text":""}'
+      - '{"text":"§7======================"}'
+      attribute-modifiers:
+        GENERIC_ATTACK_DAMAGE:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 3.5
+          name: ResourceKey[minecraft:attribute / minecraft:generic.attack_damage]
+          slot: OFF_HAND
+          uuid: 8b98019d-d62f-46c4-adc9-512d6a7707b8
+          operation: 0
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      internal: H4sIAAAAAAAA/02PMU+DQBzF/xpNKhoH4+wn0OTgAqYxHYxn2iP1TlqgvXNq4dpSDtpQMIXV2Y/h7GLi4JcTN7f3fu+3PAPAgLNxWmn9XGwWiVYGGG3aqqJM1O4EOqXal1WhdgYAHHTgOJzpSsGXql0kpysUT10d1dRpuz9GmtP19pbmYT1/oA7N2n1w7wzr7j/XLmcTWwvsrmTuVfMsREM80mowMqMseOVkiaSf1owssWgEZiS1uR8mrEnxUxMnvP9oywlFovEa7gfojwtfppLItSQ6Yf0wE1awZxbLGIlMTjyL5mZ34fV6AKdwSOP2yNF1+nNx+Xn38YavXr5vzt8BfgEDTwq3CgEAAA==
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  Armor:
+  - null
+  - null
+  - null
+  - null

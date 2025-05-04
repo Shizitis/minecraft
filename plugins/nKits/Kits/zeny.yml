@@ -1,0 +1,107 @@
+Name: zeny
+Cooldown: 0
+Permission: strictkits.kits.zeny
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Голова
+        Зеницу"}],"text":""}'
+      lore:
+      - '{"extra":[{"italic":false,"color":"red","text":"Проклятье утраты"}],"text":""}'
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Когда
+        во второстепенной руке:"}],"text":""}'
+      - '{"extra":[{"text":"   "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"+15
+        Максимальное здоровье"}],"text":""}'
+      - '{"extra":[{"text":"   "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"+0.4
+        Скорость атаки"}],"text":""}'
+      - '{"extra":[{"text":"   "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"+3.5
+        Везение"}],"text":""}'
+      - '{"extra":[{"text":"   "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"+35%
+        Скорость"}],"text":""}'
+      - '{"text":""}'
+      attribute-modifiers:
+        GENERIC_MAX_HEALTH:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 15.0
+          name: ResourceKey[minecraft:attribute / minecraft:generic.max_health]
+          slot: OFF_HAND
+          uuid: e942298c-edc5-41fa-b7c4-a7d53afc740d
+          operation: 0
+        GENERIC_ATTACK_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.4
+          name: ResourceKey[minecraft:attribute / minecraft:generic.attack_speed]
+          slot: OFF_HAND
+          uuid: c89204c7-4e65-4d4e-b043-53aa44702182
+          operation: 0
+        GENERIC_LUCK:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 3.5
+          name: ResourceKey[minecraft:attribute / minecraft:generic.luck]
+          slot: OFF_HAND
+          uuid: 0bea68ea-3c53-46be-91af-a11a87960a78
+          operation: 0
+        GENERIC_MOVEMENT_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.35
+          name: ResourceKey[minecraft:attribute / minecraft:generic.movement_speed]
+          slot: OFF_HAND
+          uuid: 4ab14fb5-664e-4b69-baca-76cafed55792
+          operation: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      internal: H4sIAAAAAAAA/02Py06DQBiFf40mFY0L49on0IRLwDTGhUq0Q8pgW0AGVy1MM8ylNhS0zNa1j+HajYkLX06WLk5yvpxvcwwAA45mopXysX5ZVpIaYPRtTeumopsDGDR027Q13RgAsDOA/XQuWwrftAvMPGNmmQWy6JDXczwzZYT4+hKt0m5xhzyk+n1044274T/XbeZPriROwPLVpF2o1Bw7U0lHU6tQySvRJQtjprCdbLEuLMIxCzV5ww9Y9FGRf6sIT7oovhd5PLGxClRoEyf3hYU10SQuXMyFGfqMY44crFOFq2C4zMxrgEPYRWV/ZO9c/J6cfl19vjtnzz8Xxx8Af+SS5nUKAQAA
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  Armor:
+  - null
+  - null
+  - null
+  - null

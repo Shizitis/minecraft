@@ -1,0 +1,341 @@
+menu_title: '&fꈁꀀꈂꍄꈂꀁ&0ꈃꄠ'
+open_command: fermskup
+size: 53
+items:
+  'clock':
+    material: clock
+    model_data: 10001
+    slot: 3
+    display_name: ' '
+    hide_attributes: true
+    lore:
+    - '  &6Информация'
+    - ''
+    - '  &6Ваш уровень профессии: &7Новичек          '
+    - '  &6Ваш текущий опыт профессии: &70/2000   '
+    - '  &6Бонус к цене &70%'
+    - ''
+    - '  &6Предмет до следующего уровня: &70&8/&76,000'
+    - ''
+    - '    &8[&7||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||&8]'
+    - ''
+    - '   &6Награда за достижения уровня &5Легенда'
+    - '     &7Открытие уникальных крафтов'
+    - '     &7Бонус к цене: 10%'
+    - ''
+
+  'crafting_table':
+    material: crafting_table
+    model_data: 10001
+    slot: 5
+    display_name: ' '
+    hide_attributes: true
+    lore:
+    - '  &6Уникальные крафты'
+    - ''
+    - '  &7Открываются по достижению уровня: &5Легенда   '
+    - ''
+
+  'glistering_melon_slice':
+    material: glistering_melon_slice
+    data: 3
+    slot: 20
+    display_name: ''
+    lore:
+    - ''
+    - ' &6Цена продажи: &7135 &fꐂ'
+    - ''
+    left_click_requirement:
+      requirements:
+        quest_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:glistering_melon_slice% >= 1'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+          - '[message] &6Работы &7» &fНедостаточно предметов в инвентаре'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] clear %player_name% glistering_melon_slice 1'
+      - '[console] eco give %player_name% 135'
+      - '[message] &6Работы &7» &fВы успешно сдали предмет.'
+
+  'mine3':
+    material: melon_seeds
+    data: 3
+    slot: 39
+    display_name: ''
+    lore:
+    - ''
+    - ' &6Цена продажи: &732 &fꐂ'
+    - ''
+    left_click_requirement:
+      requirements:
+        quest_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:melon_seeds% >= 1'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+          - '[message] &6Работы &7» &fНедостаточно предметов в инвентаре'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] clear %player_name% melon_seeds 1'
+      - '[console] eco give %player_name% 32'
+      - '[message] &6Работы &7» &fВы успешно сдали предмет.'
+      
+  'mine4':
+    material: beetroot_seeds
+    data: 3
+    slot: 41
+    display_name: ''
+    lore:
+    - ''
+    - ' &6Цена продажи: &732 &fꐂ'
+    - ''
+    left_click_requirement:
+      requirements:
+        quest_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:beetroot_seeds% >= 1'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+          - '[message] &6Работы &7» &fНедостаточно предметов в инвентаре'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] clear %player_name% beetroot_seeds 1'
+      - '[console] eco give %player_name% 32'
+      - '[message] &6Работы &7» &fВы успешно сдали предмет.'
+      
+  'mine5':
+    material: pumpkin_seeds
+    data: 3
+    slot: 40
+    display_name: ''
+    lore:
+    - ''
+    - ' &6Цена продажи: &732 &fꐂ'
+    - ''
+    left_click_requirement:
+      requirements:
+        quest_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:pumpkin_seeds% >= 1'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+          - '[message] &6Работы &7» &fНедостаточно предметов в инвентаре'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] clear %player_name% pumpkin_seeds 1'
+      - '[console] eco give %player_name% 32'
+      - '[message] &6Работы &7» &fВы успешно сдали предмет.'
+      
+  'mine6':
+    material: sugar_cane
+    data: 3
+    slot: 32
+    display_name: ''
+    lore:
+    - ''
+    - ' &6Цена продажи: &7100 &fꐂ'
+    - ''
+    left_click_requirement:
+      requirements:
+        quest_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:sugar_cane% >= 1'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+          - '[message] &6Работы &7» &fНедостаточно предметов в инвентаре'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] clear %player_name% sugar_cane 1'
+      - '[console] eco give %player_name% 100'
+      - '[message] &6Работы &7» &fВы успешно сдали предмет.'
+      
+
+  'carrot':
+    material: carrot
+    data: 3
+    slot: 33
+    display_name: ''
+    lore:
+    - ''
+    - ' &6Цена продажи: &785 &fꐂ'
+    - ''
+    left_click_requirement:
+      requirements:
+        quest_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:carrot% >= 1'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+          - '[message] &6Работы &7» &fНедостаточно предметов в инвентаре'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] clear %player_name% carrot 1'
+      - '[console] eco give %player_name% 85'
+      - '[message] &6Работы &7» &fВы успешно сдали предмет.'
+      
+      
+  'mine8':
+    material: melon
+    data: 3
+    slot: 21
+    display_name: ''
+    lore:
+    - ''
+    - ' &6Цена продажи: &7125 &fꐂ'
+    - ''
+    left_click_requirement:
+      requirements:
+        quest_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:melon% >= 1'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+          - '[message] &6Работы &7» &fНедостаточно предметов в инвентаре'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] clear %player_name% melon 1'
+      - '[console] eco give %player_name% 125'
+      - '[message] &6Работы &7» &fВы успешно сдали предмет.'
+      
+      
+  'mine11':
+    material: pumpkin
+    data: 3
+    slot: 31
+    display_name: ''
+    lore:
+    - ''
+    - ' &6Цена продажи: &7125 &fꐂ'
+    - ''
+    left_click_requirement:
+      requirements:
+        quest_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:pumpkin% >= 1'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+          - '[message] &6Работы &7» &fНедостаточно предметов в инвентаре'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] clear %player_name% pumpkin 1'
+      - '[console] eco give %player_name% 125'
+      - '[message] &6Работы &7» &fВы успешно сдали предмет.'
+ 
+  'potato':
+    material: potato
+    data: 3
+    slot: 24
+    display_name: ''
+    lore:
+    - ''
+    - ' &6Цена продажи: &7135 &fꐂ'
+    - ''
+    left_click_requirement:
+      requirements:
+        quest_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:potato% >= 1'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+          - '[message] &6Работы &7» &fНедостаточно предметов в инвентаре'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] clear %player_name% potato 1'
+      - '[console] eco give %player_name% 135'
+      - '[message] &6Работы &7» &fВы успешно сдали предмет.'
+     
+  'mine12':
+    material: cake
+    data: 3
+    slot: 23
+    display_name: ''
+    lore:
+    - ''
+    - ' &6Цена продажи: &7400 &fꐂ'
+    - ''
+    left_click_requirement:
+      requirements:
+        quest_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:cake% >= 1'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+          - '[message] &6Работы &7» &fНедостаточно предметов в инвентаре'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] clear %player_name% cake 1'
+      - '[console] eco give %player_name% 400'
+      - '[message] &6Работы &7» &fВы успешно сдали предмет.'
+      
+  'popped_chorus_fruit':
+    material: popped_chorus_fruit
+    data: 3
+    slot: 22
+    display_name: ''
+    lore:
+    - ''
+    - ' &6Цена продажи: &7150 &fꐂ'
+    - ''
+    left_click_requirement:
+      requirements:
+        quest_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:popped_chorus_fruit% >= 1'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+          - '[message] &6Работы &7» &fНедостаточно предметов в инвентаре'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] clear %player_name% popped_chorus_fruit 1'
+      - '[console] eco give %player_name% 150'
+      - '[message] &6Работы &7» &fВы успешно сдали предмет.'
+      
+  'mine15':
+    material: poisonous_potato
+    data: 3
+    slot: 29
+    display_name: ''
+    lore:
+    - ''
+    - ' &6Цена продажи: &7500 &fꐂ'
+    - ''
+    left_click_requirement:
+      requirements:
+        quest_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:poisonous_potato% >= 1'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+          - '[message] &6Работы &7» &fНедостаточно предметов в инвентаре'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] clear %player_name% poisonous_potato 1'
+      - '[console] eco give %player_name% 500'
+      - '[message] &6Работы &7» &fВы успешно сдали предмет.'   
+
+  'mine16':
+    material: nether_wart
+    data: 3
+    slot: 30
+    display_name: ''
+    lore:
+    - ''
+    - ' &6Цена продажи: &775 &fꐂ'
+    - ''
+    left_click_requirement:
+      requirements:
+        quest_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:nether_wart% >= 1'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+          - '[message] &6Работы &7» &fНедостаточно предметов в инвентаре'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] clear %player_name% nether_wart 1'
+      - '[console] eco give %player_name% 75'
+      - '[message] &6Работы &7» &fВы успешно сдали предмет.'        
+      
+ 

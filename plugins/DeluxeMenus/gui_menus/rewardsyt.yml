@@ -1,0 +1,55 @@
+menu_title: '&r&#ffffffꈁꀀꈂꌰꈂꀁ&0ꈃꄈ'
+open_command: 
+- rewardsyt
+size: 57
+items:
+  'medovij':
+    material: tnt_minecart
+    amount: 1
+    slot: 21
+    display_name: '&x&F&B&6&C&0&5К&x&F&B&7&5&0&5о&x&F&C&7&E&0&4д &x&F&C&8&7&0&4м&x&F&D&9&0&0&3е&x&F&D&9&A&0&3д&x&F&D&A&3&0&2о&x&F&E&A&C&0&2в&x&F&E&B&5&0&1ы&x&F&F&B&E&0&1ч&x&F&F&C&7&0&0а'
+    lore:
+    - ''
+    - ' &7Нажмите, чтобы активировать'
+    - ' &7Код медовыча'
+    - ''
+    left_click_commands:
+    - '[player] code medovij'
+    right_click_commands:
+    - '[player] code medovij'
+  'scally':
+    material: tnt_minecart
+    amount: 1
+    slot: 22
+    display_name: '&x&F&B&6&C&0&5К&x&F&B&7&4&0&5о&x&F&C&7&B&0&4д &x&F&C&8&3&0&4с&x&F&C&8&A&0&3к&x&F&D&9&2&0&3а&x&F&D&9&A&0&3л&x&F&D&A&1&0&2л&x&F&E&A&9&0&2и&x&F&E&B&0&0&1д&x&F&E&B&8&0&1и&x&F&F&B&F&0&0м&x&F&F&C&7&0&0ы'
+    lore:
+    - ''
+    - ' &7Нажмите, чтобы активировать'
+    - ' &7Код скалли'
+    - ''
+    left_click_commands:
+    - '[player] code scally'
+    right_click_commands:
+    - '[player] code scally'
+  'nothing1':
+    material: barrier
+    amount: 1
+    slot: 23
+    display_name: '&cТут нету кода'
+    lore:
+    - ''
+    - ' &7Тут нету ничего!'
+    - ' &7Используй команду /free'
+    - ''
+    left_click_commands:
+    - '[message] &cТут пусто...'
+    - '[close]'
+  'back':
+    material: arrow
+    model_data: 10002
+    slot: 45
+    display_name: '&6Назад'
+    left_click_commands:
+    - '[player] codes'
+    right_click_commands:
+    - '[player] codes'    

@@ -1,0 +1,20 @@
+Accept-Message: '§с'
+Declined-Message: '§6CakeWorld &8» &7Вам необходимо установить ресурс-пак для дальнейшей игры!'
+Successful-Download-Message: '§6CakeWorld &8» &7Вы установили ресурс-пак, удачной игры!'
+Failed-Download-Message: '§6CakeWorld &8» &7Вам необходимо установить ресурс-пак для дальнейшей игры!'
+TimeUp-Message: ''
+
+Error-Message: ''
+Invalid-Link-Message: ''
+Unsupported-Version: ''
+Version-Hint: ''
+Version-Bounds: ''
+
+GUI-Message: ''
+No-Pack-For-World: ''
+
+Permission-Message: ''
+Invalid-Subcommand-Message: ''
+Player-Only-Message: ''
+Config-Reloaded-Message: ''
+Config-Reload-Fail-Message: ''

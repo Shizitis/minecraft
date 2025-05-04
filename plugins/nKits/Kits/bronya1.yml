@@ -1,0 +1,79 @@
+Name: bronya1
+Cooldown: 0
+Permission: nKits.kits.bronya1
+Order: 0
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"text":"§6§lШар Стойкости 1"}'
+      lore:
+      - '{"text":"§c§c§c§cПроклятье утраты"}'
+      - '{"text":""}'
+      - '{"text":"§7Когда во второй руке:"}'
+      - '{"text":"  §7+5.5 к броне"}'
+      - '{"text":""}'
+      - '{"text":"§7======================"}'
+      attribute-modifiers:
+        GENERIC_ARMOR:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 5.5
+          name: ResourceKey[minecraft:attribute / minecraft:generic.armor]
+          slot: OFF_HAND
+          uuid: 585637e0-5ee3-44cb-ac2a-fb9e8720a7a8
+          operation: 0
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      internal: H4sIAAAAAAAA/02PMU+DQBiGP40m9TQOxtlfoAmUgmlMB7WNPVJAKB69c2rLVQp32FAwB2vn/gxn3Rz8czK6PW+ed3kQAIKzaVYJ8Vy8r9aCI0AtbXhRrvn2BDolV2VV8C0CgIMOHJO5qDh889rW2CzR4pktljW22h1ONeHhdHOLc1IvHrGFZevH99ak7v/7muU8MgU17ITlfrWQRJsYgeDjQF/Klw8nHSka4YaGI+U0dupFvmIR7TkNETR8U2yYGY4kmRdhnXb9HnsKJEsfEmcYp25IErfxTSpdSbu0dVTHud5f+YMBwCkc4riNOLrOfi8uv+4+d8bV68/N+R7gD31sq3kGAQAA
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  Armor:
+  - null
+  - null
+  - null
+  - null

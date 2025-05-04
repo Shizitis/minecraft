@@ -1,0 +1,37 @@
+codes:
+  scally:
+    limit: 1
+    limit-players: 200000
+    commands:
+    - p give %player% 19
+    - cases give %player% riliks 1
+    - cases give %player% donate 1
+    message-limit: §fВы исчерпали лимит использования данного кода.
+    message-limit-players: §fВы исчерпали лимит использования данного кода.
+    success-message: §6Халява §7» §fВы §aуспешно §fактивировали код §6словеда§f
+    screen-message: §6mc.FakeWorld.su
+    additional-screen-message: §aКод успешно активирован!
+  medovij:
+    limit: 1
+    limit-players: 200000
+    commands:
+    - p give %player% 19
+    - cases give %player% riliks 1
+    - cases give %player% donate 1
+    message-limit: §fВы исчерпали лимит использования данного кода.
+    message-limit-players: §fВы исчерпали лимит использования данного кода.
+    success-message: §6Халява §7» §fВы §aуспешно §fактивировали код §6интерналапа§f
+    screen-message: §6mc.FakeWorld.su
+    additional-screen-message: §aКод успешно активирован!
+messages:
+  prefix: ''
+  no-permission: §6Коды §8» §cУ вас нет прав для использование кода.
+  code-notfound: Данный промокод не найден.
+  codereload: §6Коды §8» §fКонфигурация §aперезагружена§f.
+  code: §f/code §7[§6код§7] §7- §fВвести промокод.
+  permission-message: §6Коды §8» §cУ вас нет прав.
+usedCodes:
+  scally:
+    count: 1
+  2a656170-9e9d-3f41-bfc4-a569132d045a:
+    scally: true

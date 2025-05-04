@@ -1,0 +1,93 @@
+Name: maska2
+Cooldown: 0
+Permission: nKits.kits.maska2
+Order: 0
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"text":"§b§lГолова Йети"}'
+      lore:
+      - '{"text":"§c§c§c§cПроклятье утраты"}'
+      - '{"text":""}'
+      - '{"text":"§bКогда надето на голову"}'
+      - '{"text":"  §3+2.5 к Урону"}'
+      - '{"text":"  §4-1 к Броне"}'
+      - '{"text":"  §4-25% к Скорости"}'
+      attribute-modifiers:
+        GENERIC_ATTACK_DAMAGE:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 2.5
+          name: ResourceKey[minecraft:attribute / minecraft:generic.attack_damage]
+          slot: OFF_HAND
+          uuid: d493a59c-7c45-40fd-91e8-6012206c977e
+          operation: 0
+        GENERIC_ARMOR:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 1.0
+          name: ResourceKey[minecraft:attribute / minecraft:generic.armor]
+          slot: OFF_HAND
+          uuid: 5de47b3e-0df8-4e14-a7e3-dbec0b742b91
+          operation: 0
+        GENERIC_MOVEMENT_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: -0.25
+          name: ResourceKey[minecraft:attribute / minecraft:generic.movement_speed]
+          slot: OFF_HAND
+          uuid: 295d27f9-323c-461b-836a-e6d7a540a32b
+          operation: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      internal: H4sIAAAAAAAA/02Pu07DMBiFfxBIJSAGxMwTgOTINKhCDJRUqaPGIWluNlMvrpLUaas0QTgrM4/BDBsDL4dHhiOdo+9bjgFgwNl03Ur5XG9XhRQGGLrtRN0UYn8CvUa8NW0t9gYAHPTgOJnJVsC3UC7iWY6WmSsXilh6R1MkfVLu7sgmUfMnYpFK8/GjNVGDf26/maV9ybCb803QzqsETXAoxTg0F1X86tvDgjqJzgh7aWzy1MPUCTC3aUkjdus7YcU6XvKImTyKO+rQ0nMCxO0RZt1Qsi5QfsqUNgpWJjlT7mCVoQeAUzgkS33i6Hr9e3H5df/5jq9efm7OPwD+ANX2BxwGAQAA
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  Armor:
+  - null
+  - null
+  - null
+  - null

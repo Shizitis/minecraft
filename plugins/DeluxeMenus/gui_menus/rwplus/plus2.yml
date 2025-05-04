@@ -1,0 +1,61 @@
+menu_title: '&r&#ffffffꈁꀀꈂꌧꈂꀁ&r&0ꈃꄢ&r'
+open_command:
+- plus2
+size: 40
+items:
+  's1':
+    material: gold_ingot
+    slot: 20
+    display_name: '&61 неделю'
+    lore:
+    - ''
+    - ' &fЦена: &61499 рилликов'
+    - ''
+    - '&6Нажмите&f, чтобы оформить подписку'
+    - '&fсроком на &61 неделю'
+    - ''
+    - '&fПри наличии уже &6активной &fподписки,'
+    - '&fсрок добавится к &6уже существующему.'
+    left_click_commands:
+    - '[player] plus_buy_1'
+    right_click_commands:
+    - '[close]' 
+    - '[player] plus_buy_1'
+  's2':
+    material: gold_ingot
+    slot: 22
+    display_name: '&62 недели'
+    lore:
+    - ''
+    - ' &fЦена: &61599 рилликов'
+    - ''
+    - '&6Нажмите&f, чтобы оформить подписку'
+    - '&fсроком на &62 недели'
+    - ''
+    - '&fПри наличии уже &6активной &fподписки,'
+    - '&fсрок добавится к &6уже существующему.'
+    left_click_commands:
+    - '[close]' 
+    - '[player] plus_buy_2'
+    right_click_commands:
+    - '[close]' 
+    - '[player] plus_buy_2'
+  's3':
+    material: gold_ingot
+    slot: 24
+    display_name: '&61 месяц'
+    lore:
+    - ''
+    - ' &fЦена: &61899 рилликов'
+    - ''
+    - '&6Нажмите&f, чтобы оформить подписку'
+    - '&fсроком на &61 месяц'
+    - ''
+    - '&fПри наличии уже &6активной &fподписки,'
+    - '&fсрок добавится к &6уже существующему.'
+    left_click_commands:
+    - '[close]' 
+    - '[player] plus_buy_3'
+    right_click_commands:
+    - '[close]' 
+    - '[player] plus_buy_3'

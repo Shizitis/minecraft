@@ -1,0 +1,66 @@
+messages:
+  notFound: "&6Битва с боссом &7» &cИвент не найден! Выключать нечего!"
+  noPerm: "&6Битва с боссом &7» &cУ вас нет прав для выполнения этой команды!"
+  lootSaved: "&6Битва с боссом &7» &fЛут &aуспешно &fсохранен!"
+  admUsage: "&6Битва с боссом &7» &f/nBossfight <reload> <start> <stop> <edit>"
+  usage: "&6Битва с боссом &7» &f/boss join/leave"
+  edit: "&6Битва с боссом &7» &cРедактирование лута"
+  start: "&6Битва с боссом &7» &cИвент успешно запущен"
+  stop: "&6Битва с боссом &7» &cБоссфайт завершен"
+  reload: "&6Битва с боссом &7» &aКонфиг перезагружен"
+  needArmor: "&6Битва с боссом &7» &cНадень броню для участия в бое с боссом!"
+  notEvent: "&6Битва с боссом &7» &fИвент еще &cне начался!"
+
+hour: 15
+minute: 0
+
+bossfight:
+  glowItems: true
+  throwPower: 5
+  throwChance: 0.4
+  playersForStart: 70
+  timeForJoin: 180
+  endTime: 60
+  damageToPoints: 40
+  defaultMoney: 100000
+  defaultPoints: 1000
+  pointsReward:
+    - "&6Битва с боссом &8» &aБитва с боссом завершена!"
+    - "&6Битва с боссом &8» &7Ваша награда:"
+    - "&6Битва с боссом &8» &6100.000 &7Игровой Валюты"
+    - "&6Битва с боссом &8» &61000 &7Риликов"
+  moneyReward:
+    - "&6Битва с боссом &8» &aБитва с боссом завершена!"
+    - "&6Битва с боссом &8» &7Ваша награда:"
+    - "&6Битва с боссом &8» &6100.000 &7Игровой Валюты"
+spawnLoc:
+  world: "world"
+  x: 0
+  y: 52
+  z: 0
+playerTpLoc:
+  world: "boss"
+  x: -80
+  y: 8
+  z: 22
+bosses:
+  ravager:
+    health: 1000
+    location:
+      world: "boss"
+      x: -80
+      y: 8
+      z: -52
+bossbar:
+  waiting:
+    name: "&6&lБитва с Боссом &8| &bНабор игроков &8(&6%players%&7/&670&8) &7/boss join &c(Осталось &4%time% &cсек)"
+    style: SEGMENTED_20
+    color: YELLOW
+  fighting:
+    name: "&6&lБитва с Боссом &8| &cОдолейте босса"
+    style: SOLID
+    color: YELLOW
+  ended:
+    name: "&6&lБитва с Боссом &8| &eБосс убит!"
+    style: SEGMENTED_20
+    color: YELLOW

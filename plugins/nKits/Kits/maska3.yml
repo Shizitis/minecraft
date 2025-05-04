@@ -1,0 +1,93 @@
+Name: maska3
+Cooldown: 0
+Permission: nKits.kits.maska3
+Order: 0
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"text":"§f§lМаска Шкипера"}'
+      lore:
+      - '{"text":"§c§c§c§cПроклятье утраты"}'
+      - '{"text":""}'
+      - '{"text":"§fКогда надето на голову"}'
+      - '{"text":"  §7+2 к Броне"}'
+      - '{"text":"  §7+6 к Максимальному здоровью"}'
+      - '{"text":"  §4-1.5 к Урону"}'
+      attribute-modifiers:
+        GENERIC_ARMOR:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 2.0
+          name: ResourceKey[minecraft:attribute / minecraft:generic.armor]
+          slot: OFF_HAND
+          uuid: d07b6466-7703-4e10-997b-120262d5fd49
+          operation: 0
+        GENERIC_MAX_HEALTH:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 6.0
+          name: ResourceKey[minecraft:attribute / minecraft:generic.max_health]
+          slot: OFF_HAND
+          uuid: 26e0c65d-d60e-4551-8616-477cd84a6e0a
+          operation: 0
+        GENERIC_ATTACK_DAMAGE:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: -1.5
+          name: ResourceKey[minecraft:attribute / minecraft:generic.attack_damage]
+          slot: OFF_HAND
+          uuid: da698083-43c4-4369-ae79-bf61839b46d2
+          operation: 0
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      internal: H4sIAAAAAAAA/02Pu07DMBhGfxBIJSAGxMwTgOQkNKhCDKipWlu1Qy+52Ext4ypN7VKlCTRZmXkMZhYkBl4Oj2zf0TnLZwFYcDZZV0o9FS/LlZIWWGZtZVGu5O4EWqXcl1UhdxYAHLTgOJqpSsK3rAkSSYbShKhFjT3D0wlSAc63d3gT1fMu9rA2fvDoDevOv7ZdzuK24i7JxGZUzXWEhu5YycHYXujwNehzJPJUi7iHhM8b6lDE9eiWxeEbdXhN457NGuwGPt0LbbzPFGu4Q/siYz53eJNmvAltpomiU9M7Ihdd0lkm6AHgFA5xao4cXa9/Ly6/7j/f3avnn5vzD4A/yOX8HwoBAAA=
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  Armor:
+  - null
+  - null
+  - null
+  - null

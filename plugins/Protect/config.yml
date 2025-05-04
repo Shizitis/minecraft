@@ -1,0 +1,23 @@
+commands:
+  - mute
+  - tempmute
+  - tempban
+  - banip
+  - ban
+  - bc
+  - litebans
+  - lb
+  - broadcast
+
+keywords:
+  - mxga
+  - mc.
+  - .pw
+  - .ru
+  - .su
+  - Переезд
+  - закрытие сервера
+  - .su
+
+restricted-worlds:
+  - world

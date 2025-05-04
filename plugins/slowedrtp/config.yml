@@ -1,0 +1,34 @@
+default:
+  world: world
+  max-teleport:
+    x: 1000
+    z: 1000
+  cooldown: 15
+  permission: rtp.default
+  command: /rtpdefault
+  rtp-message: '&6Ртп &8» &fВы были телепортированы на координаты &6%кординаты%'
+  rtp-cooldown-message: '&6Ртп &8» &fПодождите &a%секунд% секунд &fперед следующей телепортацией.'
+
+far:
+  world: world
+  max-teleport:
+    x: 1499
+    z: 1499
+  cooldown: 15
+  permission: rtp.far
+  command: /rtpfar
+  rtp-message: '&6Ртп &8» &fВы были телепортированы на координаты &6%кординаты%'
+  rtp-cooldown-message: '&6Ртп &8» &fПодождите &a%секунд% секунд &fперед следующей телепортацией.'
+
+near:
+  world: world
+  max-teleport:
+    x: 1300
+    z: 1300
+  cooldown: 25
+  permission: rtp.near
+  command: /rtpnear
+  maxplayernear: 100
+  rtp-message: '&6Ртп &8» &fВы были телепортированы на координаты &6%кординаты%'
+  rtp-cooldown-message: '&6Ртп &8» &fПодождите &a%секунд% секунд &fперед следующей телепортацией.'
+  noplayermessage: '&6Ртп &8» &fВ мире нет ни одного игрока, не удалось телепортироваться.'

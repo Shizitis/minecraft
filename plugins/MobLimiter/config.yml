@@ -1,0 +1,7 @@
+# MobLimiter plugin version 1.0
+# Limits the amount of monsters per chunk
+# This is the configuration file
+# Put the limit of mobs per chunk to your liking, for example: Limit-per-chunk: 22
+
+
+Limit-per-chunk: 24

@@ -1,0 +1,5 @@
+restricted_worlds:
+  - world_spawn
+
+messages:
+  no_arrow: "&cСтрелять из лука нельзя в этом мире!"

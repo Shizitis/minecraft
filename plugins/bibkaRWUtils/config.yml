@@ -1,0 +1,8 @@
+potion:
+  display-name: "&aCleansing Potion"
+  lore:
+    - "&7Removes all negative effects."
+arrow:
+  display-name: "&bCleansing Arrow"
+  lore:
+    - "&7Clears all effects from the target upon hit."

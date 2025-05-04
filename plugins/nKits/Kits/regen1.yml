@@ -1,0 +1,77 @@
+Name: regen1
+Cooldown: 0
+Permission: nKits.kits.regen1
+Order: 0
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"text":"§7§lШар Регенерации"}'
+      lore:
+      - '{"text":"§c§c§c§cПроклятье утраты"}'
+      - '{"text":""}'
+      - '{"text":"§7======================"}'
+      - '{"text":""}'
+      attribute-modifiers:
+        GENERIC_MAX_HEALTH:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 2.0
+          name: ResourceKey[minecraft:attribute / minecraft:generic.max_health]
+          slot: OFF_HAND
+          uuid: d7235f75-849d-4407-ac56-ada10fee9f98
+          operation: 0
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      internal: H4sIAAAAAAAA/02PP0+DQByGfxpNKhoH4+wn0ATEYhrTwUhDj/TuLKVHwamFq/y5ow0F9Vid/RjOLiYOfjkZ3Z43z7s8GoAGJ7OiEeKx2qwzwTXQOtryqs747gh6NX+rm4rvNADY68EhW4qGwzdXrh4tUj1ZuCJWyOq2P9MFRfn2FpVMrR6QhWTnx/fWRA3+ffv1MuiL0HTTqJw2K8n0iekJPvaMWM5fwhzp2I5fw1ZkJA8NGrAC5yzDkqTYR9fUHxlR7hXUflbYidJIEkFsrIjDChqMbjqXUWdkYDtsiT1vsZ1IVBqD9XQ4BDiGfZR0IQeXxe/Z+dfd57t58fRzdfoB8AeUSlrDCgEAAA==
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  Armor:
+  - null
+  - null
+  - null
+  - null

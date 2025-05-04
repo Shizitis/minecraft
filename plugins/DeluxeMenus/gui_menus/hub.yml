@@ -1,0 +1,61 @@
+menu_title: ' &#FBBE22» &r&#555555Выбор сервера'
+open_command:
+  - hub
+  - lobby
+  - lobi
+  - loby
+  - хаб
+  - лобби
+  - лобби
+  - дщиин
+  - рги
+size: 26
+items:
+  '0':
+    display_name: '&r&#ffaa00&r'
+    slot: 0
+    material: orange_stained_glass_pane
+    hide_attributes: true
+  '8':
+    display_name: '&r&#ffaa00&r'
+    slot: 8
+    material: orange_stained_glass_pane
+    hide_attributes: true
+  '9':
+    display_name: '&r&#ffaa00&r'
+    slot: 9
+    material: gray_stained_glass_pane
+    hide_attributes: true
+  'lobbynet-1':
+    display_name: '&#FBBE22&lХ&#FBAB20&lА&#FC971E&lБ &#FD701A&l#&#FD5D18&l1'
+    slot: 13
+    amount: 1
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzBkYWMyNTAxYzllNzU2NzY3ZjY5NDMzMjNhZDU5NTViNWE5NzViYjA5YmUxMjM2NGVmODBlYTNmMWNhN2IwNiJ9fX0=
+    lore:
+    - '&r&r'
+    - '&r&r  &r&#aaaaaaОнлайн: &#F0D336%bungee_lobbynet-1%&7/&#EF89371&#F4712F6&#F959260  &r'
+    - '&r&r'
+    - '&r&r  &r&#ff5555⚠ &7Нажмите, чтобы зайти в лобби сервера.   '
+    - '&r&r'
+    hide_attributes: true
+    left_click_commands:
+    - '[connect] lobbynet-1'
+    - '[close]'
+    right_click_commands:
+    - '[connect] lobbynet-1'
+    - '[close]'
+  '17':
+    display_name: '&r&#ffaa00&r'
+    slot: 17
+    material: gray_stained_glass_pane
+    hide_attributes: true
+  '18':
+    display_name: '&r&#ffaa00&r'
+    slot: 18
+    material: orange_stained_glass_pane
+    hide_attributes: true
+  '26':
+    display_name: '&r&#ffaa00&r'
+    slot: 26
+    material: orange_stained_glass_pane
+    hide_attributes: true

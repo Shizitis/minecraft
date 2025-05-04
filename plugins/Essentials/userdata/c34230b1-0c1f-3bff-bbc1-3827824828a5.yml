@@ -1,0 +1,39 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 25.44.2.171
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1746375381770
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 0
+  login: 1746374125472
+money: '10010032.0'
+last-account-name: xCmepTHIKx
+lastlocation:
+  world: 3eeefd67-0a06-45f9-a786-62f13fd4cdba
+  world-name: world
+  x: -563.6999999880791
+  y: 67.0
+  z: 1174.1433318181078
+  yaw: -248.77053833007812
+  pitch: 2.390061378479004
+homes:
+  home:
+    world: 3eeefd67-0a06-45f9-a786-62f13fd4cdba
+    world-name: world
+    x: -552.2521336680012
+    y: 70.0
+    z: 1163.777464956916
+    yaw: -179.30841064453125
+    pitch: 24.32984161376953

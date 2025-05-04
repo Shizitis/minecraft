@@ -1,0 +1,17 @@
+args:
+  name:
+  - end
+  triggerblock:
+  - AIR
+  command:
+  - warp end
+maxLoc:
+  posX: 20
+  posY: 61
+  posZ: 25
+  worldName: world_spawn
+minLoc:
+  posX: 12
+  posY: 60
+  posZ: 17
+  worldName: world_spawn

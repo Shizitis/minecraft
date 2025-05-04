@@ -1,0 +1,10 @@
+restart-time: 120
+
+start-message: "&fПерезагрузка сервера через &6%time% сек."
+last-10-seconds-message: "&fПерезагрузка сервера через &6%time% сек."
+
+title-message: "&4&lВНИМАНИЕ!"
+taskbar-message: "&4&lВНИМАНИЕ! &fПерезагрузка сервера через &6%time% сек."
+
+stop-message: "&6slowed-restart &7» &fПерезагрузка была остановлена."
+reload-message: "&6slowed-restart &7» &aКонфигурация плагина была перезагружена."

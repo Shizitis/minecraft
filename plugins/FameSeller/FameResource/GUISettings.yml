@@ -1,0 +1,68 @@
+GUI:
+  Settings:
+    GUI-Size: 27
+    GUI-Name: '&8Select a pack'
+  MainItems:
+    Use-Current-World:
+      Material: STAINED_CLAY
+      Damage: 13
+      Amount: 1
+      Name: '&a&lUse Current World ResourcePack'
+      Lore:
+      - ''
+      - '&7Click to select!'
+      GUI-Location: 12
+    Select-World:
+      Material: STAINED_CLAY
+      Damage: 14
+      Amount: 1
+      Name: '&c&lSelect World ResourcePack'
+      Lore:
+      - ''
+      - '&7Click to select!'
+      GUI-Location: 14
+Worlds-GUI:
+  Settings:
+    GUI-Size: 27
+    GUI-Name: '&8Select a world'
+  Items:
+    world:
+      Material: DIAMOND_BLOCK
+      Damage: 0
+      Amount: 1
+      Lore:
+      - ''
+      - '&7Click to download defined resourcepack!'
+      GUI-Location: 10
+    world_nether:
+      Material: DIAMOND_BLOCK
+      Damage: 0
+      Amount: 1
+      Lore:
+      - ''
+      - '&7Click to download defined resourcepack!'
+      GUI-Location: 11
+    world_the_end:
+      Material: DIAMOND_BLOCK
+      Damage: 0
+      Amount: 1
+      Lore:
+      - ''
+      - '&7Click to download defined resourcepack!'
+      GUI-Location: 12
+    event:
+      Material: DIAMOND_BLOCK
+      Damage: 0
+      Amount: 1
+      Lore:
+      - ''
+      - '&7Click to download defined resourcepack!'
+      GUI-Location: 13
+    spawn:
+      Material: DIAMOND_BLOCK
+      Damage: 0
+      Amount: 1
+      Lore:
+      - ''
+      - '&7Click to download defined resourcepack!'
+      GUI-Location: 14

@@ -1,0 +1,498 @@
+arrow_one:
+  item: DRAGON_BREATH
+  name: "&eДраконье дыхание"
+  price: 50000.0
+  limit: 7
+  count: 16
+  slot: 1
+  click-commands:
+    - "console;give %player% dragon_breath 16"
+  lore:
+    - "  &7Цена: &6$%price%.0"
+    - "  &7Куплено: &6%current_limit%/%limit% шт"
+    - "  "
+    - "&6Нажмите, чтобы купить предмет"
+arrow_two:
+  item: DIAMOND_BLOCK
+  name: "&fАлмазный блок"
+  price: 50000.0
+  limit: 3
+  slot: 2
+  count: 16
+  click-commands:
+    - "console;give %player% diamond_block 16"
+  lore:
+    - "  &7Цена: &6$%price%.0"
+    - "  &7Куплено: &6%current_limit%/%limit% шт"
+    - "  "
+    - "&6Нажмите, чтобы купить предмет"
+arrow_3:
+  item: IRON_BLOCK
+  name: "&fЖелезный блок"
+  price: 50000.0
+  limit: 3
+  slot: 3
+  count: 16
+  click-commands:
+    - "console;give %player% iron_block 16"
+  lore:
+    - "  &7Цена: &6$%price%.0"
+    - "  &7Куплено: &6%current_limit%/%limit% шт"
+    - "  "
+    - "&6Нажмите, чтобы купить предмет"
+arrow_4:
+  item: GOLD_BLOCK
+  name: "&fЗолотой блок"
+  price: 50000.0
+  limit: 3
+  slot: 4
+  count: 16
+  click-commands:
+    - "console;give %player% gold_block 16"
+  lore:
+    - "  &7Цена: &6$%price%.0"
+    - "  &7Куплено: &6%current_limit%/%limit% шт"
+    - "  "
+    - "&6Нажмите, чтобы купить предмет"
+arrow_pushechka:
+  item: BOW
+  name: "&6Пушечка"
+  price: 250000.0
+  limit: 1
+  slot: 5
+  count: 1
+  click-commands:
+    - "console;xkit Pushechka %player%"
+  lore:
+    - "&7Воспламенение"
+    - "&7Бесконечность"
+    - "&7Починка"
+    - "&7Сила 5"
+    - "&7Откидывание 5"
+    - "&7Прочность 2"
+    - "&cПроклятие утраты"
+    - "  "
+    - "  &7Цена: &6$%price%.0"
+    - "  &7Куплено: &6%current_limit%/%limit% шт"
+    - "  "
+    - "&6Нажмите, чтобы купить предмет"
+
+arrow_bystree_vetra:
+  item: POTION
+  name: "&6Быстрее ветра"
+  price: 100000.0
+  limit: 1
+  slot: 6
+  count: 1
+  click-commands:
+    - "console;give %player% potion 1"
+  lore:
+    - "  &7Цена: &6$%price%.0"
+    - "  &7Куплено: &6%current_limit%/%limit% шт"
+    - "  "
+    - "&6Нажмите, чтобы купить предмет"
+
+arrow_tsygansky_shield:
+  item: SHIELD
+  name: "&6Цыганский щит"
+  price: 250000.0
+  limit: 1
+  slot: 7
+  count: 1
+  click-commands:
+    - "console;xkit shield %player%"
+  lore:
+    - "&7Починка"
+    - "&7Шипы III"
+    - "&7Прочность X"
+    - "  &7Цена: &6$%price%.0"
+    - "  &7Куплено: &6%current_limit%/%limit% шт"
+    - "  "
+    - "&6Нажмите, чтобы купить предмет"
+
+arrow_spawner:
+  item: SPAWNER
+  name: "&6Спавнер"
+  price: 100000.0
+  limit: 1
+  slot: 10
+  count: 1
+  click-commands:
+    - "console;give %player% spawner 1"
+  lore:
+    - "  &7Цена: &6$%price%.0"
+    - "  &7Куплено: &6%current_limit%/%limit% шт"
+    - "  "
+    - "&6Нажмите, чтобы купить предмет"
+
+arrow_firework:
+  item: FIREWORK_ROCKET
+  name: "&6Фейерверк"
+  price: 25000.0
+  limit: 3
+  slot: 11
+  count: 64
+  click-commands:
+    - "console;give %player% firework_rocket 64"
+  lore:
+    - "  &7Цена: &6%price%.0"
+    - "  &7Куплено: &6%current_limit%/%limit% шт"
+    - "  "
+    - "&6Нажмите, чтобы купить предмет"
+
+# Остальные элементы также добавлены в подобной форме...
+arrow_beacon:
+  item: BEACON
+  name: "&6Маяк"
+  price: 500000.0
+  limit: 1
+  slot: 12
+  count: 1
+  click-commands:
+    - "console;give %player% beacon 1"
+  lore:
+    - "  &7Цена: &6$%price%.0"
+    - "  &7Куплено: &6%current_limit%/%limit% шт"
+    - "  "
+    - "&6Нажмите, чтобы купить предмет"
+
+arrow_end_portal_frame:
+  item: END_PORTAL_FRAME
+  name: "&6Рамка портала Края"
+  price: 500000.0
+  limit: 1
+  slot: 13
+  count: 12
+  click-commands:
+    - "console;give %player% end_portal_frame 12"
+  lore:
+    - "  &7Цена: &6$%price%.0"
+    - "  &7Куплено: &6%current_limit%/%limit% шт"
+    - "  "
+    - "&6Нажмите, чтобы купить предмет"
+
+arrow_end_crystal:
+  item: END_CRYSTAL
+  name: "&6Кристалл Энда"
+  price: 500000.0
+  limit: 1
+  slot: 14
+  count: 16
+  click-commands:
+    - "console;give %player% end_crystal 16"
+  lore:
+    - "  &7Цена: &6$%price%.0"
+    - "  &7Куплено: &6%current_limit%/%limit% шт"
+    - "  "
+    - "&6Нажмите, чтобы купить предмет"
+
+arrow_tipped_arrow_damage:
+  item: TIPPED_ARROW
+  name: "&6Стрела моментального урона"
+  price: 500000.0
+  limit: 3
+  slot: 15
+  count: 32
+  click-commands:
+    - "console;xkit strela2 %player%"
+  lore:
+    - "  &7Цена: &6$%price%.0"
+    - "  &7Куплено: &6%current_limit%/%limit% шт"
+    - "  "
+    - "&6Нажмите, чтобы купить предмет"
+
+arrow_tipped_arrow_levitation:
+  item: TIPPED_ARROW
+  name: "&6Стрела левитации"
+  price: 500000.0
+  limit: 3
+  slot: 16
+  count: 8
+  click-commands:
+    - "console;xkit strela5 %player%"
+  lore:
+    - "  &7Цена: &6$%price%.0"
+    - "  &7Куплено: &6%current_limit%/%limit% шт"
+    - "  "
+    - "&6Нажмите, чтобы купить предмет"
+arrow_golden_apple_enchanted:
+  item: GOLDEN_APPLE
+  name: "&dЗачарованное Золотое яблоко"
+  price: 2000000.0
+  limit: 2
+  slot: 19
+  count: 3
+  click-commands:
+    - "console;give %player% enchanted_golden_apple 3"
+  lore:
+    - "  &7Цена: &6$%price%.0"
+    - "  &7Куплено: &6%current_limit%/%limit% шт"
+    - "  "
+    - "&6Нажмите, чтобы купить предмет"
+
+arrow_golden_carrot:
+  item: GOLDEN_CARROT
+  name: "&6Золотая морковь"
+  price: 50000.0
+  limit: 2
+  slot: 20
+  count: 64
+  click-commands:
+    - "console;give %player% golden_carrot 64"
+  lore:
+    - "  &7Цена: &6$%price%.0"
+    - "  &7Куплено: &6%current_limit%/%limit% шт"
+    - "  "
+    - "&6Нажмите, чтобы купить предмет"
+
+arrow_golden_apple:
+  item: GOLDEN_APPLE
+  name: "&6Золотое яблоко"
+  price: 250000.0
+  limit: 2
+  slot: 21
+  count: 20
+  click-commands:
+    - "console;give %player% golden_apple 20"
+  lore:
+    - "  &7Цена: &6$%price%.0"
+    - "  &7Куплено: &6%current_limit%/%limit% шт"
+    - "  "
+    - "&6Нажмите, чтобы купить предмет"
+
+arrow_blaze_powder:
+  item: BLAZE_POWDER
+  name: "&6Огненный порошок"
+  price: 50000.0
+  limit: 2
+  slot: 22
+  count: 64
+  click-commands:
+    - "console;give %player% blaze_powder 64"
+  lore:
+    - "  &7Цена: &6$%price%.0"
+    - "  &7Куплено: &6%current_limit%/%limit% шт"
+    - "  "
+    - "&6Нажмите, чтобы купить предмет"
+
+arrow_fishing_rod:
+  item: FISHING_ROD
+  name: "&6Рыбачок"
+  price: 500000.0
+  limit: 2
+  slot: 23
+  count: 1
+  click-commands:
+    - "console;give %player% fishing_rod 1"
+  lore:
+    - "  &7Цена: &6$%price%.0"
+    - "  &7Куплено: &6%current_limit%/%limit% шт"
+    - "  "
+    - "&6Нажмите, чтобы купить предмет"
+arrow_ghast_tear:
+  item: GHAST_TEAR
+  name: "&6Слеза гаста"
+  price: 750000.0
+  limit: 2
+  slot: 24
+  count: 16
+  click-commands:
+    - "console;give %player% ghast_tear 16"
+  lore:
+    - "  &7Цена: &6$%price%.0"
+    - "  &7Куплено: &6%current_limit%/%limit% шт"
+    - "  "
+    - "&6Нажмите, чтобы купить предмет"
+
+arrow_fermented_spider_eye:
+  item: FERMENTED_SPIDER_EYE
+  name: "&6Приготовленный паучий глаз"
+  price: 250000.0
+  limit: 2
+  slot: 25
+  count: 16
+  click-commands:
+    - "console;give %player% fermented_spider_eye 16"
+  lore:
+    - "  &7Цена: &6$%price%.0"
+    - "  &7Куплено: &6%current_limit%/%limit% шт"
+    - "  "
+    - "&6Нажмите, чтобы купить предмет"
+
+arrow_glistering_melon:
+  item: GLISTERING_MELON_SLICE
+  name: "&6Сверкающий ломтик арбуза"
+  price: 100000.0
+  limit: 3
+  slot: 28
+  count: 16
+  click-commands:
+    - "console;give %player% glistering_melon_slice 16"
+  lore:
+    - "  &7Цена: &6$%price%.0"
+    - "  &7Куплено: &6%current_limit%/%limit% шт"
+    - "  "
+    - "&6Нажмите, чтобы купить предмет"
+
+arrow_elytra:
+  item: ELYTRA
+  name: "&6Крылья ангела"
+  price: 10000000.0
+  limit: 1
+  slot: 29
+  count: 1
+  click-commands:
+    - "console;xkit elytra %player%"
+  lore:
+    - "  &7Цена: &6$%price%.0"
+    - "  &7Куплено: &6%current_limit%/%limit% шт"
+    - "  "
+    - "&6Нажмите, чтобы купить предмет"
+
+arrow_magma_cream:
+  item: MAGMA_CREAM
+  name: "&6Магмовый крем"
+  price: 500000.0
+  limit: 3
+  slot: 30
+  count: 64
+  click-commands:
+    - "console;give %player% magma_cream 64"
+  lore:
+    - "  &7Цена: &6$%price%.0"
+    - "  &7Куплено: &6%current_limit%/%limit% шт"
+    - "  "
+    - "&6Нажмите, чтобы купить предмет"
+arrow_emerald:
+  item: EMERALD
+  name: "&6Изумруд"
+  price: 250000.0
+  limit: 3
+  slot: 31
+  count: 32
+  click-commands:
+    - "console;give %player% emerald 32"
+  lore:
+    - "  &7Цена: &6$%price%.0"
+    - "  &7Куплено: &6%current_limit%/%limit% шт"
+    - "  "
+    - "&6Нажмите, чтобы купить предмет"
+
+arrow_sea_lantern:
+  item: SEA_LANTERN
+  name: "&6Морской фонарь"
+  price: 250000.0
+  limit: 3
+  slot: 32
+  count: 16
+  click-commands:
+    - "console;give %player% sea_lantern 16"
+  lore:
+    - "  &7Цена: &6$%price%.0"
+    - "  &7Куплено: &6%current_limit%/%limit% шт"
+    - "  "
+    - "&6Нажмите, чтобы купить предмет"
+
+arrow_rose_bush:
+  item: ROSE_BUSH
+  name: "&6Розовый куст"
+  price: 250000.0
+  limit: 3
+  slot: 33
+  count: 64
+  click-commands:
+    - "console;give %player% rose_bush 64"
+  lore:
+    - "  &7Цена: &6$%price%.0"
+    - "  &7Куплено: &6%current_limit%/%limit% шт"
+    - "  "
+    - "&6Нажмите, чтобы купить предмет"
+
+arrow_ender_chest:
+  item: ENDER_CHEST
+  name: "&6Эндер сундук"
+  price: 10000.0
+  limit: 5
+  slot: 34
+  count: 8
+  click-commands:
+    - "console;give %player% ender_chest 8"
+  lore:
+    - "  &7Цена: &6$%price%.0"
+    - "  &7Куплено: &6%current_limit%/%limit% шт"
+    - "  "
+    - "&6Нажмите, чтобы купить предмет"
+
+arrow_experience_bottle:
+  item: EXPERIENCE_BOTTLE
+  name: "&6Пузырёк опыта"
+  price: 50000.0
+  limit: 3
+  slot: 37
+  count: 64
+  click-commands:
+    - "console;give %player% experience_bottle 64"
+  lore:
+    - "  &7Цена: &6$%price%.0"
+    - "  &7Куплено: &6%current_limit%/%limit% шт"
+    - "  "
+    - "&6Нажмите, чтобы купить предмет"
+arrow_cobweb:
+  item: COBWEB
+  name: "&6Паутина"
+  price: 1000000.0
+  limit: 3
+  slot: 38
+  count: 32
+  click-commands:
+    - "console;give %player% cobweb 32"
+  lore:
+    - "  &7Цена: &6$%price%.0"
+    - "  &7Куплено: &6%current_limit%/%limit% шт"
+    - "  "
+    - "&6Нажмите, чтобы купить предмет"
+
+arrow_dragon_head:
+  item: DRAGON_HEAD
+  name: "&6Голова дракона"
+  price: 250000.0
+  limit: 3
+  slot: 39
+  count: 3
+  click-commands:
+    - "console;give %player% dragon_head 3"
+  lore:
+    - "  &7Цена: &6$%price%.0"
+    - "  &7Куплено: &6%current_limit%/%limit% шт"
+    - "  "
+    - "&6Нажмите, чтобы купить предмет"
+
+arrow_zombie_spawn_egg:
+  item: ZOMBIE_SPAWN_EGG
+  name: "&6Яйцо призыва зомби"
+  price: 250000.0
+  limit: 3
+  slot: 40
+  count: 1
+  click-commands:
+    - "console;give %player% zombie_spawn_egg 1"
+  lore:
+    - "  &7Цена: &6$%price%.0"
+    - "  &7Куплено: &6%current_limit%/%limit% шт"
+    - "  "
+    - "&6Нажмите, чтобы купить предмет"
+arrow_diamond_sword:
+  item: DIAMOND_SWORD
+  name: "&bАлмазный Меч"
+  price: 2500000.0
+  limit: 1
+  slot: 41
+  count: 1
+  click-commands:
+    - "console;xkit mechDragon %player%"
+  lore:
+    - "&7Острота VI"
+    - "  &7Цена: &6$%price%.0"
+    - "  &7Куплено: &6%current_limit%/%limit% шт"
+    - "  "
+    - "&6Нажмите, чтобы купить предмет"

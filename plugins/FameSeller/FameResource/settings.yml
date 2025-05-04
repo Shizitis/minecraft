@@ -1,0 +1,48 @@
+Resourcepack-URL: https\://www.dropbox.com/scl/fo/w6qfj6y3fdzb3fywy1r0u/ADwYYi16PLxX5QJdmN0ICRg?rlkey\=qxd2dx36un2nq2hzxvhllzplz&st\=1jnq9ybn&dl\=1
+Global-Resourcepack: true
+
+Resourcepack-Download-Command:
+  Label: rpreally
+  Enabled: false
+  Permission: false
+  Case-Sensitive: false
+
+Resourcepack-Reset-Command:
+  Label: rpreset
+  Enabled: false
+  Permission: false
+  Case-Sensitive: false
+
+Use-Join-Bypass-Permission: false
+Send-Resourcepack-On-Join: true
+
+Accepted-Command:
+  Enabled: false
+  Console: false
+  Command: ""
+Declined-Command:
+  Enabled: true
+  Console: true
+  Command: "kick -s %PLAYER% &cВам необходимо установить ресурс-пак."
+Successful-Download-Command:
+  Enabled: false
+  Console: false
+  Command: ""
+Failed-Download-Command:
+  Enabled: false
+  Console: false
+  Command: ""
+Time-Up-Command:
+  Enabled: false
+  Console: false
+  Command: ""
+  Countdown-Seconds: 0
+
+Messages:
+  Enable-Accepted-Message: true
+  Enable-Declined-Message: true
+  Enable-Success-Message: true
+  Enable-Failed-Message: true
+  Enable-TimeUp-Message: false
+
+Check-Updates: false

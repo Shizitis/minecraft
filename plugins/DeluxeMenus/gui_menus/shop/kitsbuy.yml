@@ -1,0 +1,176 @@
+menu_title: '&r&#ffffffꈁꀀꈂꌶꈂꀁ&r&0ꈃꄅ&r'
+open_command: kitsbuy
+size: 53
+items:
+  'clock':
+    material: clock
+    nbt_int: CustomModelData:10001
+    slot: 53
+    display_name: '&6ИНФОРМАЦИЯ'
+    lore:
+    - ''
+    - ' &fВаш баланс: &6%playerpoints_points% &fꐃ'
+    - ''
+    - '&7Пополнить баланс можно'
+    - '&7на сайте: &6FakeWorld.su'
+  'start':
+    material: light_gray_shulker_box
+    slot: 20
+    display_name: '&7Начальный набор'
+    lore:
+    - ''
+    - '&fЦена: &69ｐ'
+    - ''
+  'hero':
+    material: blue_shulker_box
+    slot: 21
+    display_name: '&7Набор &9&lHERO'
+    lore:
+    - ''
+    - '&fЦена: &619ｐ'
+    - ''
+  'titan':
+    material: yellow_shulker_box
+    slot: 22
+    display_name: '&7Набор &e&lTITAN'
+    lore:
+    - ''
+    - '&fЦена: &649ｐ'
+    - ''
+  'avenger':
+    material: lime_shulker_box
+    slot: 23
+    display_name: '&7Набор &a&lAVENGER'
+    lore:
+    - ''
+    - '&fЦена: &679ｐ'
+    - ''
+  'overlord':
+    material: cyan_shulker_box
+    slot: 24
+    display_name: '&7Набор &b&lOVERLORD'
+    lore:
+    - ''
+    - '&fЦена: &6109ｐ'
+    - ''
+    left_click_commands:
+    - '[console] points take %player_name% 109'
+    - '[console] kit overlord %player_name%'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 109
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6FakeWorld.su' 
+  'magister':
+    material: orange_shulker_box
+    slot: 29
+    display_name: '&7Набор &6&lMAGISTER'
+    lore:
+    - ''
+    - '&fЦена: &6449ｐ'
+    - ''
+    left_click_commands:
+    - '[console] points take %player_name% 449'
+    - '[console] kit magister %player_name%'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 449
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6FakeWorld.su' 
+  'imperator':
+    material: red_shulker_box
+    slot: 30
+    display_name: '&7Набор &c&lIMPERATOR'
+    lore:
+    - ''
+    - '&fЦена: &6599ｐ'
+    - ''
+    left_click_commands:
+    - '[console] points take %player_name% 599'
+    - '[console] kit imperator %player_name%'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 599
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6FakeWorld.su' 
+  'dragon':
+    material: purple_shulker_box
+    slot: 31
+    display_name: '&7Набор &d&lDRAGON'
+    lore:
+    - ''
+    - '&fЦена: &6699ｐ'
+    - ''
+    left_click_commands:
+    - '[console] points take %player_name% 699'
+    - '[console] kit dragon %player_name%'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 699
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6FakeWorld.su' 
+  'plus':
+    material: orange_shulker_box
+    slot: 32
+    display_name: '&7Набор &4&lPLUS'
+    lore:
+    - ''
+    - '&fЦена: &6599ｐ'
+    - ''
+    left_click_commands:
+    - '[console] points take %player_name% 599'
+    - '[console] kit plus %player_name%'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 599
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6FakeWorld.su' 
+  'pluspro':
+    material: red_shulker_box
+    slot: 33
+    display_name: '&7Набор &4&lPLUSPRO'
+    lore:
+    - ''
+    - '&fЦена: &6999ｐ'
+    - ''
+    left_click_commands:
+    - '[console] points take %player_name% 999'
+    - '[console] kit pluspro %player_name%'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 999
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6FakeWorld.su' 
+  'back':
+    material: arrow
+    nbt_int: CustomModelData:10002
+    slot: 45
+    display_name: '&6◄ Назад'
+    left_click_commands:
+    - '[openguimenu] donateshop'
+    right_click_commands:
+    - '[openguimenu] donateshop'

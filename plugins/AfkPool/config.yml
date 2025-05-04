@@ -1,0 +1,17 @@
+subtitle: ''
+entering-title: '&fВы &aзашли &fв &6Тёплый источник'
+exiting-title: '&fВы &cвышли &fиз &6Тёплого источника'
+
+commands:
+  command1:
+    region-name: 'afk'
+    interval: 18000
+    command: 'p give %p 20'
+    title: '&fВы получили &620 Рилликов'
+    enabled: true
+    min: 1
+    max: 5
+    multiplier: 2.0
+  # Add more commands as needed
+
+# love from @kmaba, contact me on discord if you need any help

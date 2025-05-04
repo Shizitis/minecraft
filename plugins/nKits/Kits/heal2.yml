@@ -1,0 +1,79 @@
+Name: heal2
+Cooldown: 0
+Permission: nKits.kits.heal2
+Order: 0
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"text":"§d§lШар Здоровья 2"}'
+      lore:
+      - '{"text":"§c§c§c§cПроклятье утраты"}'
+      - '{"text":""}'
+      - '{"text":"§7Когда во второй руке:"}'
+      - '{"text":"  §7+6.0 Максимальное здоровье"}'
+      - '{"text":""}'
+      - '{"text":"§7======================"}'
+      attribute-modifiers:
+        GENERIC_MAX_HEALTH:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 6.0
+          name: ResourceKey[minecraft:attribute / minecraft:generic.max_health]
+          slot: OFF_HAND
+          uuid: c08b9818-e385-4049-b408-f90df51cc82d
+          operation: 0
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      internal: H4sIAAAAAAAA/02PPU+DQByH/xpNKhoH4+wn0OSAFtM4oTT0Lr1DKPLm1Jdr4birDQUjXZ39GM66OfjlZHT7PXme5acBaHA2LRspH6uXVSG5Blq3tryqC747gV7N3+qm4jsNAA56cBzNZMPhm7cEZUmOlgmRixZbHYdTJD0strd4E7XzB2xh1fmxbU3a4b92UM/igUxNkmcbv5mrCE3MQPJxoC/U06vnrA0mSJGGtkmdXHqub1DX15mgBosjQRUR1LlXmRiZXkgUDVOD7gOV7teIxaM+c1juOUGZhXafxlHO3LRYJfoQ4BQO8bI7cXRd/l5cft19vptXzz835x8Af/kSurwGAQAA
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  Armor:
+  - null
+  - null
+  - null
+  - null

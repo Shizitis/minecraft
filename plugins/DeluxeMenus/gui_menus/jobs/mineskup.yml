@@ -1,0 +1,388 @@
+menu_title: '&fꈁꀀꈂꍄꈂꀁ&0ꈃꄠ'
+open_command: mineskup
+size: 53
+items:
+  'clock':
+    material: clock
+    model_data: 10001
+    slot: 3
+    display_name: ' '
+    hide_attributes: true
+    lore:
+    - '  &6Информация'
+    - ''
+    - '  &6Ваш уровень профессии: &7Новичек          '
+    - '  &6Ваш текущий опыт профессии: &70/2000   '
+    - '  &6Бонус к цене &70%'
+    - ''
+    - '  &6Предмет до следующего уровня: &70&8/&76,000'
+    - ''
+    - '    &8[&7||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||&8]'
+    - ''
+    - '   &6Награда за достижения уровня &5Легенда'
+    - '     &7Открытие уникальных крафтов'
+    - '     &7Бонус к цене: 10%'
+    - ''
+
+  'mine':
+    material: crafting_table
+    model_data: 10001
+    slot: 5
+    display_name: ' '
+    hide_attributes: true
+    lore:
+    - '  &6Уникальные крафты'
+    - ''
+    - '  &7Открываются по достижению уровня: &5Легенда   '
+    - ''
+
+
+  'mine2':
+    material: granite
+    data: 3
+    slot: 21
+    display_name: ''
+    lore:
+    - ''
+    - '  &6Цена продажи: &725 &fꐂ'
+    - ''
+    left_click_requirement:
+      requirements:
+        quest_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:granite% >= 1'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+          - '[message] &6Работы &7» &fНедостаточно предметов в инвентаре'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] clear %player_name% granite 1'
+      - '[console] eco give %player_name% 25'
+      - '[message] &6Работы &7» &fВы успешно сдали предмет.'
+      
+  'diamond':
+    material: diamond
+    data: 3
+    slot: 22
+    display_name: ''
+    lore:
+    - ''
+    - '  &6Цена продажи: &7300 &fꐂ'
+    - ''
+    left_click_requirement:
+      requirements:
+        quest_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:diamond% >= 1'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+          - '[message] &6Работы &7» &fНедостаточно предметов в инвентаре'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] clear %player_name% diamond 1'
+      - '[console] eco give %player_name% 300'
+      - '[message] &6Работы &7» &fВы успешно сдали предмет.'
+      
+  'mine4':
+    material: flint
+    data: 3
+    slot: 39
+    display_name: ''
+    lore:
+    - ''
+    - ' &6Цена продажи: &760 &fꐂ'
+    - ''
+    left_click_requirement:
+      requirements:
+        quest_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:flint% >= 1'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+          - '[message] &6Работы &7» &fНедостаточно предметов в инвентаре'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] clear %player_name% flint 1'
+      - '[console] eco give %player_name% 60'
+      - '[message] &6Работы &7» &fВы успешно сдали предмет.'
+      
+  'mine5':
+    material: stone
+    data: 3
+    slot: 20
+    display_name: ''
+    lore:
+    - ''
+    - '  &6Цена продажи: &710 &fꐂ'
+    - ''
+    left_click_requirement:
+      requirements:
+        quest_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:stone% >= 1'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+          - '[message] &6Работы &7» &fНедостаточно предметов в инвентаре'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] clear %player_name% stone 1'
+      - '[console] eco give %player_name% 10'
+      - '[message] &6Работы &7» &fВы успешно сдали предмет.'
+
+
+  'obsidian':
+    material: obsidian
+    data: 3
+    slot: 30
+    display_name: ''
+    lore:
+    - ''
+    - ' &6Цена продажи: &7250 &fꐂ'
+    - ''
+    left_click_requirement:
+      requirements:
+        quest_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:obsidian% >= 1'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+          - '[message] &6Работы &7» &fНедостаточно предметов в инвентаре'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] clear %player_name% obsidian 1'
+      - '[console] eco give %player_name% 250'
+      - '[message] &6Работы &7» &fВы успешно сдали предмет.'
+    
+
+  'lapis_lazuli':
+    material: lapis_lazuli
+    data: 3
+    slot: 31
+    display_name: ''
+    lore:
+    - ''
+    - ' &6Цена продажи: &775 &fꐂ'
+    - ''
+    left_click_requirement:
+      requirements:
+        quest_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:lapis_lazuli% >= 1'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+          - '[message] &6Работы &7» &fНедостаточно предметов в инвентаре'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] clear %player_name% lapis_lazuli 1'
+      - '[console] eco give %player_name% 75'
+      - '[message] &6Работы &7» &fВы успешно сдали предмет.'
+      
+      
+  'mine8':
+    material: gold_ore
+    data: 3
+    slot: 33
+    display_name: ''
+    lore:
+    - ''
+    - ' &6Цена продажи: &7450 &fꐂ'
+    - ''
+    left_click_requirement:
+      requirements:
+        quest_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:gold_ore% >= 1'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+          - '[message] &6Работы &7» &fНедостаточно предметов в инвентаре'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] clear %player_name% gold_ore 1'
+      - '[console] eco give %player_name% 450'
+      - '[message] &6Работы &7» &fВы успешно сдали предмет.'
+      
+      
+  'mine10':
+    material: coal_ore
+    data: 3
+    slot: 32
+    display_name: ''
+    lore:
+    - ''
+    - ' &6Цена продажи: &7450 &fꐂ'
+    - ''
+    left_click_requirement:
+      requirements:
+        quest_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:coal_ore% >= 1'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+          - '[message] &6Работы &7» &fНедостаточно предметов в инвентаре'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] clear %player_name% coal_ore 1'
+      - '[console] eco give %player_name% 450'
+      - '[message] &6Работы &7» &fВы успешно сдали предмет.'
+      
+      
+  'mine12':
+    material: iron_ore
+    data: 3
+    slot: 24
+    display_name: ''
+    lore:
+    - ''
+    - '  &6Цена продажи: &790 &fꐂ'
+    - ''
+    left_click_requirement:
+      requirements:
+        quest_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:iron_ore% >= 1'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+          - '[message] &6Работы &7» &fНедостаточно предметов в инвентаре'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] clear %player_name% iron_ore 1'
+      - '[console] eco give %player_name% 90'
+      - '[message] &6Работы &7» &fВы успешно сдали предмет.'
+  'mine3':
+    material: diorite
+    data: 3
+    slot: 29
+    display_name: ''
+    lore:
+    - ''
+    - ' &6Цена продажи: &725 &fꐂ'
+    - ''
+    left_click_requirement:
+      requirements:
+        quest_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:diorite% >= 1'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+          - '[message] &6Работы &7» &fНедостаточно предметов в инвентаре'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] clear %player_name% diorite 1'
+      - '[console] eco give %player_name% 25'
+      - '[message] &6Работы &7» &fВы успешно сдали предмет.'
+
+  'mine16':
+    material: lapis_ore
+    data: 3
+    slot: 23
+    display_name: ''
+    lore:
+    - ''
+    - '  &6Цена продажи: &7150 &fꐂ'
+    - ''
+    left_click_requirement:
+      requirements:
+        quest_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:lapis_ore% >= 1'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+          - '[message] &6Работы &7» &fНедостаточно предметов в инвентаре'
+          - '[close]'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] clear %player_name% lapis_ore 1'
+      - '[console] eco give %player_name% 150'
+      - '[message] &6Работы &7» &fВы успешно сдали предмет.'
+      
+  'coal':
+    material: coal
+    data: 3
+    slot: 38
+    display_name: ''
+    lore:
+    - ''
+    - ' &6Цена продажи: &790 &fꐂ'
+    - ''
+    left_click_requirement:
+      requirements:
+        quest_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:coal% >= 1'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+          - '[message] &6Работы &7» &fНедостаточно предметов в инвентаре'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] clear %player_name% coal 1'
+      - '[console] eco give %player_name% 90'
+      - '[message] &6Работы &7» &fВы успешно сдали предмет.'
+
+  'gold':
+    material: gold_ingot
+    data: 3
+    slot: 40
+    display_name: ''
+    lore:
+    - ''
+    - ' &6Цена продажи: &7270 &fꐂ'
+    - ''
+    left_click_requirement:
+      requirements:
+        quest_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:gold_ingot% >= 1'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+          - '[message] &6Работы &7» &fНедостаточно предметов в инвентаре'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] clear %player_name% gold_ingot 1'
+      - '[console] eco give %player_name% 270'
+      - '[message] &6Работы &7» &fВы успешно сдали предмет.'
+
+  'emerald_ore':
+    material: emerald_ore
+    data: 3
+    slot: 41
+    display_name: ''
+    lore:
+    - ''
+    - ' &6Цена продажи: &7400 &fꐂ'
+    - ''
+    left_click_requirement:
+      requirements:
+        quest_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:emerald_ore% >= 1'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+          - '[message] &6Работы &7» &fНедостаточно предметов в инвентаре'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] clear %player_name% emerald_ore 1'
+      - '[console] eco give %player_name% 400'
+      - '[message] &6Работы &7» &fВы успешно сдали предмет.'
+
+  'mine1616':
+    material: ancient_debris
+    data: 3
+    slot: 42
+    display_name: ''
+    lore:
+    - ''
+    - ' &6Цена продажи: &73500 &fꐂ'
+    - ''
+    left_click_requirement:
+      requirements:
+        quest_check:
+          type: javascript
+          expression: '%checkitem_amount_mat:ancient_debris% >= 1'
+          deny_commands:
+          - '[sound] BLOCK_LEVER_CLICK'
+          - '[close]'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[console] clear %player_name% ancient_debris 1'
+      - '[console] eco give %player_name% 3500'
+      - '[message] &6Работы &7» &fВы успешно сдали предмет.'   

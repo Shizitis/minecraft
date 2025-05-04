@@ -1,0 +1,76 @@
+menu_title: '&8Ресурсы'
+open_command: clan resyrs
+
+size: 27
+items:
+  'clock':
+    material: clock
+    nbt_int: CustomModelData:10001
+    slot: 53
+    display_name: '&6ИНФОРМАЦИЯ'
+    lore:
+    - ''
+    - ' &fВаш баланс: &6%playerpoints_points% &fꐃ'
+    - ''
+    - '&7Пополнить баланс можно'
+    - '&7на сайте: &6FakeWorld.su'
+  'mag3':
+    material: WHITE_SHULKER_BOX
+    slot: 12
+    display_name: '&6&lШалкера'
+    lore:
+    - ''
+    - '&eНажми, чтобы открыть'
+    left_click_commands:
+    - '[openguimenu] shulker'
+    right_click_commands:
+    - '[openguimenu] shulker'
+  'ma1g1231231':
+    material: spawner
+    slot: 13
+    display_name: '&6&lСпавнера'
+    lore:
+    - ''
+    - '&eНажми, чтобы открыть'
+    left_click_commands:
+    - '[openguimenu] spawners'
+    right_click_commands:
+    - '[openguimenu] spawners'
+  'mag1231231':
+    material: end_crystal
+    slot: 14
+    display_name: '&6&lВсё для грифа'
+    lore:
+    - ''
+    - '&eНажми, чтобы открыть'
+    left_click_commands:
+    - '[openguimenu] grief'
+    right_click_commands:
+    - '[openguimenu] grief'
+  'glass':
+    material: orange_stained_glass_pane
+    display_name: '&9'
+    data: 1
+    slots:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9 
+    - 17
+    - 18
+    - 19
+    - 20 
+    - 21
+    - 22
+    - 23
+    - 24
+    - 25
+    - 26
+
+

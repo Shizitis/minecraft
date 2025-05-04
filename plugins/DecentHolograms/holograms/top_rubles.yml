@@ -1,0 +1,44 @@
+location: world_spawn:0.561:69.000:8.255
+enabled: true
+display-range: 48
+update-range: 24
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&fТоп риликов на сервере &#FDBE00&lГ&#FDAA08&lР&#FC9610&lИ&#FC8319&lФ &#FB6F21&l#&#FB5B29&l1'
+    height: 0.3
+  - content: '&7'
+    height: 0.3
+  - content: ' &c#1 &f%ajlb_lb_playerpoints_points_1_alltime_name% &6%ajlb_lb_playerpoints_points_1_alltime_value%
+      &rꐃ'
+    height: 0.3
+  - content: ' &c#2 &f%ajlb_lb_playerpoints_points_2_alltime_name% &6%ajlb_lb_playerpoints_points_2_alltime_value%
+      &rꐃ'
+    height: 0.3
+  - content: ' &c#3 &f%ajlb_lb_playerpoints_points_3_alltime_name% &6%ajlb_lb_playerpoints_points_3_alltime_value%
+      &rꐃ'
+    height: 0.3
+  - content: ' &c#4 &f%ajlb_lb_playerpoints_points_4_alltime_name% &6%ajlb_lb_playerpoints_points_4_alltime_value%
+      &rꐃ'
+    height: 0.3
+  - content: ' &c#5 &f%ajlb_lb_playerpoints_points_5_alltime_name% &6%ajlb_lb_playerpoints_points_5_alltime_value%
+      &rꐃ'
+    height: 0.3
+  - content: ' &c#6 &f%ajlb_lb_playerpoints_points_6_alltime_name% &6%ajlb_lb_playerpoints_points_6_alltime_value%
+      &rꐃ'
+    height: 0.3
+  - content: ' &c#7 &f%ajlb_lb_playerpoints_points_7_alltime_name% &6%ajlb_lb_playerpoints_points_7_alltime_value%
+      &rꐃ'
+    height: 0.3
+  - content: ' &c#8 &f%ajlb_lb_playerpoints_points_8_alltime_name% &6%ajlb_lb_playerpoints_points_8_alltime_value%
+      &rꐃ'
+    height: 0.3
+  - content: ' &c#9 &f%ajlb_lb_playerpoints_points_9_alltime_name% &6%ajlb_lb_playerpoints_points_9_alltime_value%
+      &rꐃ'
+    height: 0.3
+  - content: '&c#10 &f%ajlb_lb_playerpoints_points_10_alltime_name% &6%ajlb_lb_playerpoints_points_10_alltime_value%
+      &rꐃ'
+    height: 0.3
+  actions: {}

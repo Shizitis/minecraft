@@ -1,0 +1,80 @@
+enable-bar: true
+combat-len: 15
+vanish-timeout: 5
+busy-message: '&cDo not log out before&7: &r{timeleft} secs.'
+free-message: '&aYou can now log out'
+busy-color: red
+free-color: green
+bar-style: segmented_6
+broadcast-message: '&b[AntiRelog] &6Player &2{displayname} &6has left while in combat!'
+busy-chat: '&c[AntiRelog] &fYou are now in &6combat&f! It time out in {timeout} seconds.'
+free-chat: '&a[AntiRelog] &6Combat&f timed out!'
+subjects:
+- Player
+- Zombie
+- Husk
+- Zombie_Villager
+config-version: '1.7'
+messages:
+  pvp-started: '&6АнтиРелог &7» &fВы вошли в PVP режим. За выход с сервера - &cсмерть'
+  pvp-started-title: ''
+  pvp-started-subtitle: ''
+  pvp-stopped: '&6АнтиРелог &7» &fPVP режим &aзакончился&f. Можно спокойно выходить'
+  pvp-stopped-title: ''
+  pvp-stopped-subtitle: ''
+  pvp-stopped-actionbar: ''
+  in-pvp-bossbar: '&7До окончания PVP режима &c%time% &7секунд.'
+  in-pvp-actionbar: ''
+  pvp-leaved: ''
+  commands-disabled: '&6АнтиРелог &7» &fКоманды в PVP режиме запрещены.'
+  item-cooldown: ''
+  item-disabled-in-pvp: ''
+  totem-cooldown: ''
+  totem-disabled-in-pvp: ''
+  pvp-started-with-powerups: ''
+golden-apple-cooldown: 5
+enchanted-golden-apple-cooldown: 10
+ender-pearl-cooldown: 15
+chorus-cooldown: 5
+firework-cooldown: 0
+totem-cooldown: 0
+pvp-time: 30
+disable-commands-in-pvp: true
+commands-whitelist:
+- report
+- spec
+- m
+- r
+cancel-interact-with-entities: false
+kill-on-leave: true
+kill-on-kick: true
+run-commands-on-kick: true
+kick-messages:
+- Disconnected
+- Kicked for spamming
+- реклама
+- анти-чит
+- Подозрение в нарушении правил (Simulation)
+- Предупреждение перед блокировкой //
+- Нарушение правил проекта //
+- Подозрение в нарушении правил (Reach)
+- Читы.
+- Internal Exception: io.netty.handler.timeout.ReadTimeoutException
+- Вы были кикнуты за использование читов
+commands-on-leave:
+- /kill %player%
+disable-powerups: true
+commands-on-powerups-disable: []
+disable-teleports-in-pvp: false
+ignore-worldguard: false
+join-pvp-in-worldguard: false
+ignored-worldguard-regions: []
+disable-pvp-in-ignored-region: false
+hide-join-message: false
+hide-leave-message: false
+hide-death-message: false
+disabledWorlds:
+- world1
+- duel2
+- empty
+- world2

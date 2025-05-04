@@ -1,0 +1,50 @@
+# \u00BB is » (double >>), ANSI and UTF-8 interpret this differently... you may even see ? due to this
+prefix: "&6АнтиЧит &7»&f"
+
+alerts-enabled: "%prefix% &fЗамечания включены"
+alerts-disabled: "%prefix% &fЗамечания выключены"
+client-brand-format: "%prefix% &fИгрок &6%player% &fЗашел на сервер с версии &6%brand%"
+console-specify-target: "%prefix% &fВ качестве &6консоли &fнеобходимо указать &6целевой объект&f!"
+player-not-found: "%prefix% &cИгрок освобожден или не в сети!"
+player-not-this-server: "%prefix% &cИгрок не на этом сервере!"
+spectate-return: "\n%prefix% &6Нажмите здесь&f, чтобы вернуться к предыдущему &6местоположению\n"
+cannot-spectate-return: "%prefix% &cВы можете сделать это только после наблюдения за игроком"
+cannot-run-on-self: "%prefix% &cВы не можете использовать эту команду на себе!"
+upload-log: "%prefix% &6Отладка&f загружена в: &6%url%"
+upload-log-start: "%prefix% &fЗагрузка &6лога... &fПодождите"
+upload-log-not-found: "%prefix% &cНе удается найти этот журнал"
+upload-log-upload-failure: "%prefix% &cЧто-то пошло не так при загрузке этого журнала, смотрите консоль для получения дополнительной информации"
+
+# Valid placeholders:
+# %prefix%
+# %player%
+# %check_name%
+# %experimental%
+# %vl% - violations
+# %verbose% - extra information from the check such as offsets, not all checks will add information
+alerts-format: "&6АнтиЧит &7» &fИгрок &6%player% &fпровалил &6%check_name%%experimental% &7(&c%vl%&7)"
+alerts-format-proxy: "&6АнтиЧит &7» &fИгрок &6%player% &fпровалил &6%check_name%%experimental% &7(&c%vl%&7)"
+experimental-symbol: "*"
+
+profile:
+  - "&7======================"
+  - "&fПрофиль игрока &6%player%"
+  - "&fПинг: &6%ping%"
+  - "&fВерсия: &6%version%"
+  - "&fБренд клиента: &6%brand%"
+  - "&fГоризонтальная чувствительность: &6%h_sensitivity%%"
+  - "&fВертикальная чувствительность: &6%v_sensitivity%%"
+  - "&fПоддержка FastMath: &6%fast_math%"
+  - "&7======================"
+help:
+  - "&7======================"
+  - "/grim alerts &f- &6Вкл/Выкл жалобы от античита"
+  - "/grim profile <игрок> &f- &6Просмотр информации об игроке"
+  - "/grim help &f- &6Посмотреть это справочное сообщение"
+  - "/grim debug <игрок> &f- &6Вывод прогноза разработчика"
+  - "/grim perf &f- &6Developer ms/prediction"
+  - "/grim reload &f- &6Перезагружает конфигурацию"
+  - "/grim spectate <игрок> &f- &6Наблюдать за игроком"
+  - "/grim verbose &f- &6Показывает вам каждый флаг, без буферов"
+  - "/grim log [0-255] &f- &6Делает журнал отладки для флагов предсказания"
+  - "&7======================"

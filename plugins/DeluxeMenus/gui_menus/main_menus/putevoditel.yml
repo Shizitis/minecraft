@@ -1,0 +1,78 @@
+menu_title: '&r&#ffffffꈁꀀꈂꌆꈂꀁ&r&0ꈃꄃ&r'
+open_command: 
+- putevoditel
+size: 54
+items:
+  'back':
+    material: arrow
+    model_data: 10002
+    slot: 45
+    display_name: '&6◄ Назад'
+    left_click_commands:
+    - '[openguimenu] putevoditel'
+    right_click_commands:
+    - '[openguimenu] putevoditel'
+  'nagradi':
+    material: chest_minecart
+    slot: 21
+    display_name: '&6Ежедневные Награды'
+    lore:
+    - ''
+    - '&7  Получай награду за'
+    - '&7  отыгранное время'
+    - ''
+    left_click_commands:
+    - '[openguimenu] rewards'
+    right_click_commands:
+    - '[openguimenu] rewards'
+  'event':
+    material: elytra
+    slot: 31
+    display_name: '&6Ивенты'
+    lore:
+    - ''
+    - '&7  Описание всех'
+    - '&7  ивентов на сервере'
+    - ''
+    left_click_commands:
+    - '[openguimenu] event'
+    right_click_commands:
+    - '[openguimenu] event'
+  'raboti':
+    material: diamond_axe
+    hide_attributes: true
+    slot: 23
+    display_name: '&6Работы'
+    lore:
+    - ''
+    - '&7  Получай деньги'
+    - '&7  за работу'
+    left_click_commands:
+    - '[openguimenu] jobs'
+    right_click_commands:
+    - '[openguimenu] jobs'
+  'donat':
+    material: EMERALD
+    slot: 30
+    display_name: '&6Донат услуги'
+    lore:
+    - ''
+    - '&7  Список донат'
+    - '&7  услуг на сервере'
+    - ''
+    left_click_commands:
+    - '[openguimenu] donate'
+    right_click_commands:
+    - '[openguimenu] donate'
+  'warps':
+    material: command_block
+    slot: 32
+    display_name: '&6Варпы'
+    lore:
+    - ''
+    - '&7  Список точек телепортации'
+    - '&7  на сервере'
+    left_click_commands:
+    - '[openguimenu] warps'
+    right_click_commands:
+    - '[openguimenu] warps'

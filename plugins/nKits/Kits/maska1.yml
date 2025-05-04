@@ -1,0 +1,93 @@
+Name: maska1
+Cooldown: 0
+Permission: nKits.kits.maska1
+Order: 0
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"text":"§3§lМаска Снежного Грявола"}'
+      lore:
+      - '{"text":"§c§c§c§cПроклятье утраты"}'
+      - '{"text":""}'
+      - '{"text":"§3Когда во второй руке:"}'
+      - '{"text":"  §b+25% к Скорости"}'
+      - '{"text":"  §b+0.4 к Скорости атаки"}'
+      - '{"text":"  §4-6 к Максимальному здоровью"}'
+      attribute-modifiers:
+        GENERIC_MOVEMENT_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.25
+          name: ResourceKey[minecraft:attribute / minecraft:generic.movement_speed]
+          slot: OFF_HAND
+          uuid: 1991bfc5-6902-48e3-91f0-2e6b599c483c
+          operation: 1
+        GENERIC_ATTACK_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.4
+          name: ResourceKey[minecraft:attribute / minecraft:generic.attack_speed]
+          slot: OFF_HAND
+          uuid: e60021ef-f762-4f45-bc0e-3b210ed95e80
+          operation: 0
+        GENERIC_MAX_HEALTH:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: -6.0
+          name: ResourceKey[minecraft:attribute / minecraft:generic.max_health]
+          slot: OFF_HAND
+          uuid: 2e16238a-ae45-4f9f-9336-655642e93c56
+          operation: 0
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      internal: H4sIAAAAAAAA/02PP0+DQByGfxpNKhoH4+wn0ITyzzTGwbSR3qUHlgLHnVML1xQ42oaCAVZnP4azbg5+ORnd3ifPs7wKgAIXi7yW8qXcrVMpFFD6tRdllYrDGQwq0VR1KQ4KABwN4DRcylrAt2ixyqONmkRYxi2yevYXqnRRtr9H27BdjZGFit5Pn6xZO/rXmtWSmpLpeMO383pVhOpM96SYesO4CN64jTNCiUE6nDqTvHF90jjUK1w/1hkNc9YlkmmB4dhzk9HnlFNmuBPUMY2Y3A6GTAsl94OGZDIlfty6YzxaR+ojwDkco6Q/cXKb/15dfz18vus3rz93lx8AfxG9CGYGAQAA
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  Armor:
+  - null
+  - null
+  - null
+  - null

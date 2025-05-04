@@ -1,0 +1,113 @@
+menu_title: '&fꈁꀀꈂꌅꈂꀁ&0ꈃꄂ'
+open_command: 
+- warpp
+size: 54
+items:
+  item-446c61:
+    amount: 1
+    material: 'fishing_rod'
+    display_name: '&7Варп &8- &6casino'
+    left_click_commands:
+    - '[player] warp fish'
+    right_click_commands:
+    - '[player] warp fish'
+    slot: 12
+  item-1:
+    amount: 1
+    material: 'netherite_hoe'
+    display_name: '&7Варп &8- &6farm'
+    left_click_commands:
+    - '[player] warp farm'
+    right_click_commands:
+    - '[player] warp farm'
+    slot: 1
+  item-3:
+    amount: 1
+    material: 'end_portal_frame'
+    display_name: '&7Варп &8- &6end'
+    left_click_commands:
+    - '[player] warp end'
+    right_click_commands:
+    - '[player] warp end'
+    slot: 7
+  item-4:
+    amount: 1
+    material: 'golden_pickaxe'
+    display_name: '&7Варп &8- &6mine'
+    left_click_commands:
+    - '[player] warp mine'
+    right_click_commands:
+    - '[player] warp mine'
+    slot: 10
+  item-5:
+    amount: 1
+    material: 'chest_minecart'
+    display_name: '&7Варп &8- &6case'
+    left_click_commands:
+    - '[player] warp case'
+    right_click_commands:
+    - '[player] warp case'
+    slot: 3
+  item-6:
+    amount: 1
+    material: 'diamond_axe'
+    display_name: '&7Варп &8- &6les'
+    left_click_commands:
+    - '[player] warp les'
+    right_click_commands:
+    - '[player] warp les'
+    slot: 11
+  item-7:
+    amount: 1
+    material: 'tnt'
+    display_name: '&7Варп &8- &6shop'
+    left_click_commands:
+    - '[player] warp shop'
+    right_click_commands:
+    - '[player] warp shop'
+    slot: 2
+  item-8:
+    amount: 1
+    material: 'bow'
+    display_name: '&7Варп &8- &6coliseum'
+    left_click_commands:
+    - '[player] warp coliseum'
+    right_click_commands:
+    - '[player] warp coliseum'
+    slot: 2
+  item-10:
+    amount: 1
+    material: 'chest'
+    display_name: '&eВ главное меню'
+    left_click_commands:
+    - '[player] warps'
+    right_click_commands:
+    - '[player] warps'
+    slot: 49
+  item-11:
+    amount: 1
+    material: 'gold_nugget'
+    display_name: '&7Варп &8- &6auc'
+    left_click_commands:
+    - '[player] warp auc'
+    right_click_commands:
+    - '[player] warp auc'
+    slot: 4
+  item-12:
+    amount: 1
+    material: 'diamond_sword'
+    display_name: '&7Варп &8- &6pvp'
+    left_click_commands:
+    - '[player] warp pvp'
+    right_click_commands:
+    - '[player] warp pvp'
+    slot: 5
+  item-13:
+    amount: 1
+    material: 'sunflower'
+    display_name: '&7Варп &8- &6casino'
+    left_click_commands:
+    - '[player] warp casino'
+    right_click_commands:
+    - '[player] warp casino'
+    slot: 6

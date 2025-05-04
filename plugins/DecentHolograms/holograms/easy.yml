@@ -1,0 +1,12 @@
+location: world_spawn:16.500:67.631:-21.500
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&x&B&5&F&B&0&A&lЛ&x&B&5&F&B&0&A&lе&x&B&5&F&B&0&A&lг&x&B&5&F&B&0&A&lк&x&B&5&F&B&0&A&lи&x&B&5&F&B&0&A&lй'
+    height: 0.3
+  actions: {}

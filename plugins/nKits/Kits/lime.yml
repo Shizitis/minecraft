@@ -1,0 +1,257 @@
+Name: lime
+Cooldown: 604800
+Permission: nKits.kits.lime
+Order: 0
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: OBSIDIAN
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: END_CRYSTAL
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: NETHERITE_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        FIRE_ASPECT: 2
+        DAMAGE_ALL: 6
+        DURABILITY: 3
+        VANISHING_CURSE: 1
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: GOLDEN_APPLE
+    amount: 48
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: ENCHANTED_GOLDEN_APPLE
+    amount: 4
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: GOLDEN_CARROT
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: BOW
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        ARROW_FIRE: 1
+        ARROW_INFINITE: 1
+        MENDING: 1
+        ARROW_DAMAGE: 5
+        DURABILITY: 2
+      repair-cost: 7
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: ENDER_PEARL
+    amount: 16
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: ELYTRA
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: TIPPED_ARROW
+    amount: 8
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Клирик"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Очищает
+        все эффекты врага"}],"text":""}'
+      PublicBukkitValues:
+        minecraft:clear_arrow: CLEAR_ARROW
+      custom-color:
+        ==: Color
+        RED: 255
+        BLUE: 255
+        GREEN: 255
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: TIPPED_ARROW
+    amount: 64
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      potion-type: minecraft:strong_harming
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: TIPPED_ARROW
+    amount: 64
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      potion-type: minecraft:strong_harming
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: LIME_SHULKER_BOX
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      internal: H4sIAAAAAAAA/7WUz27TQBDGJ3aSJhFCoIIq4IL23CfICQE9cOFSbghF6/XYXmW9a+2Oo0RVJa59Be7ce6lUVfAO7huxaR07TYKIKiH5sH9+38w3O+sdAYzg6XtlxPREk6TFF54OofeJMHcj8Jsd6J4qQ54Kiach9D/ynKfot2AIT060yLimHDXd4f0BBDKGF7nUKCxPaIxJIoVELRYBhGqmfKB75mXLJNLihLsCBdVQUEPPW8jniKVOa6BTA4ct4DJuC43O1UgPtsyUOrLIp22YsGZetcyMa+kyj0xEaR02+fzX+2BKTZ17yVEr0UgZWkm+iDlCfWKdHSc2goNYukLxxQC6n3mO8POM4ZwsZ+OvZywyKmbjhCuHx0wSV1I001LHaJVP2RKOrJz61NaUadasmigpneC0BgqjjGVjli7jHzPyGf2s+lFd336vbqrLt354Wf2qrqrftxfV9XKJnX9rQHa+q9Xh/q3+Tx14s6sDhRTTtS4E+93b4N/FdPcqZtPj610eXWZmqFYWw5Xk3VZZOC+8wpvASWSIVFNW9xGa3iM0/ZXm2Vbx0ho9iZYPxwo+2IDX/pBY8tzo+CE/2ODXXgTFC+ke0sO/W1ne6xoG+AOsbN6/0gQAAA==
+      blockMaterial: LIME_SHULKER_BOX
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: ENDER_PEARL
+    amount: 16
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: CHORUS_FRUIT
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: FIREWORK_ROCKET
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: FIREWORK_ROCKET
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: FIREWORK_ROCKET
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: LIME_WOOL
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: LIME_CONCRETE
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: LIME_CONCRETE
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: LIME_STAINED_GLASS
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: TOTEM_OF_UNDYING
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: TOTEM_OF_UNDYING
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: TOTEM_OF_UNDYING
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: TOTEM_OF_UNDYING
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: TOTEM_OF_UNDYING
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Голова
+        Лайма"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Когда
+        во второй руке:"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"+2.5
+        к Силе"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"+1.5
+        к Броне"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"+30%
+        к Скорости"}],"text":""}'
+      - '{"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      attribute-modifiers:
+        GENERIC_ATTACK_DAMAGE:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 2.5
+          name: ResourceKey[minecraft:attribute / minecraft:generic.attack_damage]
+          slot: OFF_HAND
+          uuid: 6a2a0f1c-09d9-4170-a63d-643dd0186ae5
+          operation: 0
+        GENERIC_ARMOR:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 1.5
+          name: ResourceKey[minecraft:attribute / minecraft:generic.armor]
+          slot: OFF_HAND
+          uuid: 0f7ba432-2497-4d51-87d9-f9ff388e4ef0
+          operation: 0
+        GENERIC_MOVEMENT_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.3
+          name: ResourceKey[minecraft:attribute / minecraft:generic.movement_speed]
+          slot: OFF_HAND
+          uuid: 75ebfa58-0e05-46be-9156-cdaaaedecc88
+          operation: 1
+      ItemFlags:
+      - HIDE_ATTRIBUTES
+      internal: H4sIAAAAAAAA/02Py06DQBhGf6smFV34KMAIposuGm8d0kGhXDqza+k0dPjBhoKBLn0TY3yDbt0Yt8ZX8Clcy9Ld+XK+zdEANDibZjXiQ/m4WqPUQOtoI8tqLbcn0K9kU9Wl3GoAcNCH42iOtYS9bB1dzFJ9OXMwaand7WCq4z1Vm0taRO3iito07/x4ZE/awb+vVc1jCzlxUlF49SKP9AnxUY59I8nDJxZkFt/5yIORLq7TXNyFDTO9hilfceXkrkoIMylhMSc88AhTiCLnF258Y7mdZUFoCBW23LzNhEqR7yKkhTFYecMhwCn06LILOXp7/fncn7P3l6/f74/D3jPAH8UO0dwKAQAA
+  Armor:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: NETHERITE_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DEPTH_STRIDER: 3
+        PROTECTION_FALL: 4
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 4
+        DURABILITY: 3
+      repair-cost: 7
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: NETHERITE_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 4
+        DURABILITY: 3
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: NETHERITE_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 4
+        DURABILITY: 3
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: NETHERITE_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        WATER_WORKER: 3
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 4
+        OXYGEN: 3
+        DURABILITY: 3
+      repair-cost: 1

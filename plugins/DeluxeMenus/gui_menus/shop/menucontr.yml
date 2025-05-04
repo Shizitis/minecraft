@@ -1,0 +1,39 @@
+menu_title: '&fꈁꀀꈂꌄꈂꀁꈃꄄ'
+open_command: menucontr
+size: 45
+items:
+  'mine':
+    material: player_head
+    data: 3
+    slot: 21
+    display_name: '&e❖ &6Цель для убийства'
+    lore:
+    - '&6⮩ &7Последняя цель которую вы взяли'
+    left_click_commands:
+    
+    - '[player] contract take'
+    right_click_commands:
+    
+    - '[player] contract take'
+  'wood':
+    material: iron_sword
+    slot: 23
+    display_name: '&e❖ &6Взять контракт'
+    lore:
+    - '&6⮩ &7Вознаграждение за успешное выполнение:'
+    - '&e2.000 &7монет'
+    left_click_commands:
+    
+    - '[player] contract take'
+    right_click_commands:
+    
+    - '[player] contract take'
+  'back':
+    material: structure_void
+    model_data: 10002
+    slot: 36
+    display_name: '&6◄ Назад'
+    left_click_commands:
+    - '[openguimenu] menu'
+    right_click_commands:
+    - '[openguimenu] menu'

@@ -1,0 +1,52 @@
+location: world_spawn:11.500:70.500:0.500
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&fДонат на сервере &6&lFAKEWORLD'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&7Цены на донат:'
+    height: 0.3
+  - content: '&7[&#0121F9&lH&#1436FA&lE&#284AFB&lR&#3B5FFC&lO&7] &7- &f&l9р'
+    height: 0.3
+  - content: '&7[&#FCDA00&lT&#F1E200&lI&#E7EB00&lT&#DCF300&lA&#D1FB00&lN&7] &7- &f&l19р'
+    height: 0.3
+  - content: '&7[&#2BFB01&lA&#38FB1A&lV&#45FB33&lE&#52FB4D&lN&#5EFB66&lG&#6BFB7F&lE&#78FB98&lR&7]
+      &7- &f&l25р'
+    height: 0.3
+  - content: '&7[&#40AFDA&lO&#37B9DF&lV&#2EC2E4&lE&#25CCE9&lR&#1BD6ED&lL&#12E0F2&lO&#09E9F7&lR&#00F3FC&lD&7]
+      &7- &f&l29р'
+    height: 0.3
+  - content: '&7[&x&f&d&6&3&0&0&lM&x&f&d&7&0&0&0&lA&x&f&d&7&d&0&0&lG&x&f&d&8&a&0&0&lI&x&f&d&9&7&0&0&lS&x&f&d&a&4&0&0&lT&x&f&d&b&1&0&0&lE&x&f&d&b&e&0&0&lR&7]
+      &7- &f&l39р'
+    height: 0.3
+  - content: '&7[&#DA2E2E&lI&#DE3333&lM&#E33737&lP&#E73C3C&lE&#EB4040&lA&#EF4545&lR&#F44949&lT&#F84E4E&lO&#FC5252&lR&7]
+      &7- &f&l49р'
+    height: 0.3
+  - content: '&7[&#FA00E1&lD&#EF07E6&lR&#E30EEA&lA&#D816EF&lG&#CC1DF3&lO&#C124F8&lN&7]
+      &7- &f&l89р'
+    height: 0.3
+  - content: '&7[&x&F&F&D&0&0&A&lD&x&F&F&D&4&0&A&l.&x&F&F&D&9&0&A&lH&x&F&F&D&D&0&A&lE&x&F&F&E&1&0&A&lL&x&F&F&E&5&0&A&lP&x&F&F&E&A&0&A&lE&x&F&F&E&E&0&A&lR&7]
+      &7- &f&l589р'
+    height: 0.3
+  - content: '&7[&#00FC00&lC&#1CFC1C&lO&#39FC39&lB&#55FC55&lR&#71FC71&lA&7] &7- &f&l749р'
+    height: 0.3
+  - content: '&7[&x&F&B&6&C&0&5&lF&x&F&C&8&A&0&3&lA&x&F&E&A&9&0&2&lK&x&F&F&C&7&0&0&lE&7] &7- &f&l1190р'
+    height: 0.3
+  - content: '&7[&63 кейса с Донатом&7] - &f&l79p'
+    height: 0.3
+  - content: '&7[&610 кейсов с Донатом&7] - &f&l199p'
+    height: 0.3
+  - content: '&7[&625 кейсов с Донатом&7] - &f&l289p'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&7Покупка на сайте: &6&lFAKEWORLD.SU'
+    height: 0.3
+  actions: {}

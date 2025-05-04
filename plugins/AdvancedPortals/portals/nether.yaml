@@ -1,0 +1,17 @@
+args:
+  name:
+  - nether
+  triggerblock:
+  - AIR
+  command:
+  - warp ad
+maxLoc:
+  posX: -13
+  posY: 61
+  posZ: 27
+  worldName: world_spawn
+minLoc:
+  posX: -20
+  posY: 61
+  posZ: 17
+  worldName: world_spawn

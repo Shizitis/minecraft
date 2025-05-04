@@ -1,0 +1,17 @@
+jails:
+  jail:
+    world: 40b28374-3824-46b0-819d-7feeffc48fd2
+    world-name: world_spawn
+    x: 25.62046285196925
+    y: 61.0
+    z: 17.374579970898374
+    yaw: -269.3905029296875
+    pitch: 2.099609375
+  sosal:
+    world: 40b28374-3824-46b0-819d-7feeffc48fd2
+    world-name: world_spawn
+    x: 38.32083907401874
+    y: 68.0
+    z: 13.499735615131108
+    yaw: -263.39739990234375
+    pitch: 19.86465072631836

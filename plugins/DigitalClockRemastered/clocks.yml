@@ -1,0 +1,23 @@
+clock:
+  creator: scallydima
+  world: spawn
+  x: -49
+  y: 80
+  z: 8
+  x2: -46
+  y2: 80
+  z2: 8
+  depth: 1
+  direction: SOUTH
+  material: QUARTZ_BLOCK
+  data: 0
+  filling: AIR
+  fdata: 0
+  add: 0
+  seconds: false
+  blinking: true
+  changer: true
+  ampm: false
+  cdt: 0
+  swt: 0
+  mode: NORMAL

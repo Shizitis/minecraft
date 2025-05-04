@@ -1,0 +1,13 @@
+name: "&c&lТАЙНЫЙ ТОРГОВЕЦ"
+spawn-range: 5000
+spawn-delay: 18000
+live-time: 900
+min-players: 5
+menu-size: 54
+menu-name: "&fꈁꀀꈂꌅꈂꀁ&0ꈃꄇ"
+world: "world"
+maloigrokov-message: "&c&lТАЙНЫЙ ТОРГОВЕЦ &7» &fне появился, потому-что на сервере {currentOnline} онлайна. Для спавна нужно {needOnline}"
+spawn-message: "&c&lТАЙНЫЙ ТОРГОВЕЦ &7» &fПришел с новыми товарами на &6{x} {y} {z}"
+despawn-message: "&c&lТАЙНЫЙ ТОРГОВЕЦ &7» &fУшел пополнять свои товары!"
+limitMessage: "&6Продавец &7» &cДостигнут лимит по предметам"
+notEnoughMoney: "&6Продавец &7» &cНедостаточно средств"

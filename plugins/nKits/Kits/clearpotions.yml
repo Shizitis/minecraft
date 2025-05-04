@@ -1,0 +1,66 @@
+Name: clearpotions
+Cooldown: 0
+Permission: nKits.kits.clearpotions
+Order: 0
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: POTION
+    amount: 3
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"text":"§b§lЦелительное Снадобье"}'
+      lore:
+      - '{"text":"§9Снимает негативные эффекты"}'
+      PublicBukkitValues:
+        bibkarwutils:custom_potion: 1i
+      potion-type: minecraft:healing
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  Armor:
+  - null
+  - null
+  - null
+  - null

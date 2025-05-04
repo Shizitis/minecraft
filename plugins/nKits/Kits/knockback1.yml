@@ -1,0 +1,79 @@
+Name: knockback1
+Cooldown: 0
+Permission: nKits.kits.knockback1
+Order: 0
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"text":"§9§lШар Отбрасывания 1"}'
+      lore:
+      - '{"text":"§c§c§c§cПроклятье утраты"}'
+      - '{"text":""}'
+      - '{"text":"§7Когда во второй руке:"}'
+      - '{"text":"  §7+0.2 Сопротивление отбрасывание"}'
+      - '{"text":""}'
+      - '{"text":"§7======================"}'
+      attribute-modifiers:
+        GENERIC_KNOCKBACK_RESISTANCE:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.02
+          name: ResourceKey[minecraft:attribute / minecraft:generic.knockback_resistance]
+          slot: HAND
+          uuid: 0c5bffdc-dade-43f4-b5d6-974f0f437c25
+          operation: 0
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      internal: H4sIAAAAAAAA/02PvU7DMBhFPxBIJSAGxMwTgOTGJKhCDIgq1FHt0jb/TG3j4iZ2qdIE1VmZeQxm2Bh4OTyy3aNzlmsBWHAyLRspn6rX5UpyCyyzNryqV3x7BJ2a7+qm4lsLAPY6cBjNZMPhm2sfZYlAeeLLhSau4WCK5IgUmxuyjvT8gbhEGT+4d4e696916lnsyBT7IluPm7mK0BBPJB9MugsVvrEilzTwyrQQiralZi3BaeAVrB86WUy6I+OyvhD00RO0fbFpTE0zvmZ2uDOMUkU0ValDgxBT25dM+71lgu4AjmGf5ObEwWX5e3b+dfv5ji+ef65OPwD+AKc7wJsGAQAA
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  Armor:
+  - null
+  - null
+  - null
+  - null

@@ -1,0 +1,398 @@
+Name: pidor
+Cooldown: 0
+Permission: nKits.kits.pidor
+Order: 0
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: PLAYER_HEAD
+    amount: 64
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Голова
+        Атакующего Титана"}],"text":""}'
+      lore:
+      - '{"extra":[{"italic":false,"color":"red","text":"Проклятье утраты"}],"text":""}'
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Когда
+        во второстепенной руке:"}],"text":""}'
+      - '{"extra":[{"text":"   "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"+3.5
+        Урон"}],"text":""}'
+      - '{"extra":[{"text":"   "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"+2.5
+        Броня"}],"text":""}'
+      - '{"extra":[{"text":"   "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"+4
+        Максимальное здоровье"}],"text":""}'
+      - '{"extra":[{"text":"   "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"-30%
+        Скорость"}],"text":""}'
+      - '{"text":""}'
+      attribute-modifiers:
+        GENERIC_ATTACK_DAMAGE:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 3.5
+          name: ResourceKey[minecraft:attribute / minecraft:generic.attack_damage]
+          slot: OFF_HAND
+          uuid: 4f5ce4e7-3c1c-4364-8256-52ef1b5d01ff
+          operation: 0
+        GENERIC_ARMOR:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 2.5
+          name: ResourceKey[minecraft:attribute / minecraft:generic.armor]
+          slot: OFF_HAND
+          uuid: 6a444afe-d162-4c07-8c4a-98fd63e4c553
+          operation: 0
+        GENERIC_MAX_HEALTH:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 4.0
+          name: ResourceKey[minecraft:attribute / minecraft:generic.max_health]
+          slot: OFF_HAND
+          uuid: c70ac753-6dcc-411c-b8d1-b5b1cf423bd8
+          operation: 0
+        GENERIC_MOVEMENT_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: -0.3
+          name: ResourceKey[minecraft:attribute / minecraft:generic.movement_speed]
+          slot: OFF_HAND
+          uuid: f3ad8b00-e6be-43a4-b6dc-061180ec350f
+          operation: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      internal: H4sIAAAAAAAA/02PMU+DQBiGP01NKjUOxtlfoMkJgmmMQyONPdIDochx59TSaykctaFgOFZnf4azi4mDf05Gt/fJ8yyvBqDBySyvpXwqX1cbKTTQurUTZbUR+2PoV6Kp6lLsNQA46MNRNJe1gG+hHMTjFC1jRyYKWx2HMyQ9nO1u8TZSiwds4aLzk5E1VcN/rVnNqSmZ4aR869eLIkJTI5BiElwnxfMbo+OWtGuTtSPFKVMeDSTJZEFsnrk6uSF2grzQR57NWpJhneljg9u+8h6J7oa+Yu26ce3c5EUgGeUpoaQhyhmuYnQPMIBDvOyO9C7z37Pzr7vPd+Pi5efq9APgD3L5re0KAQAA
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: PLAYER_HEAD
+    amount: 64
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Голова
+        Зеницу"}],"text":""}'
+      lore:
+      - '{"extra":[{"italic":false,"color":"red","text":"Проклятье утраты"}],"text":""}'
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Когда
+        во второстепенной руке:"}],"text":""}'
+      - '{"extra":[{"text":"   "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"+15
+        Максимальное здоровье"}],"text":""}'
+      - '{"extra":[{"text":"   "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"+0.4
+        Скорость атаки"}],"text":""}'
+      - '{"extra":[{"text":"   "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"+3.5
+        Везение"}],"text":""}'
+      - '{"extra":[{"text":"   "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"+35%
+        Скорость"}],"text":""}'
+      - '{"text":""}'
+      attribute-modifiers:
+        GENERIC_MAX_HEALTH:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 15.0
+          name: ResourceKey[minecraft:attribute / minecraft:generic.max_health]
+          slot: OFF_HAND
+          uuid: e942298c-edc5-41fa-b7c4-a7d53afc740d
+          operation: 0
+        GENERIC_ATTACK_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.4
+          name: ResourceKey[minecraft:attribute / minecraft:generic.attack_speed]
+          slot: OFF_HAND
+          uuid: c89204c7-4e65-4d4e-b043-53aa44702182
+          operation: 0
+        GENERIC_LUCK:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 3.5
+          name: ResourceKey[minecraft:attribute / minecraft:generic.luck]
+          slot: OFF_HAND
+          uuid: 0bea68ea-3c53-46be-91af-a11a87960a78
+          operation: 0
+        GENERIC_MOVEMENT_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.35
+          name: ResourceKey[minecraft:attribute / minecraft:generic.movement_speed]
+          slot: OFF_HAND
+          uuid: 4ab14fb5-664e-4b69-baca-76cafed55792
+          operation: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      internal: H4sIAAAAAAAA/02Py06DQBiFf40mFY0L49on0IRLwDTGhUq0Q8pgW0AGVy1MM8ylNhS0zNa1j+HajYkLX06WLk5yvpxvcwwAA45mopXysX5ZVpIaYPRtTeumopsDGDR027Q13RgAsDOA/XQuWwrftAvMPGNmmQWy6JDXczwzZYT4+hKt0m5xhzyk+n1044274T/XbeZPriROwPLVpF2o1Bw7U0lHU6tQySvRJQtjprCdbLEuLMIxCzV5ww9Y9FGRf6sIT7oovhd5PLGxClRoEyf3hYU10SQuXMyFGfqMY44crFOFq2C4zMxrgEPYRWV/ZO9c/J6cfl19vjtnzz8Xxx8Af+SS5nUKAQAA
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: PLAYER_HEAD
+    amount: 64
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Голова
+        Домера"}],"text":""}'
+      lore:
+      - '{"extra":[{"italic":false,"color":"red","text":"Проклятье утраты"}],"text":""}'
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Когда
+        во второстепенной руке:"}],"text":""}'
+      - '{"extra":[{"text":"   "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"+Максимальное
+        здоровье"}],"text":""}'
+      - '{"extra":[{"text":"   "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"+3.5
+        Броня"}],"text":""}'
+      - '{"extra":[{"text":"   "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"+20%
+        Скорость"}],"text":""}'
+      - '{"text":""}'
+      attribute-modifiers:
+        GENERIC_MAX_HEALTH:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 10.0
+          name: ResourceKey[minecraft:attribute / minecraft:generic.max_health]
+          slot: OFF_HAND
+          uuid: a2fee63a-dbf8-4f9e-a143-92d06d1d3a8a
+          operation: 0
+        GENERIC_ARMOR:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 3.5
+          name: ResourceKey[minecraft:attribute / minecraft:generic.armor]
+          slot: OFF_HAND
+          uuid: a7da9f24-77ad-494e-a3da-3077eeaa23ab
+          operation: 0
+        GENERIC_MOVEMENT_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.2
+          name: ResourceKey[minecraft:attribute / minecraft:generic.movement_speed]
+          slot: OFF_HAND
+          uuid: 319953ba-f2e5-482b-9069-2ffa3e388b88
+          operation: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      internal: H4sIAAAAAAAA/1VRTY+UQBDtNWuyovFgPPsLNGFAjInZAwuzQ7Pb3cIAPeBp+Bho6BYyzAwDV8/7D7x69ujBP2fP7hrjqSpVr169V6UAoIAXy2bP+edtu2G8UIAis67Y7ljRPwMXu+K422+LXgEAnF2Ap9Ga74uz78XQltBy1TWd8Uz3q3RlMmi3JQriEdvlEdnoSOz5iNlwAy2TZY57SATvk5A3kJkf5CzDNdII9VQ0oQEHoYoXcCJ0bpDgqiK25KGxgcR8wEvYW8ws4derMdWSLl1EJJZ7H3msVHO7VFSH1fgXh7tEM6rcicYkcnm2irpMRA97HX/MafiI83nh+DPZmx56/UnryVewVDn5v3bCR2NqwZIwk60dX83s9nCr/+O4FTOpI6ozcS1yy9gnK++QL6L39zqWHydiN2NM4xk6ebTDKRbSc13qKMAsriMRBznDwq8R9QasYZHYVZMEjRHLO2HqMmJXAtOkjgUaCUWSK9Rh2d5r23gyOurNxru8BOA5eAJz+bDzt83vV69/fvrxTX/z5de7l3cA/AHwJnX18gEAAA==
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: PLAYER_HEAD
+    amount: 64
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Голова
+        Эдисона"}],"text":""}'
+      lore:
+      - '{"extra":[{"italic":false,"color":"red","text":"Проклятье утраты"}],"text":""}'
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Когда
+        во второстепенной руке:"}],"text":""}'
+      - '{"extra":[{"text":"   "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"+3
+        Урон"}],"text":""}'
+      - '{"extra":[{"text":"   "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"+0.4
+        скорость атаки"}],"text":""}'
+      - '{"extra":[{"text":"   "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"-2
+        Броня"}],"text":""}'
+      - '{"text":""}'
+      attribute-modifiers:
+        GENERIC_ATTACK_DAMAGE:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 3.0
+          name: ResourceKey[minecraft:attribute / minecraft:generic.attack_damage]
+          slot: OFF_HAND
+          uuid: f1deac90-0e97-42cc-8112-7864758010bf
+          operation: 0
+        GENERIC_ATTACK_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.4
+          name: ResourceKey[minecraft:attribute / minecraft:generic.attack_speed]
+          slot: OFF_HAND
+          uuid: 6359e04b-1069-4a4b-9586-a79284c8e72d
+          operation: 0
+        GENERIC_ARMOR:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: -2.0
+          name: ResourceKey[minecraft:attribute / minecraft:generic.armor]
+          slot: OFF_HAND
+          uuid: 0180702b-675b-4a0e-85e7-79d4c94b512f
+          operation: 0
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      internal: H4sIAAAAAAAA/1VRPXObQBA9Z5wZh3hSZFLnF8QzJ5Cc8WRSIM6Iw7rDkvi6SwWIoIND8kgQEK3r/IO0qVOmyJ8zwimSand23759b1cBQAGXq6KW8n6/+ypkqgClzx7SfSXSwytwUaVtVe/TgwIAOLsAL/1I1unZj7TZZdiwYRSMZKItN3GoC4x2GXGTjroEUnTbkA6rdNXcYUMXiWV/46U8cE8WWOjX2MAaQWbhuMuCdLrG0QLycqE6iJasowWd4ZblRUsRLYjAB0PoGd5Oj7HKH+KZ77B+7zOPbfKZ7GJ1slhbRMz1QVcXBeuahctRUvorHpqjKLQlN3DmiClMtr78i4M83MB130uOQ+/jsKfX68HKdsV/tRO+52sGn7js5yz9en68+YdjUkXBRDLN3vDtoo5LH861pUytkw6v98/GBOGWdljjrplzxI6sYy13E0iQLxyUjZlLGoJoThGXJPA6HpgFUe3cmXkaU5nGcq8lKjndCjL1dswFvhu0WbCP0xtjCz8D8Bq8wOv+Yecfij9v3/369PNRe//l99Wb7wA8AZ9tEiDyAQAA
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: PLAYER_HEAD
+    amount: 64
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_red","text":"БетМен"}],"text":""}'
+      lore:
+      - '{"extra":[{"italic":false,"color":"red","text":"Проклятье утраты"}],"text":""}'
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Когда
+        во второстепенной руке:"}],"text":""}'
+      - '{"extra":[{"text":"   "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"+2
+        Урон"}],"text":""}'
+      - '{"extra":[{"text":"   "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"+2.5
+        Броня"}],"text":""}'
+      - '{"extra":[{"text":"   "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"-6
+        Максимальное здоровье"}],"text":""}'
+      - '{"extra":[{"text":"   "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"+0.4
+        Скорости Атаки"}],"text":""}'
+      - '{"extra":[{"text":"   "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"+1
+        Отбрасывающая атака"}],"text":""}'
+      - '{"text":""}'
+      attribute-modifiers:
+        GENERIC_ATTACK_DAMAGE:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 2.0
+          name: ResourceKey[minecraft:attribute / minecraft:generic.attack_damage]
+          slot: OFF_HAND
+          uuid: 13dfc9ce-c4d1-4c2c-b2a1-7a236164ab8f
+          operation: 0
+        GENERIC_ARMOR:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 2.5
+          name: ResourceKey[minecraft:attribute / minecraft:generic.armor]
+          slot: OFF_HAND
+          uuid: 45acd600-d563-41bf-8c83-5d4090f7f6f1
+          operation: 0
+        GENERIC_MAX_HEALTH:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: -6.0
+          name: ResourceKey[minecraft:attribute / minecraft:generic.max_health]
+          slot: OFF_HAND
+          uuid: 7459ba8b-6b60-4346-825a-c558eea83c13
+          operation: 0
+        GENERIC_ATTACK_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.4
+          name: ResourceKey[minecraft:attribute / minecraft:generic.attack_speed]
+          slot: OFF_HAND
+          uuid: 8b2d72a5-3c1f-4ad3-ba00-f81a28d816d9
+          operation: 0
+        GENERIC_ATTACK_KNOCKBACK:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 1.0
+          name: ResourceKey[minecraft:attribute / minecraft:generic.attack_knockback]
+          slot: OFF_HAND
+          uuid: be787b8c-f484-462d-bec9-b6d4e1561ffa
+          operation: 0
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      internal: H4sIAAAAAAAA/1VRPXPTQBC9MGEmCIaCoeYXwIx8dhg8VLKU2Cd85zjW51JFOkU+313ssSzbUkudnj9ATUmRP8fZcQHVvtl9u+/troWQhd7MZK3UzXp5L1RhIcugVbHeiKJ6hS42xX5Tr4vKQgidXaCX0Z2qi7OfxW5ZEte37+KOyru38yxxBPGWJQ3ylgXUZkGOmSdt5u6+EdcR+cjfglYVhEoS4Xw2vYJ5ZY8G4T6NrxpYEBv0tTTYpph0KL66pAvagBdi2pDKFU5JHgZNhmGVDaNJanRPcwaZZttMqzkRJy2sHjJ9bfPEV6GO9jxWDcTToz8+8jswe+bxYdTjo6iBhB5rzzsZHcXGs7D3f+7AT/zqpLnko9vdRHzZ/jOjzmJVQ8yaNAZ7rC8Vd/s2JPOjjzEmOxgSPInDg5cuHYKk3kDSdmruxefglXvmGdzKLtNM0iCSsJi2oEkLC6elbdgwHNrMi3RqsmnryzTIxfEu7qB/iPfTVR+h1+gF4eZZ5x/l07v3v7/++tH98P3Pp7ePCP0Frnez/u4BAAA=
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: PLAYER_HEAD
+    amount: 64
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_aqua","text":"Голова
+        Пингвина"}],"text":""}'
+      lore:
+      - '{"extra":[{"italic":false,"color":"red","text":"Проклятье утраты"}],"text":""}'
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Когда
+        во второстепенной руке:"}],"text":""}'
+      - '{"extra":[{"text":"   "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"-2
+        Броня"}],"text":""}'
+      - '{"extra":[{"text":"   "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"+12
+        Максимальное здоровье"}],"text":""}'
+      - '{"extra":[{"text":"   "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"+30%
+        Скорость"}],"text":""}'
+      - '{"text":""}'
+      attribute-modifiers:
+        GENERIC_ARMOR:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: -2.0
+          name: ResourceKey[minecraft:attribute / minecraft:generic.armor]
+          slot: OFF_HAND
+          uuid: 9b7157fe-4095-4af6-a3c6-fb30465f2ba4
+          operation: 0
+        GENERIC_MAX_HEALTH:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 12.0
+          name: ResourceKey[minecraft:attribute / minecraft:generic.max_health]
+          slot: OFF_HAND
+          uuid: 63df1598-f6a7-457c-ac21-68004d1c44a9
+          operation: 0
+        GENERIC_MOVEMENT_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.3
+          name: ResourceKey[minecraft:attribute / minecraft:generic.movement_speed]
+          slot: OFF_HAND
+          uuid: a7cbc358-ff1a-4112-8726-29ef66889060
+          operation: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      internal: H4sIAAAAAAAA/62Sy47TMBSGzQikoSAWiDVPAJJz6aARYpEmvThTOyRN4tis2jTk5rSjNpkm3rLmMVizZMHL4SkgYI+8sHXO7/N/xz4jAEbg6aruhHh/2H8sRTYCI3W6zQ5tmR0fg8s269vukB1HAIAHl+BRvBZddpFkp32ObBeuqSZSIyg2iVUiZ5/jMJUkxJBUSCdVbpDhdINsq0wX7h1vxJFHokaldYVsZBA9MpkeC6aznug+5BRDVm0b3LjCc6Yar/DAKZPYRke7tHK0mwwbnd9u5rHHlO/POm67MdwdCyNT+ZZL68wl13TbsSTQ0iZe8WSmrRNXcBvlXjmB6S4Wv3SQJwXcqlw6nHNvzj6KN4KtG5b/xO71qt7p3Cdq1L2FdbUcrv+qMW7XdCyY4RZ853ebJoZLIxDZ4p4juuOOP2AajQn1JXYmAssU4oqrXpV+jiCjWCMNKbG0eu7MCi/MexbmpkfdhkhfEiftiRMI3jCTSbWqba3e5ubMtoDH3+w+nPnB6j+zV6IgkmmKWVccY88RjUenJ1bxGjuKN8QDngcFk9EYU6xmQAiPRjqmU4kpg0yPehU3vTkbsKP+eD6ryR92tU+u7R18B8ATcIG2atgevqq/P3/x9e2XT8bLD99eP/sMwA+Fhb6brgIAAA==
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: NETHERITE_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_red","text":"Л"},{"bold":true,"italic":false,"color":"white","text":"е"},{"bold":true,"italic":false,"color":"dark_red","text":"Д"},{"bold":true,"italic":false,"color":"white","text":"е"},{"bold":true,"italic":false,"color":"dark_red","text":"Н"},{"bold":true,"italic":false,"color":"white","text":"е"},{"bold":true,"italic":false,"color":"dark_red","text":"Ц"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Заговор
+        огня II"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Острота
+        VI"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Прочность
+        III"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Проклятие
+        утраты"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Загадочный
+        леденец от деда мороза..."}],"text":""}'
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Когда
+        в ведущей руке:"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"13.5
+        Урон"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"1
+        Скорость атаки"}],"text":""}'
+      custom-model-data: 101
+      enchants:
+        FIRE_ASPECT: 2
+        DAMAGE_ALL: 4
+        DURABILITY: 3
+        VANISHING_CURSE: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  Armor:
+  - null
+  - null
+  - null
+  - null

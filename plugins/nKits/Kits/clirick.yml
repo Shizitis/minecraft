@@ -1,0 +1,78 @@
+Name: clirick
+Cooldown: 0
+Permission: nKits.kits.clirick
+Order: 0
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: TIPPED_ARROW
+    amount: 2
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"text":"§f§lКлирик"}'
+      lore:
+      - '{"text":"§9Очищает все эффекты с врага"}'
+      PublicBukkitValues:
+        bibkarwutils:custom_arrow: 1i
+      custom-color:
+        ==: Color
+        RED: 245
+        BLUE: 245
+        GREEN: 245
+      custom-effects:
+      - ==: PotionEffect
+        effect: 28
+        duration: 0
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  Armor:
+  - null
+  - null
+  - null
+  - null

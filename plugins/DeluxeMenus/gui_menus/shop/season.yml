@@ -1,0 +1,203 @@
+menu_title: '&r&#ffffffꈁꀀꈂꌰꈂꀁ&r&0ꈃꄅ&r'
+open_command: qqqw
+size: 53
+items:
+  'clock':
+    material: clock
+    nbt_int: CustomModelData:10001
+    slot: 53
+    display_name: '&6ИНФОРМАЦИЯ'
+    lore:
+    - ''
+    - ' &fВаш баланс: &6%playerpoints_points% &fꐃ'
+    - ''
+    - '&7Пополнить баланс можно'
+    - '&7на сайте: &6FakeWorld.su'
+  'back':
+    material: arrow
+    slot: 45
+    nbt_int: CustomModelData:10002
+    display_name: '&6Назад'
+    left_click_commands:
+    - '[openguimenu] donateshop'
+    right_click_commands:
+    - '[openguimenu] donateshop'
+  'sekirahaosa':
+    amount: 1
+    material: netherite_axe
+    nbt_int: CustomModelData:101
+    slot: 13
+    display_name: '&a&lПасхальный топор'
+    lore:
+    - '&7Заговор огня II'
+    - '&7Острота VI'
+    - '&7Прочность III'
+    - '&cПроклятие утраты'
+    - ''
+    - '&7Когда в ведушей руке:'
+    - '&a13.5 Урон'
+    - '&a1 Скорость атаки'
+    - '&7===================================='
+    - ''
+    - '&fЦена: &6319 &6&6&6&eꐃ'
+    - ''
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+    enchantments:
+    - 'knockback;1'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 319
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6FakeWorld.su' 
+    left_click_commands:
+    - '[console] points take %player_name% 319'
+    - '[console] kit pasxaaxe %player_name%'
+  'attaktitan':
+    amount: 1
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODdkMzA5NmUxOTkxYTRiZjlmMDJiMTM5ZTdiNDMzNTY1ZTViZGE5YzQ3MzYxNmU3OWU0MjljZjQ5NTEyODJhOCJ9fX0=
+    slot: 21
+    display_name: '&e&lГолова Сема-Тарли'
+    lore:
+    - '&cПроклятье утраты'
+    - ''
+    - '&7Когда во второстепенной руке:'
+    - '   &9+2.5 Урон'
+    - '   &9+6 Максимальное здоровье'
+    - '   &c-30% Скорость'
+    - '   &9+3.5 Броня'
+    - ''
+    - '&7======================'
+    - ''
+    - '  &fЦена: &6299 &6&6&6&eꐃ'
+    - ''
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+    enchantments:
+    - 'knockback;1'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 299
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6FakeWorld.su' 
+    left_click_commands:
+    - '[console] points take %player_name% 299'
+    - '[console] minecraft:give %player_name% minecraft:player_head{HideFlags:3,SkullOwner:{Id:[I;-16470994,1846948773,-2048211887,-29043265],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODdkMzA5NmUxOTkxYTRiZjlmMDJiMTM5ZTdiNDMzNTY1ZTViZGE5YzQ3MzYxNmU3OWU0MjljZjQ5NTEyODJhOCJ9fX0="}]}},AttributeModifiers:[{Amount:6.0d,Slot:"offhand",AttributeName:"generic.max_health",Operation:0,UUID:[I;1278854966,1698188001,-1752300095,631069024],Name:"ResourceKey[minecraft:attribute / minecraft:generic.max_health]"},{Amount:2.5d,Slot:"offhand",AttributeName:"generic.attack_damage",Operation:0,UUID:[I;900081708,-1214494895,-2072407605,-513747111],Name:"ResourceKey[minecraft:attribute / minecraft:generic.attack_damage]"},{Amount:-0.3d,Slot:"offhand",AttributeName:"generic.movement_speed",Operation:1,UUID:[I;-347099697,-29013432,-1343439614,-1176472280],Name:"ResourceKey[minecraft:attribute / minecraft:generic.movement_speed]"},{Amount:3.5d,Slot:"offhand",AttributeName:"generic.armor",Operation:0,UUID:[I;-2082173178,-538426223,-1656937714,-41328698],Name:"ResourceKey[minecraft:attribute / minecraft:generic.armor]"}],SkullOwnerOrig:[I;-16470994,1846948773,-2048211887,-29043265],display:{Lore:[''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Проклятье утраты"}],"text":""}'',''{"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Когда во второстепенной руке:"}],"text":""}'',''{"extra":[{"text":"   "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"+2.5 Урон"}],"text":""}'',''{"extra":[{"text":"   "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"+6 Максимальное здоровье"}],"text":""}'',''{"extra":[{"text":"   "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"-30% Скорость"}],"text":""}'',''{"extra":[{"text":"   "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"+3.5 Броня"}],"text":""}'',''{"text":""}''],Name:''{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Голова Сема-Тарли"}],"text":""}''}}'
+  'domer':
+    amount: 1
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjJhMGQyNTlhZWYxY2YzNmNkOGM2MTFjMzgwMDUxNTViOTYxMDEyN2JkZDIyMDVhNmI1YzYwNmRlMDQ4YjBkYiJ9fX0=
+    slot: 22
+    display_name: '&b&lГолова Цири'
+    lore:
+    - '&cПроклятье утраты'
+    - ''
+    - '&7Когда во второстепенной руке:'
+    - '   &9+2 Урон'
+    - '   &c-6 Максимальное здоровье'
+    - '   &9+0.4 Скорость атаки'
+    - '   &9+25% Скорость'
+    - ''
+    - '&7======================'
+    - ''
+    - '  &fЦена: &6549 &6&6&6&eꐃ'
+    - ''
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+    enchantments:
+    - 'knockback;1'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 549
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6FakeWorld.su' 
+    left_click_commands:
+    - '[console] points take %player_name% 549'
+    - '[console] minecraft:give %player_name% minecraft:player_head{HideFlags:3,SkullOwner:{Id:[I;1661678781,-882888077,-1474303677,465042730],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjJhMGQyNTlhZWYxY2YzNmNkOGM2MTFjMzgwMDUxNTViOTYxMDEyN2JkZDIyMDVhNmI1YzYwNmRlMDQ4YjBkYiJ9fX0="}]}},AttributeModifiers:[{Amount:-6.0d,Slot:"offhand",AttributeName:"generic.max_health",Operation:0,UUID:[I;-1337219932,-199145516,-1420786270,462575676],Name:"ResourceKey[minecraft:attribute / minecraft:generic.max_health]"},{Amount:0.4d,Slot:"offhand",AttributeName:"generic.attack_speed",Operation:0,UUID:[I;1637098683,1276921411,-1783805271,179753292],Name:"ResourceKey[minecraft:attribute / minecraft:generic.attack_speed]"},{Amount:0.25d,Slot:"offhand",AttributeName:"generic.movement_speed",Operation:1,UUID:[I;926697771,-62369906,-1298338959,-1906589579],Name:"ResourceKey[minecraft:attribute / minecraft:generic.movement_speed]"},{Amount:2.0d,Slot:"offhand",AttributeName:"generic.attack_damage",Operation:0,UUID:[I;1446455066,167068249,-2057152356,-873312186],Name:"ResourceKey[minecraft:attribute / minecraft:generic.attack_damage]"}],SkullOwnerOrig:[I;-16470994,1846948773,-2048211887,-29043265],display:{Lore:[''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Проклятье утраты"}],"text":""}'',''{"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Когда во второстепенной руке:"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"   +2 Урона"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"   -6 Максимальное здоровье"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"   +0.4 Скорости атаки"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"   +25% Скорости"}],"text":""}'',''{"text":""}''],Name:''{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Голова Цири"}],"text":""}''}}'
+  'edisobvn':
+    amount: 1
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGVmMmM2ZDI4NWUwNTBmYjcyYTU2ODk5MjU4YTFkMTMzZjJhYzI3ODcwNDNlYWJiNDY5ZDU2ZTkzZTBkZDU1In19fQ==
+    slot: 23
+    display_name: '&6&l&nГэндальф'
+    lore:
+    - '&cПроклятье утраты'
+    - ''
+    - '&7Когда во второстепенной руке:'
+    - '   &9+1 Отбрасывающая атака'
+    - '   &9+8 Максимальное здоровье'
+    - '   &9+2 Броня'
+    - ''
+    - '&7======================'
+    - ''
+    - '  &fЦена: &6449 &6&6&6&eꐃ'
+    - ''
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+    enchantments:
+    - 'knockback;1'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 449
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6FakeWorld.su' 
+    left_click_commands:
+    - '[console] points take %player_name% 449'
+    - '[console] minecraft:give %player_name% minecraft:player_head{HideFlags:3,SkullOwner:{Id:[I;650690802,1148861578,-1429155865,1209162582],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGVmMmM2ZDI4NWUwNTBmYjcyYTU2ODk5MjU4YTFkMTMzZjJhYzI3ODcwNDNlYWJiNDY5ZDU2ZTkzZTBkZDU1In19fQ=="}]}},AttributeModifiers:[{Amount:1.0d,Slot:"offhand",AttributeName:"generic.attack_knockback",Operation:0,UUID:[I;454095969,310988214,-1587073333,-1254612447],Name:"ResourceKey[minecraft:attribute / minecraft:generic.attack_knockback]"},{Amount:8.0d,Slot:"offhand",AttributeName:"generic.max_health",Operation:0,UUID:[I;2062758515,1455440595,-1759924045,2088575227],Name:"ResourceKey[minecraft:attribute / minecraft:generic.max_health]"},{Amount:2.0d,Slot:"offhand",AttributeName:"generic.armor",Operation:0,UUID:[I;376786432,-717206567,-1420704027,213007938],Name:"ResourceKey[minecraft:attribute / minecraft:generic.armor]"}],SkullOwnerOrig:[I;-16470994,1846948773,-2048211887,-29043265],display:{Lore:[''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Проклятье утраты"}],"text":""}'',''{"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Когда во второстепенной руке:"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"   +1 Отбрасывающая атака"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"   +8 Максимальное здороье"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"   +2 Броня"}],"text":""}'',''{"text":""}''],Name:''{"extra":[{"bold":true,"italic":false,"underlined":true,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Гэндальф"}],"text":""}''}}'
+  'betmen':
+    amount: 1
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWZhODYzMzAxNTQ5ODFjNmEyZGZhMDJjZTBjNThkY2M2MGY4YTk5NDFkZmMwMDhmYTYxMGExY2E1ZjU5MGE1ZSJ9fX0=
+    slot: 31
+    display_name: '&5&lГолова Гарри-Поттера'
+    lore:
+    - '&cПроклятье утраты'
+    - ''
+    - '&7Когда во второстепенной руке:'
+    - '   &9+2.5 Урон'
+    - '   &9+2.5 Везение'
+    - '   &9+20% Скорость'
+    - ''
+    - '&7======================'
+    - ''
+    - '  &fЦена: &6449 &6&6&6&eꐃ'
+    - ''
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+    enchantments:
+    - 'knockback;1'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 449
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6FakeWorld.su' 
+    left_click_commands:
+    - '[console] points take %player_name% 449'
+    - '[console] minecraft:give %player_name% minecraft:player_head{HideFlags:3,SkullOwner:{Id:[I;-2140388643,-2002438354,-1108508080,-1607985163],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWZhODYzMzAxNTQ5ODFjNmEyZGZhMDJjZTBjNThkY2M2MGY4YTk5NDFkZmMwMDhmYTYxMGExY2E1ZjU5MGE1ZSJ9fX0="}]}},AttributeModifiers:[{Amount:2.5d,Slot:"offhand",AttributeName:"generic.attack_damage",Operation:0,UUID:[I;887839225,1882802553,-1636542204,2016180722],Name:"ResourceKey[minecraft:attribute / minecraft:generic.attack_damage]"},{Amount:2.5d,Slot:"offhand",AttributeName:"generic.luck",Operation:0,UUID:[I;-346603104,1657618931,-1128488140,1641801623],Name:"ResourceKey[minecraft:attribute / minecraft:generic.luck]"},{Amount:0.2d,Slot:"offhand",AttributeName:"generic.movement_speed",Operation:1,UUID:[I;1097420372,1598047091,-1418363636,-822631153],Name:"ResourceKey[minecraft:attribute / minecraft:generic.movement_speed]"}],SkullOwnerOrig:[I;-16470994,1846948773,-2048211887,-29043265],display:{Lore:[''{"text":"§cПроклятье утраты"}'',''{"text":""}'',''{"text":"§7Когда во второстепенной руке:"}'',''{"text":"§9   +2.5 Урон"}'',''{"text":"§9   +2.5 Везение"}'',''{"text":"§9   +20% Скорость"}'',''{"text":""}''],Name:''{"text":"§5§lГолова Гарри-Поттера"}''}}'

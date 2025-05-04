@@ -1,0 +1,82 @@
+signs:
+    top:
+        default:
+        - '&7&m       &r #{POSITION} &7&m       '
+        - '&6{NAME}'
+        - '&e{VALUE} {VALUENAME}'
+        - '&7&m                   '
+no-player-skin:
+    default: debug
+formatted:
+    k: k
+    m: m
+    t: t
+    b: b
+    q: q
+    qi: qi
+    sx: sx
+    sp: sp
+    o: o
+    n: n
+    d: d
+    ud: ud
+time:
+    w: 'н. '
+    d: 'д, '
+    h: 'ч, '
+    m: 'м '
+    s: 'с '
+commands:
+    reload:
+        success: '&a'
+        fail: '&c'
+    export:
+        fileexists: '&c'
+        starting: '&7'
+        fail: '&c'
+        progress: '&e'
+        success: '&a'
+    viewer:
+        success: |4
+
+            &aThe cache has been uploaded and is viewable at&f <hover:show_text:'<yellow>Click to go to&f {URL}'><click:open_url:'{URL}'><white><underlined>{URL}</click></hover>
+        uploading: '&7'
+    import:
+        nofile: '&c'
+        starting: '&7'
+        fail: '&c'
+        insertprogress: '&e'
+        success: '&a'
+no-data:
+    lb:
+        name: Loading...
+        value: '0'
+    extra: Loading...
+    rel:
+        position: '{POSITION}'
+        name: Loading...
+        value: '0'
+loading:
+    text: Loading
+    short: -?-
+    position: ..
+    size: '...'
+noperm: You don't have permission to do this!
+updater:
+    slow-feedback: '&7Checking for update and downloading...'
+    disabled: '&cThe updater is disabled! &7Please enable it in the config to download
+        updates.'
+    success: '&aUpdate downloaded! &7Restart the server to apply the update.'
+    warnings:
+        could-not-delete-old-jar: '&aUpdate downloaded&e but the old jar could not
+            be deleted. &7Please delete the old jar before restarting the server.'
+    errors:
+        no-update-available: '&aYou are already up to date!'
+        while-checking: '&eAn error occurred while checking for an update. &7See the
+            console for more info.'
+        already-downloaded: '&aYou have already downloaded an update! &7Restart the
+            server to apply it.'
+        while-downloading: '&eAn error occurred while downloading an update. &7See
+            the console for more info.'
+        unknown: '&eAn unknown error occurred: {ERROR}'
+        uncaught: '&cAn error occurred while executing this command. &7See the console.'

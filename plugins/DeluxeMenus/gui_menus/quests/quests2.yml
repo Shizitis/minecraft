@@ -1,0 +1,3011 @@
+menu_title: '&r&#ffffffꈁꀀꈂꍁꈂꀁ&r&0ꈃꄒ&r'
+open_command:
+- quests2
+- quest2
+size: 54
+items:
+  'quest_reward_1_no':
+    material: pink_shulker_box
+    slot: 17
+    priority: 9999
+    display_name: '&b&lНаграда:'
+    lore:
+    - '&aНажмите, чтобы забрать свой приз'
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'quest2.reward.1'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[message] &6&l┌'
+      - '[message] &6&l| &6НАГРАДА ПОЛУЧЕНА!'
+      - '[message] &6&l| &fВсе квесты выполнены'
+      - '[message] &6&l| &fПодробнее - &6в чате'
+      - '[message] &6&l└'
+      - '[refresh]'
+      - '[console] kit give djamshut1 %player_name%'
+      - '[console] mc give %player_name% 150'
+      - '[console] lp user %player_name% permission set quest2.reward.1 false'
+      - '[refresh]'
+  'quest_reward_1_yes':
+    material: pink_shulker_box
+    slot: 17
+    priority: 100000
+    display_name: '&b&lНаграда:'
+    lore:
+    - '&cПройдите этап, чтобы забрать приз'
+    
+    #
+    #
+    #
+    #
+    # ПРИЗ 2
+    #
+    #
+    #
+    #
+    
+  'quest_reward_2_no':
+    material: lime_shulker_box
+    slot: 26
+    priority: 9999
+    display_name: '&b&lНаграда:'
+    lore:
+    - '&aНажмите, чтобы забрать свой приз'
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'quest2.reward.2'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[message] &6&l┌'
+      - '[message] &6&l| &6НАГРАДА ПОЛУЧЕНА!'
+      - '[message] &6&l| &fВсе квесты выполнены'
+      - '[message] &6&l| &fПодробнее - &6в чате'
+      - '[message] &6&l└'
+      - '[console] kit give djamshut2 %player_name%'
+      - '[console] mc give %player_name% 250'
+      - '[console] lp user %player_name% permission set quest2.reward.2 false'
+      - '[refresh]'
+  'quest_reward_2_yes':
+    material: lime_shulker_box
+    slot: 26
+    priority: 100000
+    display_name: '&b&lНаграда:'
+    lore:
+    - '&cПройдите этап, чтобы забрать приз'
+    
+    #
+    #
+    #
+    #
+    # ПРИЗ 3
+    #
+    #
+    #
+    #
+    
+  'quest_reward_3_no':
+    material: yellow_shulker_box
+    slot: 35
+    priority: 9999
+    display_name: '&b&lНаграда:'
+    lore:
+    - '&aНажмите, чтобы забрать свой приз'
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'quest2.reward.3'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[message] &6&l┌'
+      - '[message] &6&l| &6НАГРАДА ПОЛУЧЕНА!'
+      - '[message] &6&l| &fВсе квесты выполнены'
+      - '[message] &6&l| &fПодробнее - &6в чате'
+      - '[message] &6&l└'
+      - '[refresh]'
+      - '[console] kit give djamshut3 %player_name%'
+      - '[console] mc give %player_name% 400'
+      - '[console] lp user %player_name% permission set quest2.reward.3 false'
+      - '[refresh]'
+  'quest_reward_3_yes':
+    material: yellow_shulker_box
+    slot: 35
+    priority: 100000
+    display_name: '&b&lНаграда:'
+    lore:
+    - '&cПройдите этап, чтобы забрать приз'
+    
+    #
+    #
+    #
+    #
+    # ПРИЗ 4
+    #
+    #
+    #
+    #
+  'quest_reward_4_no':
+    material: light_blue_shulker_box
+    slot: 44
+    priority: 9999
+    display_name: '&b&lНаграда:'
+    lore:
+    - '&aНажмите, чтобы забрать свой приз'
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'quest2.reward.4'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[message] &6&l┌'
+      - '[message] &6&l| &6НАГРАДА ПОЛУЧЕНА!'
+      - '[message] &6&l| &fВсе квесты выполнены'
+      - '[message] &6&l| &fПодробнее - &6в чате'
+      - '[message] &6&l└'
+      - '[refresh]'
+      - '[console] p give %player_name% 1500'
+      - '[console] kit give djamshut4 %player_name%'
+      - '[console] mc give %player_name% 500'
+      - '[console] lp user %player_name% permission set quest2.reward.4 false'
+      - '[refresh]'
+  'quest_reward_4_yes':
+    material: light_blue_shulker_box
+    slot: 44
+    priority: 100000
+    display_name: '&b&lНаграда:'
+    lore:
+    - '&cПройдите этап, чтобы забрать приз'
+    
+  'quest_reward_5_no':
+    material: magenta_shulker_box
+    slot: 53
+    priority: 9999
+    display_name: '&b&lНаграда:'
+    lore:
+    - '&aНажмите, чтобы забрать свой приз'
+    view_requirement:
+      requirements:
+        complete:
+         type: has permission
+         permission: 'quest2.reward.5'
+    left_click_commands:
+      - '[sound] ENTITY_PLAYER_LEVELUP'
+      - '[message] &6&l┌'
+      - '[message] &6&l| &6НАГРАДА ПОЛУЧЕНА!'
+      - '[message] &6&l| &fВсе квесты выполнены'
+      - '[message] &6&l| &fПодробнее - &6в чате'
+      - '[message] &6&l└'
+      - '[refresh]'
+      - '[console] p give %player_name% 2000'
+      - '[console] mc give %player_name% 750'
+      - '[console] kit give djamshut5 %player_name%'
+      - '[console] cases give %player_name% djamshut 10'
+      - '[console] lp user %player_name% permission set quest2.reward.5 false'
+      - '[console] lp user %player_name% permission set quest2.end true'
+      - '[refresh]'
+  'quest_reward_5_yes':
+    material: magenta_shulker_box
+    slot: 53
+    priority: 100000
+    display_name: '&b&lНаграда:'
+    lore:
+    - '&cПройдите этап, чтобы забрать приз'
+    
+    #
+    #
+    #
+    #
+    # ПРИЗ 4
+    #
+    #
+    #
+    #
+    
+  'quest_1_unlocked':
+    slot: 9
+    priority: 0
+    material: COAL
+    display_name: '&6Уголь'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&6320 угля'
+      - ''
+      - '&7Прогресс: &60&7/&6320'
+      - '&7Статус: &cНе выполнено'
+      - ''
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.1
+    left_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: coal
+          amount: 320
+    left_click_commands:
+      - '[console] lp user %player_name% permission set quest2.1'
+      - '[console] minecraft:clear %player_name% coal 320'
+      - '[message] &6&l┌'
+      - '[message] &6&l| &6ЗАДАНИЕ ВЫПОЛНЕНО!'
+      - '[message] &6&l| &fСледующее задание разблокировано'
+      - '[message] &6&l| &fПодробнее - &6/quest'
+      - '[message] &6&l└'
+      - '[sound] BLOCK_LEVER_CLICK'
+      - '[refresh]'
+  #
+  #   Квест #1 выполнен. Выполняйте следующий
+  #
+  'quest_1_done':
+    slot: 9
+    priority: 1
+    material: COAL
+    display_name: '&6Уголь'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&6320 угля'
+      - ''
+      - '&7Прогресс: &6320&7/&6320'
+      - '&7Статус: &aВыполнено'
+      - ''
+    view_requirement:
+      requirements:
+        perm_check:
+          type: 'has permission'
+          permission: quest2.1
+  #
+  #   Квест #2 заблокирован. Выполните Квест #1
+  #
+  'quest_2_locked':
+    slot: 10
+    priority: 0
+    material: barrier
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+      - '&cДля начала выполните'
+      - '&cпредыдущие задания'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.1
+  #
+  #   Квест #2 разблокирован. Выполните его
+  #
+  'quest_2_unlocked':
+    slot: 10
+    priority: 1
+    material: SADDLE
+    display_name: '&6Седло'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&616 сёдел'
+      - ''
+      - '&7Прогресс: &60&7/&6160'
+      - '&7Статус: &cНе выполнено'
+      - ''
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.2
+    left_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: SADDLE
+          amount: 16
+    left_click_commands:
+      - '[console] lp user %player_name% permission set quest2.2'
+      - '[console] minecraft:clear %player_name% SADDLE 16'
+      - '[message] &6&l┌'
+      - '[message]  &6&l| &6ЗАДАНИЕ ВЫПОЛНЕНО!'
+      - '[message]  &6&l| &fСледующее задание разблокировано'
+      - '[message]  &6&l| &fПодробнее - &6/quest'
+      - '[message] &6&l└'
+      - '[sound] BLOCK_LEVER_CLICK'
+      - '[refresh]'
+  #
+  #   Квест #2 выполнен. Выполняйте следующий. И так далее...
+  #
+  'quest_2_done':
+    slot: 10
+    priority: 2
+    material: SADDLE
+    display_name: '&6Седло'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&616 сёдел'
+      - ''
+      - '&7Прогресс: &616&7/&616'
+      - '&7Статус: &aВыполнено'
+      - ''
+    view_requirement:
+      requirements:
+        perm_check:
+          type: 'has permission'
+          permission: quest2.2
+  'quest_3_locked':
+    slot: 11
+    priority: 0
+    material: barrier
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+      - '&cДля начала выполните'
+      - '&cпредыдущие задания'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.2
+  'quest_3_unlocked':
+    slot: 11
+    priority: 1
+    hide_attributes: true
+    material: leather_chestplate
+    display_name: '&6Прощай, школьная форма!'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&620 кожанных нагрудников'
+      - ''
+      - '&7Прогресс: &60&7/&620'
+      - '&7Статус: &cНе выполнено'
+      - ''
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.3
+    left_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: leather_chestplate
+          amount: 20
+    left_click_commands:
+      - '[console] lp user %player_name% permission set quest2.3'
+      - '[console] minecraft:clear %player_name% leather_chestplate 20'
+      - '[message] &6&l┌'
+      - '[message]  &6&l| &6ЗАДАНИЕ ВЫПОЛНЕНО!'
+      - '[message]  &6&l| &fСледующее задание разблокировано'
+      - '[message]  &6&l| &fПодробнее - &6/quest'
+      - '[message] &6&l└'
+      - '[sound] BLOCK_LEVER_CLICK'
+      - '[refresh]'
+  'quest_3_done':
+    slot: 11
+    priority: 2
+    hide_attributes: true
+    material: leather_chestplate
+    display_name: '&6Прощай, школьная форма!'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&620 кожанных нагрудников'
+      - ''
+      - '&7Прогресс: &620&7/&620'
+      - '&7Статус: &aВыполнено'
+      - ''
+    view_requirement:
+      requirements:
+        perm_check:
+          type: 'has permission'
+          permission: quest2.3
+  'quest_4_locked':
+    slot: 12
+    priority: 0
+    material: barrier
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+      - '&cДля начала выполните'
+      - '&cпредыдущие задания'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.3
+  'quest_4_unlocked':
+    slot: 12
+    priority: 1
+    hide_attributes: true
+    material: diamond_chestplate
+    display_name: '&6Прощай, мороз'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&630 алмазных нагрудников'
+      - ''
+      - '&7Прогресс: &60&7/&630'
+      - '&7Статус: &cНе выполнено'
+      - ''
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.4
+    left_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: diamond_chestplate
+          amount: 30
+    left_click_commands:
+      - '[console] lp user %player_name% permission set quest2.4'
+      - '[console] minecraft:clear %player_name% diamond_chestplate 30'
+      - '[message]  &6&l┎'
+      - '[message]  &6&l| &6ЗАДАНИЕ ВЫПОЛНЕНО!'
+      - '[message]  &6&l| &fСледующее задание разблокировано'
+      - '[message]  &6&l| &fПодробнее - &6/quest'
+      - '[message]  &6&l┕'
+      - '[sound] BLOCK_LEVER_CLICK'
+      - '[refresh]'
+  'quest_4_done':
+    slot: 12
+    priority: 2
+    hide_attributes: true
+    material: diamond_chestplate
+    display_name: '&6Прощай, мороз'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&630 алмазных нагрудников'
+      - ''
+      - '&7Прогресс: &630&7/&630'
+      - '&7Статус: &aВыполнено'
+      - ''
+    view_requirement:
+      requirements:
+        perm_check:
+          type: 'has permission'
+          permission: quest2.4
+  'quest_5_locked':
+    slot: 13
+    priority: 0
+    material: barrier
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+      - '&cДля начала выполните'
+      - '&cпредыдущие задания'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.4
+  'quest_5_unlocked':
+    slot: 13
+    priority: 1
+    material: BOOK
+    display_name: '&6Сдать учебники'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&6400 книг'
+      - ''
+      - '&7Прогресс: &60&7/&6400'
+      - '&7Статус: &cНе выполнено'
+      - ''
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.5
+    left_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: book
+          amount: 400
+    left_click_commands:
+      - '[console] lp user %player_name% permission set quest2.5'
+      - '[console] minecraft:clear %player_name% book 400'
+      - '[message] &6&l┌'
+      - '[message] &6&l| &6ЗАДАНИЕ ВЫПОЛНЕНО!'
+      - '[message] &6&l| &fСледующее задание разблокировано'
+      - '[message] &6&l| &fПодробнее - &6/quest'
+      - '[message] &6&l└'
+      - '[sound] BLOCK_LEVER_CLICK'
+      - '[refresh]'
+  'quest_5_done':
+    slot: 13
+    priority: 2
+    material: book
+    display_name: '&6Сдать учебники'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&6400 книг'
+      - ''
+      - '&7Прогресс: &6400&7/&6400'
+      - '&7Статус: &aВыполнено'
+      - ''
+    view_requirement:
+      requirements:
+        perm_check:
+          type: 'has permission'
+          permission: quest2.5
+          
+    
+  'quest_10_locked':
+    slot: 14
+    priority: 0
+    material: barrier
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+      - '&cДля начала выполните'
+      - '&cпредыдущие задания'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.5
+  'quest_10_unlocked':
+    slot: 14
+    priority: 1
+    material: JUKEBOX
+    display_name: '&6Вечеринка'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&640 проигрывателей'
+      - ''
+      - '&7Прогресс: &60&7/&640'
+      - '&7Статус: &cНе выполнено'
+      - ''
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.6
+    left_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: jukebox
+          amount: 40
+    left_click_commands:
+      - '[console] lp user %player_name% permission set quest2.6'
+      - '[console] minecraft:clear %player_name% jukebox 40'
+      - '[message] &6&l┌'
+      - '[message] &6&l| &6ЗАДАНИЕ ВЫПОЛНЕНО!'
+      - '[message] &6&l| &fСледующее задание разблокировано'
+      - '[message] &6&l| &fПодробнее - &6/quest'
+      - '[message] &6&l└'
+      - '[sound] BLOCK_LEVER_CLICK'
+      - '[refresh]'
+  #
+  #   Квест #1 выполнен. Выполняйте следующий
+  #
+  'quest_10_done':
+    slot: 14
+    priority: 2
+    material: JUKEBOX
+    display_name: '&6Вечеринка'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&640 проигрывателей'
+      - ''
+      - '&7Прогресс: &640&7/&640'
+      - '&7Статус: &aВыполнено'
+      - ''
+    view_requirement:
+      requirements:
+        perm_check:
+          type: 'has permission'
+          permission: quest2.6
+  #
+  #   Квест #2 заблокирован. Выполните Квест #1
+  #
+  'quest_20_locked':
+    slot: 15
+    priority: 0
+    material: barrier
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+      - '&cДля начала выполните'
+      - '&cпредыдущие задания'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.6
+  #
+  #   Квест #2 разблокирован. Выполните его
+  #
+  'quest_20_unlocked':
+    slot: 15
+    priority: 1
+    material: BELL
+    display_name: '&6Последний звонок'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&664 колокольчиков'
+      - ''
+      - '&7Прогресс: &60&7/&664'
+      - '&7Статус: &cНе выполнено'
+      - ''
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.7
+    left_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: BELL
+          amount: 64
+    left_click_commands:
+      - '[console] lp user %player_name% permission set quest2.7'
+      - '[console] minecraft:clear %player_name% bell 64'
+      - '[message] &6&l┌'
+      - '[message] &6&l| &6ЗАДАНИЕ ВЫПОЛНЕНО!'
+      - '[message] &6&l| &fСледующее задание разблокировано'
+      - '[message] &6&l| &fПодробнее - &6/quest'
+      - '[message] &6&l└'
+      - '[sound] BLOCK_LEVER_CLICK'
+      - '[refresh]'
+  #
+  #   Квест #2 выполнен. Выполняйте следующий. И так далее...
+  #
+  'quest_20_done':
+    slot: 15
+    priority: 2
+    material: bell
+    display_name: '&6Последний звонок'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&664 колокольчиков'
+      - ''
+      - '&7Прогресс: &664&7/&664'
+      - '&7Статус: &aВыполнено'
+      - ''
+    view_requirement:
+      requirements:
+        perm_check:
+          type: 'has permission'
+          permission: quest2.7
+          
+  'quest_2s0_locked':
+    slot: 16
+    priority: 0
+    material: barrier
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+      - '&cДля начала выполните'
+      - '&cпредыдущие задания'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.7
+  #
+  #   Квест #2 разблокирован. Выполните его
+  #
+  'quest_2s0_unlocked':
+    slot: 16
+    priority: 1
+    material: netherite_block
+    display_name: '&6Майские праздники'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&61 незеритовый блок'
+      - ''
+      - '&7Прогресс: &60&7/&61'
+      - '&7Статус: &cНе выполнено'
+      - ''
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.8
+    left_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: NETHER_BLOCK
+          amount: 1
+    left_click_commands:
+      - '[console] lp user %player_name% permission set quest2.8'
+      - '[console] lp user %player_name% permission set quest2.reward.1'
+      - '[console] minecraft:clear %player_name% netherite_block 1'
+      - '[message] &6&l┌'
+      - '[message] &6&l| &6ЗАДАНИЕ ВЫПОЛНЕНО!'
+      - '[message] &6&l| &fСледующее задание разблокировано'
+      - '[message] &6&l| &fПодробнее - &6/quest'
+      - '[message] &6&l└'
+      - '[sound] BLOCK_LEVER_CLICK'
+      - '[refresh]'
+  #
+  #   Квест #2 выполнен. Выполняйте следующий. И так далее...
+  #
+  'quest_2s0_done':
+    slot: 16
+    priority: 2
+    material: netherite_block
+    display_name: '&6Майские праздники'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&61 незеритовый блок'
+      - ''
+      - '&7Прогресс: &61&7/&61'
+      - '&7Статус: &aВыполнено'
+      - ''
+    view_requirement:
+      requirements:
+        perm_check:
+          type: 'has permission'
+          permission: quest2.8
+          
+  'quest_30_locked':
+    slot: 18
+    priority: 0
+    material: barrier
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+      - '&cДля начала выполните'
+      - '&cпредыдущие задания'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.8
+          
+  'quest_30_unlocked':
+    slot: 18
+    priority: 1
+    material: redstone
+    display_name: '&6Редстоун Механик'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&6333 редстоуна'
+      - ''
+      - '&7Прогресс: &60&7/&6333'
+      - '&7Статус: &cНе выполнено'
+      - ''
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.9
+    left_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: redstone
+          amount: 333
+    left_click_commands:
+      - '[console] lp user %player_name% permission set quest2.9'
+      - '[console] lp user %player_name% permission set quest2.8'
+      - '[console] minecraft:clear %player_name% redstone 333'
+      - '[message] &6&l┌'
+      - '[message] &6&l| &6ЗАДАНИЕ ВЫПОЛНЕНО!'
+      - '[message] &6&l| &fСледующее задание разблокировано'
+      - '[message] &6&l| &fПодробнее - &6/quest'
+      - '[message] &6&l└'
+      - '[sound] BLOCK_LEVER_CLICK'
+      - '[refresh]'
+  'quest_30_done':
+    slot: 18
+    priority: 2
+    material: redstone
+    display_name: '&6Редстоун Механик'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&6333 редстоуна'
+      - ''
+      - '&7Прогресс: &6333&7/&6333'
+      - '&7Статус: &aВыполнено'
+      - ''
+    view_requirement:
+      requirements:
+        perm_check:
+          type: 'has permission'
+          permission: quest2.9
+          
+  'quest_4ss0_locked':
+    slot: 19
+    priority: 0
+    material: barrier
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+      - '&cДля начала выполните'
+      - '&cпредыдущие задания'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.9
+  'quest_40_unlocked':
+    slot: 19
+    priority: 1
+    material: redstone_lamp
+    display_name: '&6И как в этом разобраться?'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&616 маринованных редстоун ламп'
+      - ''
+      - '&7Прогресс: &60&7/&616'
+      - '&7Статус: &cНе выполнено'
+      - ''
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.10
+    left_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: redstone_lamp
+          amount: 16
+    left_click_commands:
+      - '[console] lp user %player_name% permission set quest2.10'
+      - '[console] minecraft:clear %player_name% redstone_lamp 16'
+      - '[message] &6&l┌'
+      - '[message] &6&l| &6ЗАДАНИЕ ВЫПОЛНЕНО!'
+      - '[message] &6&l| &fСледующее задание разблокировано'
+      - '[message] &6&l| &fПодробнее - &6/quest'
+      - '[message] &6&l└'
+      - '[sound] BLOCK_LEVER_CLICK'
+      - '[refresh]'
+  'quest_40_done':
+    slot: 19
+    priority: 2
+    material: redstone_lamp
+    display_name: '&6И как в этом разобраться?'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&616 маринованных редстоун ламп'
+      - ''
+      - '&7Прогресс: &616&7/&616'
+      - '&7Статус: &aВыполнено'
+      - ''
+    view_requirement:
+      requirements:
+        perm_check:
+          type: 'has permission'
+          permission: quest2.10
+  'quest_50_locked':
+    slot: 20
+    priority: 0
+    material: barrier
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+      - '&cДля начала выполните'
+      - '&cпредыдущие задания'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.10
+  'quest_50_unlocked':
+    slot: 20
+    priority: 1
+    material: ORANGE_DYE
+    display_name: '&6Сигма'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&616 сёмг'
+      - ''
+      - '&7Прогресс: &60&7/&616'
+      - '&7Статус: &cНе выполнено'
+      - ''
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.11
+    left_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: ORANGE_DYE
+          amount: 16
+    left_click_commands:
+      - '[console] lp user %player_name% permission set quest2.11'
+      - '[console] minecraft:clear %player_name% minecraft:orange_dye 16'
+      - '[message] &6&l┌'
+      - '[message] &6&l| &6ЗАДАНИЕ ВЫПОЛНЕНО!'
+      - '[message] &6&l| &fСледующее задание разблокировано'
+      - '[message] &6&l| &fПодробнее - &6/quest'
+      - '[message] &6&l└'
+      - '[sound] BLOCK_LEVER_CLICK'
+      - '[refresh]'
+  'quest_50_done':
+    slot: 20
+    priority: 2
+    material: ORANGE_DYE
+    display_name: '&6Сигма'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&616 сёмг'
+      - ''
+      - '&7Прогресс: &616&7/&616'
+      - '&7Статус: &aВыполнено'
+      - ''
+    view_requirement:
+      requirements:
+        perm_check:
+          type: 'has permission'
+          permission: quest2.11
+  'quest_100_locked':
+    slot: 21
+    priority: 0
+    material: barrier
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+      - '&cДля начала выполните'
+      - '&cпредыдущие задания'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.11
+  'quest_100_unlocked':
+    slot: 21
+    priority: 1
+    material: GRAY_DYE
+    display_name: '&6Пазл'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&664 кусочков булыжника'
+      - ''
+      - '&7Прогресс: &60&7/&664'
+      - '&7Статус: &cНе выполнено'
+      - ''
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.12
+    left_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: GRAY_DYE
+          amount: 64
+    left_click_commands:
+      - '[console] lp user %player_name% permission set quest2.12'
+      - '[console] minecraft:clear %player_name% gray_dye 64'
+      - '[message] &6&l┌'
+      - '[message] &6&l| &6ЗАДАНИЕ ВЫПОЛНЕНО!'
+      - '[message] &6&l| &fСледующее задание разблокировано'
+      - '[message] &6&l| &fПодробнее - &6/quest'
+      - '[message] &6&l└'
+      - '[sound] BLOCK_LEVER_CLICK'
+      - '[refresh]'
+  #
+  #   Квест #1 выполнен. Выполняйте следующий
+  #
+  'quest_100_done':
+    slot: 21
+    priority: 2
+    material: GRAY_DYE
+    display_name: '&6Пазл'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&664 кусочков булыжника'
+      - ''
+      - '&7Прогресс: &664&7/&664'
+      - '&7Статус: &aВыполнено'
+      - ''
+    view_requirement:
+      requirements:
+        perm_check:
+          type: 'has permission'
+          permission: quest2.12
+  'quest_480_locked':
+    slot: 22
+    priority: 0
+    material: barrier
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+      - '&cДля начала выполните'
+      - '&cпредыдущие задания'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.12
+  'quest_408_unlocked':
+    slot: 22
+    priority: 1
+    material: HONEYCOMB
+    display_name: '&6Аллергия на мёд'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&632 слаще меда не бывает'
+      - ''
+      - '&7Прогресс: &60&7/&632'
+      - '&7Статус: &cНе выполнено'
+      - ''
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.13
+    left_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: HONEYCOMB
+          amount: 32
+    left_click_commands:
+      - '[console] lp user %player_name% permission set quest2.13'
+      - '[console] minecraft:clear %player_name% minecraft:honeycomb 32'
+      - '[message] &6&l┌'
+      - '[message] &6&l| &6ЗАДАНИЕ ВЫПОЛНЕНО!'
+      - '[message] &6&l| &fСледующее задание разблокировано'
+      - '[message] &6&l| &fПодробнее - &6/quest'
+      - '[message] &6&l└'
+      - '[sound] BLOCK_LEVER_CLICK'
+      - '[refresh]'
+  'quest_408_done':
+    slot: 22
+    priority: 2
+    material: HONEYCOMB
+    display_name: '&6Аллергия на мёд'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&632 слаще меда не бывает'
+      - ''
+      - '&7Прогресс: &632&7/&632'
+      - '&7Статус: &aВыполнено'
+      - ''
+    view_requirement:
+      requirements:
+        perm_check:
+          type: 'has permission'
+          permission: quest2.13
+  #
+  #   Квест #2 заблокирован. Выполните Квест #1
+  #
+  'quest_200_locked':
+    slot: 23
+    priority: 0
+    material: barrier
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+      - '&cДля начала выполните'
+      - '&cпредыдущие задания'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.13
+  #
+  #   Квест #2 разблокирован. Выполните его
+  #
+  'quest_200_unlocked':
+    slot: 23
+    priority: 1
+    material: ELYTRA
+    display_name: '&6Свобода'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&65 элитр'
+      - ''
+      - '&7Прогресс: &60&7/&65'
+      - '&7Статус: &cНе выполнено'
+      - ''
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.14
+    left_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: elytra
+          amount: 5
+    left_click_commands:
+      - '[console] lp user %player_name% permission set quest2.14'
+      - '[console] minecraft:clear %player_name% elytra 5'
+      - '[message] &6&l┌'
+      - '[message] &6&l| &6ЗАДАНИЕ ВЫПОЛНЕНО!'
+      - '[message] &6&l| &fСледующее задание разблокировано'
+      - '[message] &6&l| &fПодробнее - &6/quest'
+      - '[message] &6&l└'
+      - '[sound] BLOCK_LEVER_CLICK'
+      - '[refresh]'
+  #
+  #   Квест #2 выполнен. Выполняйте следующий. И так далее...
+  #
+  'quest_200_done':
+    slot: 23
+    priority: 2
+    material: ELYTRA
+    display_name: '&6Свобода'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&65 элитр'
+      - ''
+      - '&7Прогресс: &65&7/&65'
+      - '&7Статус: &aВыполнено'
+      - ''
+    view_requirement:
+      requirements:
+        perm_check:
+          type: 'has permission'
+          permission: quest2.14
+  'quest_300_locked':
+    slot: 24
+    priority: 0
+    material: barrier
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+      - '&cДля начала выполните'
+      - '&cпредыдущие задания'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.14
+  'quest_300_unlocked':
+    slot: 24
+    priority: 1
+    material: potato
+    enchantments:
+    - LOOT_BONUS_MOBS;5
+    hide_enchantments: true
+    display_name: '&6Коллекционер'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&63 Горячих картошек'
+      - ''
+      - '&7Прогресс: &60&7/&63'
+      - '&7Статус: &cНе выполнено'
+      - ''
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.15
+    left_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: potato
+          amount: 3
+    left_click_commands:
+      - '[console] lp user %player_name% permission set quest2.15'
+      - '[console] minecraft:clear %player_name% potato 3'
+      - '[message] &6&l┌'
+      - '[message] &6&l| &6ЗАДАНИЕ ВЫПОЛНЕНО!'
+      - '[message] &6&l| &fСледующее задание разблокировано'
+      - '[message] &6&l| &fПодробнее - &6/quest'
+      - '[message] &6&l└'
+      - '[sound] BLOCK_LEVER_CLICK'
+      - '[refresh]'
+  'quest_300_done':
+    slot: 24
+    priority: 2
+    material: potato
+    enchantments:
+    - LOOT_BONUS_MOBS;5
+    hide_enchantments: true
+    display_name: '&6Коллекционер'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&63 Горячих картошек'
+      - ''
+      - '&7Прогресс: &63&7/&63'
+      - '&7Статус: &aВыполнено'
+      - ''
+    view_requirement:
+      requirements:
+        perm_check:
+          type: 'has permission'
+          permission: quest2.15
+          
+          
+  'quest_3ss_locked':
+    slot: 25
+    priority: 0
+    material: barrier
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+      - '&cДля начала выполните'
+      - '&cпредыдущие задания'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.15
+  'quest_3ss_unlocked':
+    slot: 25
+    priority: 1
+    material: tnt
+    enchantments:
+    - LOOT_BONUS_MOBS;5
+    hide_enchantments: true
+    display_name: '&6Просто дайте мне уже...'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&61 ядерная бомба'
+      - ''
+      - '&7Прогресс: &60&7/&61'
+      - '&7Статус: &cНе выполнено'
+      - ''
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.16
+    left_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: TNT
+          amount: 1
+    left_click_commands:
+      - '[console] lp user %player_name% permission set quest2.16'
+      - '[console] lp user %player_name% permission set quest2.reward.2'
+      - '[console] minecraft:clear %player_name% tnt 1'
+      - '[message] &6&l┌'
+      - '[message] &6&l| &6ЗАДАНИЕ ВЫПОЛНЕНО!'
+      - '[message] &6&l| &fСледующее задание разблокировано'
+      - '[message] &6&l| &fПодробнее - &6/quest'
+      - '[message] &6&l└'
+      - '[sound] BLOCK_LEVER_CLICK'
+      - '[refresh]'
+  'quest_3ss_done':
+    slot: 25
+    priority: 2
+    material: TNT
+    enchantments:
+    - LOOT_BONUS_MOBS;5
+    hide_enchantments: true
+    display_name: '&6Просто дайте мне уже...'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&61 ядерная бомба'
+      - ''
+      - '&7Прогресс: &61&7/&61'
+      - '&7Статус: &aВыполнено'
+      - ''
+    view_requirement:
+      requirements:
+        perm_check:
+          type: 'has permission'
+          permission: quest2.16
+          
+          
+          
+          
+          
+  'quest_400_locked':
+    slot: 27
+    priority: 0
+    material: barrier
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+      - '&cДля начала выполните'
+      - '&cпредыдущие задания'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.16
+  'quest_400_unlocked':
+    slot: 27
+    priority: 1
+    material: CLOCK
+    display_name: '&6Проявить терпение'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно наиграть'
+      - '&65 часов'
+      - ''
+      - '&7Прогресс: &6%statistic_hours_played%ч&7/&65ч'
+      - '&7Статус: &cНе выполнено'
+      - ''
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.17
+    left_click_requirement:
+      requirements:
+        hours_check:
+          type: javascript
+          expression: '%statistic_hours_played% >= 5' 
+    left_click_commands:
+      - '[console] lp user %player_name% permission set quest2.17'
+      - '[message] &6&l┌'
+      - '[message] &6&l| &6ЗАДАНИЕ ВЫПОЛНЕНО!'
+      - '[message] &6&l| &fСледующее задание разблокировано'
+      - '[message] &6&l| &fПодробнее - &6/quest'
+      - '[message] &6&l└'
+      - '[sound] BLOCK_LEVER_CLICK'
+      - '[refresh]'
+  'quest_400_done':
+    slot: 27
+    priority: 2
+    material: CLOCK
+    display_name: '&6Проявить терпение'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно наиграть'
+      - '&65 часов'
+      - ''
+      - '&7Прогресс: &65ч&7/&65ч'
+      - '&7Статус: &aВыполнено'
+      - ''
+    view_requirement:
+      requirements:
+        perm_check:
+          type: 'has permission'
+          permission: quest2.17
+  'quest_500_locked':
+    slot: 28
+    priority: 0
+    material: barrier
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+      - '&cДля начала выполните'
+      - '&cпредыдущие задания'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.17
+  'quest_500_unlocked':
+    slot: 28
+    priority: 1
+    material: COOKED_BEEF
+    display_name: '&6Пора копать...'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&61000 стейков'
+      - ''
+      - '&7Прогресс: &60&7/&61000'
+      - '&7Статус: &cНе выполнено'
+      - ''
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.18
+    left_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: cooked_beef
+          amount: 1000
+    left_click_commands:
+      - '[console] lp user %player_name% permission set quest2.18'
+      - '[console] minecraft:clear %player_name% cooked_beef 1000'
+      - '[message] &6&l┌'
+      - '[message] &6&l| &6ЗАДАНИЕ ВЫПОЛНЕНО!'
+      - '[message] &6&l| &fСледующее задание разблокировано'
+      - '[message] &6&l| &fПодробнее - &6/quest'
+      - '[message] &6&l└'
+      - '[sound] BLOCK_LEVER_CLICK'
+      - '[refresh]'
+  'quest_500_done':
+    slot: 28
+    priority: 2
+    material: COOKED_BEEF
+    display_name: '&6Пора копать...'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&61000 стейков'
+      - ''
+      - '&7Прогресс: &61000&7/&61000'
+      - '&7Статус: &aВыполнено'
+      - ''
+    view_requirement:
+      requirements:
+        perm_check:
+          type: 'has permission'
+          permission: quest2.18
+  'quest_600_locked':
+    slot: 29
+    priority: 0
+    material: barrier
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+      - '&cДля начала выполните'
+      - '&cпредыдущие задания'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.18
+  'quest_600_unlocked':
+    slot: 29
+    priority: 1
+    material: CARROT
+    display_name: '&6Заяц?'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&6999 морковки'
+      - ''
+      - '&7Прогресс: &60&7/&6999'
+      - '&7Статус: &cНе выполнено'
+      - ''
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.19
+    left_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: carrot
+          amount: 999
+    left_click_commands:
+      - '[console] lp user %player_name% permission set quest2.19'
+      - '[console] minecraft:clear %player_name% carrot 999'
+      - '[message] &6&l┌'
+      - '[message] &6&l| &6ЗАДАНИЕ ВЫПОЛНЕНО!'
+      - '[message] &6&l| &fСледующее задание разблокировано'
+      - '[message] &6&l| &fПодробнее - &6/quest'
+      - '[message] &6&l└'
+      - '[sound] BLOCK_LEVER_CLICK'
+      - '[refresh]'
+  'quest_600_done':
+    slot: 29
+    priority: 2
+    material: CARROT
+    display_name: '&6Заяц?'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&6999 морковки'
+      - ''
+      - '&7Прогресс: &6999&7/&6999'
+      - '&7Статус: &aВыполнено'
+      - ''
+    view_requirement:
+      requirements:
+        perm_check:
+          type: 'has permission'
+          permission: quest2.19
+  'quest_700_locked':
+    slot: 30
+    priority: 0
+    material: barrier
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+      - '&cДля начала выполните'
+      - '&cпредыдущие задания'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.19
+  'quest_700_unlocked':
+    slot: 30
+    priority: 1
+    hide_attributes: true
+    material: DIAMOND_HOE
+    display_name: '&6Мотыжкин'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&630 алмазных мотыг'
+      - ''
+      - '&7Прогресс: &60&7/&630'
+      - '&7Статус: &cНе выполнено'
+      - ''
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.20
+    left_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: diamond_hoe
+          amount: 30
+    left_click_commands:
+      - '[console] lp user %player_name% permission set quest2.20'
+      - '[console] minecraft:clear %player_name% diamond_hoe 30'
+      - '[message] &6&l┌'
+      - '[message] &6&l| &6ЗАДАНИЕ ВЫПОЛНЕНО!'
+      - '[message] &6&l| &fСледующее задание разблокировано'
+      - '[message] &6&l| &fПодробнее - &6/quest'
+      - '[message] &6&l└'
+      - '[sound] BLOCK_LEVER_CLICK'
+      - '[refresh]'
+  'quest_700_done':
+    slot: 30
+    priority: 2
+    hide_attributes: true
+    material: DIAMOND_HOE
+    display_name: '&6Мотыжкин'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&630 алмазных мотыг'
+      - ''
+      - '&7Прогресс: &630&7/&630'
+      - '&7Статус: &aВыполнено'
+      - ''
+    view_requirement:
+      requirements:
+        perm_check:
+          type: 'has permission'
+          permission: quest2.20
+          
+  'quest_800_locked':
+    slot: 31
+    priority: 0
+    material: barrier
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+      - '&cДля начала выполните'
+      - '&cпредыдущие задания'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.20
+  'quest_800_unlocked':
+    slot: 31
+    priority: 1
+    hide_attributes: true
+    material: DIAMOND_SHOVEL
+    display_name: '&6Лопата'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно скрафтить'
+      - '&625 алмазных лопат'
+      - ''
+      - '&7Прогресс: &6%statistic_craft_item:diamond_shovel%&7/&625'
+      - '&7Статус: &cНе выполнено'
+      - ''
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.21
+    left_click_requirement:
+      requirements:
+        item_check:
+          type: javascript
+          expression: '%statistic_craft_item:diamond_shovel% >= 25' 
+    left_click_commands:
+      - '[console] lp user %player_name% permission set quest2.21'
+      - '[message] &6&l┌'
+      - '[message] &6&l| &6ЗАДАНИЕ ВЫПОЛНЕНО!'
+      - '[message] &6&l| &fСледующее задание разблокировано'
+      - '[message] &6&l| &fПодробнее - &6/quest'
+      - '[message] &6&l└'
+      - '[sound] BLOCK_LEVER_CLICK'
+      - '[refresh]'
+  'quest_800_done':
+    slot: 31
+    priority: 2
+    hide_attributes: true
+    material: DIAMOND_SHOVEL
+    display_name: '&6Лопата'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно скрафтить'
+      - '&625 алмазных лопат'
+      - ''
+      - '&7Прогресс: &625&7/&625'
+      - '&7Статус: &aВыполнено'
+      - ''
+    view_requirement:
+      requirements:
+        perm_check:
+          type: 'has permission'
+          permission: quest2.21
+  'quest_900_locked':
+    slot: 32
+    priority: 0
+    material: barrier
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+      - '&cДля начала выполните'
+      - '&cпредыдущие задания'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.21
+  'quest_900_unlocked':
+    slot: 32
+    priority: 1
+    hide_attributes: true
+    material: COW_SPAWN_EGG
+    display_name: '&6На шашлык!'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно убить'
+      - '&6150 коров'
+      - ''
+      - '&7Прогресс: &6%statistic_kill_entity:cow%&7/&6150'
+      - '&7Статус: &cНе выполнено'
+      - ''
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.22
+    left_click_requirement:
+      requirements:
+        item_check:
+          type: javascript
+          expression: '%statistic_kill_entity:cow% >= 150' 
+    left_click_commands:
+      - '[console] lp user %player_name% permission set quest2.22'
+      - '[message] &6&l┌'
+      - '[message] &6&l| &6ЗАДАНИЕ ВЫПОЛНЕНО!'
+      - '[message] &6&l| &fСледующее задание разблокировано'
+      - '[message] &6&l| &fПодробнее - &6/quest'
+      - '[message] &6&l└'
+      - '[sound] BLOCK_LEVER_CLICK'
+      - '[refresh]'
+  'quest_900_done':
+    slot: 32
+    priority: 2
+    hide_attributes: true
+    material: COW_SPAWN_EGG
+    display_name: '&6На шашлык'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно убить'
+      - '&6150 коров'
+      - ''
+      - '&7Прогресс: &6150&7/&6150'
+      - '&7Статус: &aВыполнено'
+      - ''
+    view_requirement:
+      requirements:
+        perm_check:
+          type: 'has permission'
+          permission: quest2.22
+          
+  'quest_1000_locked':
+    slot: 33
+    priority: 0
+    material: barrier
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+      - '&cДля начала выполните'
+      - '&cпредыдущие задания'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.22
+  'quest_1000_unlocked':
+    slot: 33
+    priority: 1
+    hide_attributes: true
+    material: DRIED_KELP
+    display_name: '&6Веган'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&6555 сушёной ламинарии'
+      - ''
+      - '&7Прогресс: &60&7/&6555'
+      - '&7Статус: &cНе выполнено'
+      - ''
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.23
+    left_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: dried_kelp
+          amount: 555
+    left_click_commands:
+      - '[console] lp user %player_name% permission set quest2.23'
+      - '[console] minecraft:clear %player_name% dried_kelp 555'
+      - '[message] &6&l┌'
+      - '[message] &6&l| &6ЗАДАНИЕ ВЫПОЛНЕНО!'
+      - '[message] &6&l| &fСледующее задание разблокировано'
+      - '[message] &6&l| &fПодробнее - &6/quest'
+      - '[message] &6&l└'
+      - '[sound] BLOCK_LEVER_CLICK'
+      - '[refresh]'
+  'quest_1000_done':
+    slot: 33
+    priority: 2
+    hide_attributes: true
+    material: DRIED_KELP
+    display_name: '&6Веган'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&6555 сушёной ламинарии'
+      - ''
+      - '&7Прогресс: &6555&7/&6555'
+      - '&7Статус: &aВыполнено'
+      - ''
+    view_requirement:
+      requirements:
+        perm_check:
+          type: 'has permission'
+          permission: quest2.23
+          
+          
+          
+  'quest_10s00_locked':
+    slot: 34
+    priority: 0
+    material: barrier
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+      - '&cДля начала выполните'
+      - '&cпредыдущие задания'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.23
+  'quest_10s00_unlocked':
+    slot: 34
+    priority: 1
+    hide_attributes: true
+    material: END_STONE
+    display_name: '&6Сыр укрепляет кости!'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&632 сыра'
+      - ''
+      - '&7Прогресс: &60&7/&632'
+      - '&7Статус: &cНе выполнено'
+      - ''
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.24
+    left_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: end_stone
+          amount: 32
+    left_click_commands:
+      - '[console] lp user %player_name% permission set quest2.24'
+      - '[console] lp user %player_name% permission set quest2.reward.3'
+      - '[console] minecraft:clear %player_name% end_stone 32'
+      - '[message] &6&l┌'
+      - '[message] &6&l| &6ЗАДАНИЕ ВЫПОЛНЕНО!'
+      - '[message] &6&l| &fСледующее задание разблокировано'
+      - '[message] &6&l| &fПодробнее - &6/quest'
+      - '[message] &6&l└'
+      - '[sound] BLOCK_LEVER_CLICK'
+      - '[refresh]'
+  'quest_10s00_done':
+    slot: 34
+    priority: 2
+    hide_attributes: true
+    material: end_stone
+    display_name: '&6Сыр укрепляет кости!'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&632 сыра'
+      - ''
+      - '&7Прогресс: &632&7/&632'
+      - '&7Статус: &aВыполнено'
+      - ''
+    view_requirement:
+      requirements:
+        perm_check:
+          type: 'has permission'
+          permission: quest2.24
+          
+          
+          
+          
+  'quest_10000_locked':
+    slot: 36
+    priority: 0
+    material: barrier
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+      - '&cДля начала выполните'
+      - '&cпредыдущие задания'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.24
+  'quest_10000_unlocked':
+    slot: 36
+    priority: 1
+    hide_attributes: true
+    material: COBBLESTONE
+    display_name: '&6Каменщик'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&61500 булыжника'
+      - ''
+      - '&7Прогресс: &60&7/&61500'
+      - '&7Статус: &cНе выполнено'
+      - ''
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.25
+    left_click_requirement:
+      requirements:
+        check_item:
+          type: has item
+          material: cobblestone
+          amount: 1500
+    left_click_commands:
+      - '[console] lp user %player_name% permission set quest2.25'
+      - '[console] minecraft:clear %player_name% cobblestone 1500'
+      - '[message] &6&l┌'
+      - '[message] &6&l| &6ЗАДАНИЕ ВЫПОЛНЕНО!'
+      - '[message] &6&l| &fСледующее задание разблокировано'
+      - '[message] &6&l| &fПодробнее - &6/quest'
+      - '[message] &6&l└'
+      - '[sound] BLOCK_LEVER_CLICK'
+      - '[refresh]'
+  'quest_10000_done':
+    slot: 36
+    priority: 2
+    hide_attributes: true
+    material: COBBLESTONE
+    display_name: '&6Каменщик'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&61500 булыжника'
+      - ''
+      - '&7Прогресс: &61500&7/&61500'
+      - '&7Статус: &aВыполнено'
+      - ''
+    view_requirement:
+      requirements:
+        perm_check:
+          type: 'has permission'
+          permission: quest2.25
+  'quest_13000_locked':
+    slot: 37
+    priority: 0
+    material: barrier
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+      - '&cДля начала выполните'
+      - '&cпредыдущие задания'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.25
+  'quest_13000_unlocked':
+    slot: 37
+    priority: 1
+    hide_attributes: true
+    material: IRON_BLOCK
+    display_name: '&6Железный человек'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&6300 железных блоков'
+      - ''
+      - '&7Прогресс: &60&7/&6300'
+      - '&7Статус: &cНе выполнено'
+      - ''
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.26
+    left_click_requirement:
+      requirements:
+        check_item:
+          type: has item
+          material: iron_block
+          amount: 300
+    left_click_commands:
+      - '[console] lp user %player_name% permission set quest2.26'
+      - '[console] minecraft:clear %player_name% iron_block 300'
+      - '[message] &6&l┌'
+      - '[message] &6&l| &6ЗАДАНИЕ ВЫПОЛНЕНО!'
+      - '[message] &6&l| &fСледующее задание разблокировано'
+      - '[message] &6&l| &fПодробнее - &6/quest'
+      - '[message] &6&l└'
+      - '[sound] BLOCK_LEVER_CLICK'
+      - '[refresh]'
+  'quest_13000_done':
+    slot: 37
+    priority: 2
+    hide_attributes: true
+    material: IRON_BLOCK
+    display_name: '&6Железный человек'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&6300 железных блоков'
+      - ''
+      - '&7Прогресс: &6300&7/&6300'
+      - '&7Статус: &aВыполнено'
+      - ''
+    view_requirement:
+      requirements:
+        perm_check:
+          type: 'has permission'
+          permission: quest2.26
+          
+  'quest_14000_locked':
+    slot: 38
+    priority: 0
+    material: barrier
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+      - '&cДля начала выполните'
+      - '&cпредыдущие задания'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.26
+  'quest_14000_unlocked':
+    slot: 38
+    priority: 1
+    hide_attributes: true
+    material: GOLD_BLOCK
+    display_name: '&6Царь Мидас'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&6111 золотых блоков'
+      - ''
+      - '&7Прогресс: &60&7/&6111'
+      - '&7Статус: &cНе выполнено'
+      - ''
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.27
+    left_click_requirement:
+      requirements:
+        check_item:
+          type: has item
+          material: gold_block
+          amount: 111
+    left_click_commands:
+      - '[console] lp user %player_name% permission set quest2.27'
+      - '[console] minecraft:clear %player_name% gold_block 111'
+      - '[message] &6&l┌'
+      - '[message] &6&l| &6ЗАДАНИЕ ВЫПОЛНЕНО!'
+      - '[message] &6&l| &fСледующее задание разблокировано'
+      - '[message] &6&l| &fПодробнее - &6/quest'
+      - '[message] &6&l└'
+      - '[sound] BLOCK_LEVER_CLICK'
+      - '[refresh]'
+  'quest_14000_done':
+    slot: 38
+    priority: 2
+    hide_attributes: true
+    material: GOLD_BLOCK
+    display_name: '&6Царь Мидас'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&6111 золотых блоков'
+      - ''
+      - '&7Прогресс: &6111&7/&6111'
+      - '&7Статус: &aВыполнено'
+      - ''
+    view_requirement:
+      requirements:
+        perm_check:
+          type: 'has permission'
+          permission: quest2.27
+  'quest_16000_locked':
+    slot: 39
+    priority: 0
+    material: barrier
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+      - '&cДля начала выполните'
+      - '&cпредыдущие задания'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.27
+  'quest_16000_unlocked':
+    slot: 39
+    priority: 1
+    hide_attributes: true
+    material: DIAMOND_BLOCK
+    display_name: '&6Миллионер'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&6256 алмазных блоков'
+      - ''
+      - '&7Прогресс: &60&7/&6256'
+      - '&7Статус: &cНе выполнено'
+      - ''
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.28
+    left_click_requirement:
+      requirements:
+        check_item:
+          type: has item
+          material: diamond_block
+          amount: 256
+    left_click_commands:
+      - '[console] lp user %player_name% permission set quest2.28'
+      - '[console] minecraft:clear %player_name% diamond_block 256'
+      - '[message] &6&l┌'
+      - '[message] &6&l| &6ЗАДАНИЕ ВЫПОЛНЕНО!'
+      - '[message] &6&l| &fСледующее задание разблокировано'
+      - '[message] &6&l| &fПодробнее - &6/quest'
+      - '[message] &6&l└'
+      - '[sound] BLOCK_LEVER_CLICK'
+      - '[refresh]'
+  'quest_16000_done':
+    slot: 39
+    priority: 2
+    hide_attributes: true
+    material: DIAMOND_BLOCK
+    display_name: '&6Миллионер'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&6256 алмазных блоков'
+      - ''
+      - '&7Прогресс: &6256&7/&6256'
+      - '&7Статус: &aВыполнено'
+      - ''
+    view_requirement:
+      requirements:
+        perm_check:
+          type: 'has permission'
+          permission: quest2.28
+  'quest_17000_locked':
+    slot: 40
+    priority: 0
+    material: barrier
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+      - '&cДля начала выполните'
+      - '&cпредыдущие задания'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.28
+  'quest_17000_unlocked':
+    slot: 40
+    priority: 1
+    hide_attributes: true
+    material: LAPIS_BLOCK
+    display_name: '&6Это можно неплохо продать'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&6300 лазуритовых блоков'
+      - ''
+      - '&7Прогресс: &60&7/&6300'
+      - '&7Статус: &cНе выполнено'
+      - ''
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.29
+    left_click_requirement:
+      requirements:
+        check_item:
+          type: has item
+          material: lapis_block
+          amount: 300
+    left_click_commands:
+      - '[console] lp user %player_name% permission set quest2.29'
+      - '[console] minecraft:clear %player_name% lapis_block 300'
+      - '[message] &6&l┌'
+      - '[message] &6&l| &6ЗАДАНИЕ ВЫПОЛНЕНО!'
+      - '[message] &6&l| &fСледующее задание разблокировано'
+      - '[message] &6&l| &fПодробнее - &6/quest'
+      - '[message] &6&l└'
+      - '[sound] BLOCK_LEVER_CLICK'
+      - '[refresh]'
+  'quest_17000_done':
+    slot: 40
+    priority: 2
+    hide_attributes: true
+    material: LAPIS_BLOCK
+    display_name: '&6Это можно неплохо продать'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&6300 лазуритовых блоков'
+      - ''
+      - '&7Прогресс: &6300&7/&6300'
+      - '&7Статус: &aВыполнено'
+      - ''
+    view_requirement:
+      requirements:
+        perm_check:
+          type: 'has permission'
+          permission: quest2.29
+  'quest_18000_locked':
+    slot: 41
+    priority: 0
+    material: barrier
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+      - '&cДля начала выполните'
+      - '&cпредыдущие задания'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.29
+  'quest_18000_unlocked':
+    slot: 41
+    priority: 1
+    hide_attributes: true
+    material: REDSTONE_BLOCK
+    display_name: '&6Махинаторы'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&6250 редстоуновых блоков'
+      - ''
+      - '&7Прогресс: &60&7/&6250'
+      - '&7Статус: &cНе выполнено'
+      - ''
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.30
+    left_click_requirement:
+      requirements:
+        check_item:
+          type: has item
+          material: redstone_block
+          amount: 250
+    left_click_commands:
+      - '[console] lp user %player_name% permission set quest2.30'
+      - '[console] minecraft:clear %player_name% redstone_block 250'
+      - '[message] &6&l┌'
+      - '[message] &6&l| &6ЗАДАНИЕ ВЫПОЛНЕНО!'
+      - '[message] &6&l| &fСледующее задание разблокировано'
+      - '[message] &6&l| &fПодробнее - &6/quest'
+      - '[message] &6&l└'
+      - '[sound] BLOCK_LEVER_CLICK'
+      - '[refresh]'
+  'quest_18000_done':
+    slot: 41
+    priority: 2
+    hide_attributes: true
+    material: REDSTONE_BLOCK
+    display_name: '&6Махинаторы'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&6250 редстоуновых блоков'
+      - ''
+      - '&7Прогресс: &6250&7/&6250'
+      - '&7Статус: &aВыполнено'
+      - ''
+    view_requirement:
+      requirements:
+        perm_check:
+          type: 'has permission'
+          permission: quest2.30
+  'quest_19000_locked':
+    slot: 42
+    priority: 0
+    material: barrier
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+      - '&cДля начала выполните'
+      - '&cпредыдущие задания'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.30
+  'quest_19000_unlocked':
+    slot: 42
+    priority: 1
+    hide_attributes: true
+    material: EMERALD_BLOCK
+    display_name: '&6Торговец'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&6333 изумрудных блоков'
+      - ''
+      - '&7Прогресс: &60&7/&6333'
+      - '&7Статус: &cНе выполнено'
+      - ''
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.31
+    left_click_requirement:
+      requirements:
+        check_item:
+          type: has item
+          material: emerald_block
+          amount: 333
+    left_click_commands:
+      - '[console] lp user %player_name% permission set quest2.31'
+      - '[console] lp user %player_name% permission set quest2.reward.4'
+      - '[console] minecraft:clear %player_name% emerald_block 333'
+      - '[message] &6&l┌'
+      - '[message] &6&l| &6ЗАДАНИЕ ВЫПОЛНЕНО!'
+      - '[message] &6&l| &fСледующее задание разблокировано'
+      - '[message] &6&l| &fПодробнее - &6/quest'
+      - '[message] &6&l└'
+      - '[sound] BLOCK_LEVER_CLICK'
+      - '[refresh]'
+  'quest_19000_done':
+    slot: 42
+    priority: 2
+    hide_attributes: true
+    material: EMERALD_BLOCK
+    display_name: '&6Торговец'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&6333 изумрудных блоков'
+      - ''
+      - '&7Прогресс: &6333&7/&6333'
+      - '&7Статус: &aВыполнено'
+      - ''
+    view_requirement:
+      requirements:
+        perm_check:
+          type: 'has permission'
+          permission: quest2.31
+          
+          
+          
+  'quest_1s9000_locked':
+    slot: 43
+    priority: 0
+    material: barrier
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+      - '&cДля начала выполните'
+      - '&cпредыдущие задания'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.31
+  'quest_1s9000_unlocked':
+    slot: 43
+    priority: 1
+    hide_attributes: true
+    material: NETHERITE_BLOCK
+    display_name: '&6СКОЛЬКО???'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&620 незеритовых блоков'
+      - ''
+      - '&7Прогресс: &60&7/&620'
+      - '&7Статус: &cНе выполнено'
+      - ''
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.32
+    left_click_requirement:
+      requirements:
+        check_item:
+          type: has item
+          material: netherite_block
+          amount: 20
+    left_click_commands:
+      - '[console] lp user %player_name% permission set quest2.32'
+      - '[console] lp user %player_name% permission set quest2.reward.4'
+      - '[console] minecraft:clear %player_name% netherite_block 20'
+      - '[message] &6&l┌'
+      - '[message] &6&l| &6ЗАДАНИЕ ВЫПОЛНЕНО!'
+      - '[message] &6&l| &fСледующее задание разблокировано'
+      - '[message] &6&l| &fПодробнее - &6/quest'
+      - '[message] &6&l└'
+      - '[sound] BLOCK_LEVER_CLICK'
+      - '[refresh]'
+  'quest_1s9000_done':
+    slot: 43
+    priority: 2
+    hide_attributes: true
+    material: NETHERITE_BLOCK
+    display_name: '&6СКОЛЬКО???'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&620 незеритовых блоков'
+      - ''
+      - '&7Прогресс: &620&7/&620'
+      - '&7Статус: &aВыполнено'
+      - ''
+    view_requirement:
+      requirements:
+        perm_check:
+          type: 'has permission'
+          permission: quest2.32
+          
+          
+          
+  'quest_100000_locked':
+    slot: 45
+    priority: 0
+    material: barrier
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+      - '&cДля начала выполните'
+      - '&cпредыдущие задания'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.32
+  'quest_100000_unlocked':
+    slot: 45
+    priority: 1
+    hide_attributes: true
+    material: BREAD
+    display_name: '&6Добро пожаловать!'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&6777 хлеба'
+      - ''
+      - '&7Прогресс: &60&7/&6777'
+      - '&7Статус: &cНе выполнено'
+      - ''
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.33
+    left_click_requirement:
+      requirements:
+        check_item:
+          type: has item
+          material: bread
+          amount: 777
+    left_click_commands:
+      - '[console] lp user %player_name% permission set quest2.33'
+      - '[console] minecraft:clear %player_name% bread 777'
+      - '[message] &6&l┌'
+      - '[message] &6&l| &6ЗАДАНИЕ ВЫПОЛНЕНО!'
+      - '[message] &6&l| &fСледующее задание разблокировано'
+      - '[message] &6&l| &fПодробнее - &6/quest'
+      - '[message] &6&l└'
+      - '[sound] BLOCK_LEVER_CLICK'
+      - '[refresh]'
+  'quest_100000_done':
+    slot: 45
+    priority: 2
+    hide_attributes: true
+    material: BREAD
+    display_name: '&6Добро пожаловать!'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&6777 хлеба'
+      - ''
+      - '&7Прогресс: &6777&7/&6777'
+      - '&7Статус: &aВыполнено'
+      - ''
+    view_requirement:
+      requirements:
+        perm_check:
+          type: 'has permission'
+          permission: quest2.33
+          
+  'quest_200000_locked':
+    slot: 46
+    priority: 0
+    material: barrier
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+      - '&cДля начала выполните'
+      - '&cпредыдущие задания'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.33
+  'quest_200000_unlocked':
+    slot: 46
+    priority: 1
+    hide_attributes: true
+    material: ELYTRA
+    display_name: '&6Крылья ангела'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&630 элитров'
+      - ''
+      - '&7Прогресс: &60&7/&630'
+      - '&7Статус: &cНе выполнено'
+      - ''
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.34
+    left_click_requirement:
+      requirements:
+        check_item:
+          type: has item
+          material: elytra
+          amount: 30
+    left_click_commands:
+      - '[console] lp user %player_name% permission set quest2.34'
+      - '[console] minecraft:clear %player_name% elytra 30'
+      - '[message] &6&l┌'
+      - '[message] &6&l| &6ЗАДАНИЕ ВЫПОЛНЕНО!'
+      - '[message] &6&l| &fСледующее задание разблокировано'
+      - '[message] &6&l| &fПодробнее - &6/quest'
+      - '[message] &6&l└'
+      - '[sound] BLOCK_LEVER_CLICK'
+      - '[refresh]'
+  'quest_200000_done':
+    slot: 46
+    priority: 2
+    hide_attributes: true
+    material: ELYTRA
+    display_name: '&6Добро пожаловать!'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&630 элитров'
+      - ''
+      - '&7Прогресс: &630&7/&630'
+      - '&7Статус: &aВыполнено'
+      - ''
+    view_requirement:
+      requirements:
+        perm_check:
+          type: 'has permission'
+          permission: quest2.34
+          
+  'quest_300000_locked':
+    slot: 47
+    priority: 0
+    material: barrier
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+      - '&cДля начала выполните'
+      - '&cпредыдущие задания'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.34
+  'quest_300000_unlocked':
+    slot: 47
+    priority: 1
+    hide_attributes: true
+    material: TOTEM_OF_UNDYING
+    display_name: '&6Бессмертен'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&625 тотемов'
+      - ''
+      - '&7Прогресс: &60&7/&625'
+      - '&7Статус: &cНе выполнено'
+      - ''
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.35
+    left_click_requirement:
+      requirements:
+        check_item:
+          type: has item
+          material: totem_of_undying
+          amount: 25
+    left_click_commands:
+      - '[console] lp user %player_name% permission set quest2.35'
+      - '[console] minecraft:clear %player_name% totem_of_undying 25'
+      - '[message] &6&l┌'
+      - '[message] &6&l| &6ЗАДАНИЕ ВЫПОЛНЕНО!'
+      - '[message] &6&l| &fСледующее задание разблокировано'
+      - '[message] &6&l| &fПодробнее - &6/quest'
+      - '[message] &6&l└'
+      - '[sound] BLOCK_LEVER_CLICK'
+      - '[refresh]'
+  'quest_300000_done':
+    slot: 47
+    priority: 2
+    hide_attributes: true
+    material: TOTEM_OF_UNDYING
+    display_name: '&6Бессмертен'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&625 тотемов'
+      - ''
+      - '&7Прогресс: &625&7/&625'
+      - '&7Статус: &aВыполнено'
+      - ''
+    view_requirement:
+      requirements:
+        perm_check:
+          type: 'has permission'
+          permission: quest2.35
+          
+  'quest_400000_locked':
+    slot: 48
+    priority: 0
+    material: barrier
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+      - '&cДля начала выполните'
+      - '&cпредыдущие задания'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.35
+  'quest_400000_unlocked':
+    slot: 48
+    priority: 1
+    hide_attributes: true
+    material: GOLDEN_APPLE
+    display_name: '&6Райское наслаждение'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&6200 золотых яблок'
+      - ''
+      - '&7Прогресс: &60&7/&6200'
+      - '&7Статус: &cНе выполнено'
+      - ''
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.36
+    left_click_requirement:
+      requirements:
+        check_item:
+          type: has item
+          material: golden_apple
+          amount: 200
+    left_click_commands:
+      - '[console] lp user %player_name% permission set quest2.36'
+      - '[console] minecraft:clear %player_name% golden_apple 200'
+      - '[message] &6&l┌'
+      - '[message] &6&l| &6ЗАДАНИЕ ВЫПОЛНЕНО!'
+      - '[message] &6&l| &fСледующее задание разблокировано'
+      - '[message] &6&l| &fПодробнее - &6/quest'
+      - '[message] &6&l└'
+      - '[sound] BLOCK_LEVER_CLICK'
+      - '[refresh]'
+  'quest_400000_done':
+    slot: 48
+    priority: 2
+    hide_attributes: true
+    material: GOLDEN_APPLE
+    display_name: '&6Райское наслаждение'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&6200 золотых яблок'
+      - ''
+      - '&7Прогресс: &6200&7/&6200'
+      - '&7Статус: &aВыполнено'
+      - ''
+    view_requirement:
+      requirements:
+        perm_check:
+          type: 'has permission'
+          permission: quest2.36
+         
+  'quest_500000_locked':
+    slot: 49
+    priority: 0
+    material: barrier
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+      - '&cДля начала выполните'
+      - '&cпредыдущие задания'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.36
+  'quest_500000_unlocked':
+    slot: 49
+    priority: 1
+    hide_attributes: true
+    material: ENCHANTED_GOLDEN_APPLE
+    display_name: '&6Плод Бога'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&610 зачарованных золотых яблок'
+      - ''
+      - '&7Прогресс: &60&7/&610'
+      - '&7Статус: &cНе выполнено'
+      - ''
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.37
+    left_click_requirement:
+      requirements:
+        check_item:
+          type: has item
+          material: enchanted_golden_apple
+          amount: 10
+    left_click_commands:
+      - '[console] lp user %player_name% permission set quest2.37'
+      - '[console] minecraft:clear %player_name% enchanted_golden_apple 10'
+      - '[message] &6&l┌'
+      - '[message] &6&l| &6ЗАДАНИЕ ВЫПОЛНЕНО!'
+      - '[message] &6&l| &fСледующее задание разблокировано'
+      - '[message] &6&l| &fПодробнее - &6/quest'
+      - '[message] &6&l└'
+      - '[sound] BLOCK_LEVER_CLICK'
+      - '[refresh]'
+  'quest_500000_done':
+    slot: 49
+    priority: 2
+    hide_attributes: true
+    material: ENCHANTED_GOLDEN_APPLE
+    display_name: '&6Плод Бога'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&610 зачарованных золотых яблок'
+      - ''
+      - '&7Прогресс: &610&7/&610'
+      - '&7Статус: &aВыполнено'
+      - ''
+    view_requirement:
+      requirements:
+        perm_check:
+          type: 'has permission'
+          permission: quest2.37
+          
+  'quest_600000_locked':
+    slot: 50
+    priority: 0
+    material: barrier
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+      - '&cДля начала выполните'
+      - '&cпредыдущие задания'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.37
+  'quest_600000_unlocked':
+    slot: 50
+    priority: 1
+    hide_attributes: true
+    material: NETHERITE_CHESTPLATE
+    display_name: '&6Бронированный'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&630 незеритовых нагрудников'
+      - ''
+      - '&7Прогресс: &60&7/&630'
+      - '&7Статус: &cНе выполнено'
+      - ''
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.38
+    left_click_requirement:
+      requirements:
+        check_item:
+          type: has item
+          material: netherite_chestplate
+          amount: 30
+    left_click_commands:
+      - '[console] lp user %player_name% permission set quest2.38'
+      - '[console] minecraft:clear %player_name% netherite_chestplate 30'
+      - '[message] &6&l┌'
+      - '[message] &6&l| &6ЗАДАНИЕ ВЫПОЛНЕНО!'
+      - '[message] &6&l| &fСледующее задание разблокировано'
+      - '[message] &6&l| &fПодробнее - &6/quest'
+      - '[message] &6&l└'
+      - '[sound] BLOCK_LEVER_CLICK'
+      - '[refresh]'
+  'quest_600000_done':
+    slot: 50
+    priority: 2
+    hide_attributes: true
+    material: NETHERITE_CHESTPLATE
+    display_name: '&6Бронированный'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&630 незеритовых нагрудников'
+      - ''
+      - '&7Прогресс: &630&7/&630'
+      - '&7Статус: &aВыполнено'
+      - ''
+    view_requirement:
+      requirements:
+        perm_check:
+          type: 'has permission'
+          permission: quest2.38
+          
+  'quest_700000_locked':
+    slot: 51
+    priority: 0
+    material: barrier
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+      - '&cДля начала выполните'
+      - '&cпредыдущие задания'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.38
+  'quest_700000_unlocked':
+    slot: 51
+    priority: 1
+    hide_attributes: true
+    material: OAK_LEAVES
+    display_name: '&6Прощай, весна!'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно наиграть'
+      - '&630 часов'
+      - ''
+      - '&7Прогресс: &6%statistic_hours_played%ч&7/&630ч'
+      - '&7Статус: &cНе выполнено'
+      - ''
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.39
+    left_click_requirement:
+      requirements:
+        check_item:
+          type: javascript
+          expression: '%statistic_hours_played% >= 30' 
+    left_click_commands:
+      - '[console] lp user %player_name% permission set quest2.39'
+      - '[message] &6&l┌'
+      - '[message] &6&l| &6&lКВЕСТ ОКНОЧЕН'
+      - '[message] &6&l| &fСледующее задание разблокировано'
+      - '[message] &6&l| &fПодробнее - &6/quest'
+      - '[message] &6&l└'
+      - '[sound] BLOCK_LEVER_CLICK'
+      - '[refresh]'
+  'quest_700000_done':
+    slot: 51
+    priority: 2
+    hide_attributes: true
+    material: OAK_LEAVES
+    display_name: '&6Прощай, весна!'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно наиграть'
+      - '&630 часов'
+      - ''
+      - '&7Прогресс: &630ч&7/&630ч'
+      - '&7Статус: &aВыполнено'
+      - ''
+    view_requirement:
+      requirements:
+        perm_check:
+          type: 'has permission'
+          permission: quest2.39
+          
+          
+          
+  'quest_700s000_locked':
+    slot: 52
+    priority: 0
+    material: barrier
+    display_name: '&c&lНЕДОСТУПНО'
+    lore:
+      - '&cДля начала выполните'
+      - '&cпредыдущие задания'
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.39
+  'quest_700s000_unlocked':
+    slot: 52
+    priority: 1
+    hide_attributes: true
+    material: SWEET_BERRIES
+    display_name: '&6Летний вайб'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&62000 сладких ягод'
+      - ''
+      - '&7Прогресс: &60&7/&62000'
+      - '&7Статус: &cНе выполнено'
+      - ''
+    view_requirement:
+      requirements:
+        perm_check:
+          type: '!has permission'
+          permission: quest2.40
+    left_click_requirement:
+      requirements:
+        check_item:
+          type: has item
+          material: SWEET_BERRIES
+          amount: 2000
+    left_click_commands:
+      - '[console] lp user %player_name% permission set quest2.40'
+      - '[console] lp user %player_name% permission set quest2.reward.5'
+      - '[console] minecraft:clear %player_name% sweet_berries 2000'
+      - '[message] &6&l┌'
+      - '[message] &6&l| &6&lКВЕСТ ОКНОЧЕН'
+      - '[message] &6&l| &fЗаберите свой подарок'
+      - '[message] &6&l└'
+      - '[sound] BLOCK_LEVER_CLICK'
+      - '[refresh]'
+  'quest_700s000_done':
+    slot: 52
+    priority: 2
+    hide_attributes: true
+    material: SWEET_BERRIES
+    display_name: '&6Летний вайб'
+    lore:
+      - ''
+      - '&7Для выполнения данного квеста '
+      - '&7Вам нужно принести'
+      - '&6ПАСХАЛКО'
+      - ''
+      - '&7Прогресс: &61488&7/&61488'
+      - '&7Статус: &aВыполнено'
+      - ''
+    view_requirement:
+      requirements:
+        perm_check:
+          type: 'has permission'
+          permission: quest2.40

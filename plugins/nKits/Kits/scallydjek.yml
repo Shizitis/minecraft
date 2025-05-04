@@ -1,0 +1,94 @@
+Name: scallydjek
+Cooldown: 0
+Permission: nKits.kits.scallydjek
+Order: 0
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"Голова
+        Джека"}],"text":""}'
+      lore:
+      - '{"text":"§cПроклятье утраты§c"}'
+      - '{"text":"§7Когда надето на голову:"}'
+      - '{"text":"§9  +6 Максимальное здоровье"}'
+      - '{"text":"§9  +2 Твердось брони"}'
+      - '{"text":"§9  +3 Броня"}'
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 4
+      attribute-modifiers:
+        GENERIC_MAX_HEALTH:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 6.0
+          name: ResourceKey[minecraft:attribute / minecraft:generic.max_health]
+          slot: HEAD
+          uuid: a3b1e3be-c3b6-498b-99ad-73eba585a3d1
+          operation: 0
+        GENERIC_ARMOR_TOUGHNESS:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 2.0
+          name: ResourceKey[minecraft:attribute / minecraft:generic.armor_toughness]
+          slot: HEAD
+          uuid: 7edb7126-25c4-4021-b943-dcbaa277b2b4
+          operation: 0
+        GENERIC_ARMOR:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 3.0
+          name: ResourceKey[minecraft:attribute / minecraft:generic.armor]
+          slot: HEAD
+          uuid: 7f95cddf-d89d-4f8f-a7fe-6cc86977191d
+          operation: 0
+      ItemFlags:
+      - HIDE_ATTRIBUTES
+      internal: H4sIAAAAAAAA/02PT06DQBxGfxpNEN26duPaDBAwXTYS2iEFhAIys2vpNPyZqQ2F6swBvIGXcKlH8ARewLPI0t378r7N0wF0uFq2A+eP3fO25kwHfaQ96/qaHS5A69lrP3TsoAPAiQbn+YoPDL6Y9BEtKrQpfF5K7Iw7XSIe4WZ/j3e5XD9gB4vRz6fOQk7+fe1+9WRzYvkV3cXDWuRoYSWczROjFNmRqKoJBUZUeFWgMhSkRNImUKFbmjSlbaBiI3Rbk85Gb1JBVGkGrlfTWWYFTSKIGaMoLV8id2qRxhOhag0i/cm2QACXcIo3Y8fZ7dvH749lX7/LzzvtG98A/AHSxvX/CQEAAA==
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  Armor:
+  - null
+  - null
+  - null
+  - null

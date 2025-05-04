@@ -1,0 +1,181 @@
+menu_title: '&d&lShiziWorld &7| Магазин'
+size: 54
+open_command:
+  - donateshop
+items:
+
+  items2:
+    display_name: '&6&l🎒 Донат-Предметы'
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmQ0ZWFkMWVmZTBjZjc3NjAxNWJmZDJjMjM2ZGRmN2MwZDMzMDllYjU5OWIzOWQ2YWMxMGQ3ZmExMWEzZTA3NSJ9fX0=
+    slot: 2
+    lore:
+      - '&7Открой магазин предметов'
+      - '&fРедкие и зачарованные вещи'
+      - ''
+      - '&e▶ Нажми, чтобы открыть'
+    commands:
+      - '[openguimenu] donshop_items'
+
+  items3:
+    display_name: '&6&l🎒 Донат-Предметы'
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTdiMjE4OTMwMGYzMzliYTA1MGUwMWFlMmE1NDBiN2U4OWVmODk2YTU1Yzc5MTZkY2M5ZTU4NTFhZjg2NDExZSJ9fX0=
+    slot: 3
+    lore:
+      - '&7Открой магазин предметов'
+      - '&fРедкие и зачарованные вещи'
+      - ''
+      - '&e▶ Нажми, чтобы открыть'
+    commands:
+      - '[openguimenu] donshop_items'
+
+  items4:
+    display_name: '&6&l🎒 Донат-Предметы'
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2U0MGRkYWUzNTFjNjY3NGI4OGQ2YzZjOTc4ZDE4OGU0YmJlNTY5NGIyNWMxMjk4NWY0ZDA5NzZmMDY5MGU1ZSJ9fX0=
+    slot: 4
+    lore:
+      - '&7Открой магазин предметов'
+      - '&fРедкие и зачарованные вещи'
+      - ''
+      - '&e▶ Нажми, чтобы открыть'
+    commands:
+      - '[openguimenu] donshop_items'
+
+  items5:
+    display_name: '&6&l🎒 Донат-Предметы'
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWFiOGVhZDFkZmE5MjJhZDg3NWQxNzkxMjU5ZWJlZjliNTUzNTBlOTc3MTU2YTViNDZmNTA0ZjVlNDM1ZTYzMSJ9fX0=
+    slot: 5
+    lore:
+      - '&7Открой магазин предметов'
+      - '&fРедкие и зачарованные вещи'
+      - ''
+      - '&e▶ Нажми, чтобы открыть'
+    commands:
+      - '[openguimenu] donshop_items'
+
+  items6:
+    display_name: '&6&l🎒 Донат-Предметы'
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmNiYjY2MTI2YjA4YmIxOTZjNmI3YjUxYmM1YmVlZmM1ZDA4MzFlZGMyZTZmZTQ1N2FmNWQyZWUzMTUyZTRhYSJ9fX0=
+    slot: 6
+    lore:
+      - '&7Открой магазин предметов'
+      - '&fРедкие и зачарованные вещи'
+      - ''
+      - '&e▶ Нажми, чтобы открыть'
+    commands:
+      - '[openguimenu] donshop_items'
+
+
+  items51:
+    display_name: '&6&l🎒 Донат-Предметы'
+    material: arrow
+    slot: 51
+    lore:
+      - '&7Открой магазин предметов'
+      - '&fРедкие и зачарованные вещи'
+      - ''
+      - '&e▶ Нажми, чтобы открыть'
+    commands:
+      - '[openguimenu] donshop_items'
+
+  items50:
+    display_name: '&6&l🎒 Донат-Предметы'
+    material: netherite_sword
+    slot: 50
+    lore:
+      - '&7Открой магазин предметов'
+      - '&fРедкие и зачарованные вещи'
+      - ''
+      - '&e▶ Нажми, чтобы открыть'
+    commands:
+      - '[openguimenu] donshop_items'
+
+  items49:
+    display_name: '&6&l🎒 Донат-Предметы'
+    material: netherite_chestplate
+    slot: 49
+    lore:
+      - '&7Открой магазин предметов'
+      - '&fРедкие и зачарованные вещи'
+      - ''
+      - '&e▶ Нажми, чтобы открыть'
+    commands:
+      - '[openguimenu] donshop_items'
+
+  items48:
+    display_name: '&6&l🎒 Донат-Предметы'
+    material: netherite_pickaxe
+    slot: 48
+    lore:
+      - '&7Открой магазин предметов'
+      - '&fРедкие и зачарованные вещи'
+      - ''
+      - '&e▶ Нажми, чтобы открыть'
+    commands:
+      - '[openguimenu] donshop_items'
+
+  items47:
+    display_name: '&6&l🎒 Донат-Предметы'
+    material: CHEST
+    slot: 47
+    lore:
+      - '&7Открой магазин предметов'
+      - '&fРедкие и зачарованные вещи'
+      - ''
+      - '&e▶ Нажми, чтобы открыть'
+    commands:
+      - '[openguimenu] donshop_items'
+
+  glass1:
+    display_name: '&c'
+    material: purple_stained_glass_pane
+    slots:
+     - 53
+     - 45
+     - 36
+     - 27
+     - 18
+     - 9
+     - 0
+     - 1
+     - 7
+     - 8
+     - 17
+     - 26
+     - 35
+     - 44
+     - 52
+     - 46
+
+  glass2:
+    display_name: '&c'
+    material: pink_stained_glass_pane
+    slots:
+      - 10
+      - 11
+      - 12
+      - 13
+      - 14
+      - 15
+      - 16
+      - 19
+      - 20
+      - 21
+      - 22
+      - 23
+      - 24
+      - 25
+      - 28
+      - 29
+      - 30
+      - 31
+      - 32
+      - 33
+      - 34
+      - 38
+      - 39
+      - 40
+      - 41
+      - 42
+      - 42
+      - 43
+      - 37

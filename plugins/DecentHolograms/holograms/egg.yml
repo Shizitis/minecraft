@@ -1,0 +1,14 @@
+location: world_spawn:-5.500:66.500:0.500
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&aНайди и собери все подарки'
+    height: 0.3
+  - content: '&aи получи &e&l3 Пасxальныx подарка!'
+    height: 0.3
+  actions: {}

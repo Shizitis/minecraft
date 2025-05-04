@@ -1,0 +1,351 @@
+Name: dracula
+Cooldown: 432000
+Permission: greatkits.kits.dracula
+Order: 0
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: NETHERITE_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        FIRE_ASPECT: 2
+        DAMAGE_ALL: 5
+        DURABILITY: 3
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: BOW
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        ARROW_FIRE: 1
+        ARROW_INFINITE: 1
+        MENDING: 1
+        ARROW_DAMAGE: 5
+        DURABILITY: 2
+      repair-cost: 7
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: NETHERITE_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DIG_SPEED: 5
+        DAMAGE_ALL: 5
+        DURABILITY: 3
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: NETHERITE_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DIG_SPEED: 5
+        DURABILITY: 3
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: TOTEM_OF_UNDYING
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: ENDER_PEARL
+    amount: 16
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: GOLDEN_APPLE
+    amount: 28
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: ENCHANTED_GOLDEN_APPLE
+    amount: 3
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Быстрее
+        ветра"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Левитация
+        II (0:12)"}],"text":""}'
+      ItemFlags:
+      - HIDE_POTION_EFFECTS
+      potion-type: minecraft:water
+      custom-effects:
+      - ==: PotionEffect
+        effect: 25
+        duration: 240
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: TOTEM_OF_UNDYING
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: NETHERITE_SHOVEL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DIG_SPEED: 4
+        DURABILITY: 3
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: GOLDEN_CARROT
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: SHIELD
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      display-name: '{"extra":[{"text":"Цыганский щит"}],"text":""}'
+      enchants:
+        THORNS: 10
+      blockMaterial: SHIELD
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: CHORUS_FRUIT
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: TOTEM_OF_UNDYING
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: ENDER_PEARL
+    amount: 16
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: END_CRYSTAL
+    amount: 20
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: ARROW
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: SPLASH_POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Снежок"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Замедление
+        (0:15)"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Утомление
+        (0:07)"},{"italic":false,"color":"red","text":""}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Иссушение
+        (0:09)"}],"text":""}'
+      - '{"extra":[{"italic":false,"color":"blue","text":"Свечение (0:30)"}],"text":""}'
+      ItemFlags:
+      - HIDE_POTION_EFFECTS
+      potion-type: minecraft:water
+      custom-color:
+        ==: Color
+        RED: 126
+        BLUE: 231
+        GREEN: 228
+      custom-effects:
+      - ==: PotionEffect
+        effect: 2
+        duration: 300
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 4
+        duration: 150
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 20
+        duration: 180
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+      - ==: PotionEffect
+        effect: 24
+        duration: 600
+        amplifier: 0
+        ambient: false
+        has-particles: true
+        has-icon: true
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: TOTEM_OF_UNDYING
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: ENDER_PEARL
+    amount: 16
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: OBSIDIAN
+    amount: 32
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: TIPPED_ARROW
+    amount: 16
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      potion-type: minecraft:strong_healing
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: '{"italic":false,"extra":[{"text":""},{"color":"gold","text":"Быстрее
+        ветра"}],"text":""}'
+      lore:
+      - '{"italic":false,"color":"white","extra":[{"text":""},{"color":"red","text":"Левитация
+        II (0:12)"}],"text":""}'
+      ItemFlags:
+      - HIDE_POTION_EFFECTS
+      potion-type: minecraft:water
+      custom-effects:
+      - ==: PotionEffect
+        effect: 25
+        duration: 240
+        amplifier: 1
+        ambient: false
+        has-particles: true
+        has-icon: true
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Голова
+        Дракулы"}],"text":""}'
+      lore:
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Вампиризм"}],"text":""}'
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Когда
+        во второстепенной руке"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"+8
+        Максимальное здоровье"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"+4
+        Броня"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"+1.5
+        Урон"}],"text":""}'
+      enchants:
+        VANISHING_CURSE: 1
+      attribute-modifiers:
+        GENERIC_MAX_HEALTH:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 8.0
+          name: minecraft:generic.max_health
+          slot: OFF_HAND
+          uuid: 9533b819-2478-44bc-a831-e5c4e46d63fe
+          operation: 0
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 8.0
+          name: ResourceKey[minecraft:attribute / minecraft:generic.max_health]
+          slot: HEAD
+          uuid: eb9c6b1a-eaf9-47c9-9d00-fc31bb9fc0c2
+          operation: 0
+        GENERIC_ATTACK_DAMAGE:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 1.5
+          name: minecraft:generic.attack_damage
+          slot: OFF_HAND
+          uuid: adc97ba2-e264-4bb9-ac29-f9c3897ae5b7
+          operation: 0
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 1.5
+          name: ResourceKey[minecraft:attribute / minecraft:generic.attack_damage]
+          slot: HEAD
+          uuid: b88f16bc-8265-4ae7-a567-459a6cd233de
+          operation: 0
+        GENERIC_ARMOR:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 4.0
+          name: minecraft:generic.armor
+          slot: OFF_HAND
+          uuid: 780c2823-9bd1-4ac8-ba7b-a11c3d8944d8
+          operation: 0
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 4.0
+          name: ResourceKey[minecraft:attribute / minecraft:generic.armor]
+          slot: HEAD
+          uuid: c83236cb-e079-4810-b14f-07cd6b87476c
+          operation: 0
+      ItemFlags:
+      - HIDE_ATTRIBUTES
+      internal: H4sIAAAAAAAA/1VRQY7TMBR1gZGGwAHYsOAGzbRFSDBIadJJ3JnYJHUzE29QkrqpHbupmqRNfADW7DgBh4BLcCWSQQix+l//P7339J4BwFPwKmGf2T7bJftasX39vmNVXR5l2QIARgZ4uSoaKT8dyy2XzABGvx3Yseaseg4ua9bWzZFVxoC9BBdRIhs2OrBzmUN7OU7uTZlNwl36YHHolLlP4iukrTMii9Z3iqlvn2+hbfHMW56okhVdywJy6y20oRmLrIvVeua7lMciH2MXcezccErQzncjiRSS2F1rasPK5lYO9/MuvaKH1I1w3Ov+4Vl66WTZ0NVfTCiZF5qZivTj36sG/cErWY0l/v824KMutWGOucUTLxxnTnm6m/zjuFPmIVWRyNSN2tizhj4Ep40bTTde1NHVu44SuYv1XMTaMqlYd9ixTJ/MFSaLPgfYUiebYgfOEIkEErn2SSiwU7RIzwtKco3uA00dv0UiOCNh6Z6Pw7x89LYN+umNb7fB9TUAL8ATuOlLeJb9+PXx6+jD6+9vvqTfFj/rvuCLSpZ1NTQEfgPgUpXS8QEAAA==
+  Armor:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: DIAMOND_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DEPTH_STRIDER: 3
+        PROTECTION_FALL: 2
+        PROTECTION_ENVIRONMENTAL: 4
+        DURABILITY: 3
+      repair-cost: 3
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: NETHERITE_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 4
+        DURABILITY: 3
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: DIAMOND_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 4
+        DURABILITY: 3
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: NETHERITE_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        WATER_WORKER: 1
+        MENDING: 1
+        PROTECTION_ENVIRONMENTAL: 4
+        OXYGEN: 3
+        DURABILITY: 3
+      repair-cost: 1

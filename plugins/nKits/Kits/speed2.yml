@@ -1,0 +1,79 @@
+Name: speed2
+Cooldown: 0
+Permission: nKits.kits.speed2
+Order: 0
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"text":"§3§lШар Скорости 2"}'
+      lore:
+      - '{"text":"§c§c§c§cПроклятье утраты"}'
+      - '{"text":""}'
+      - '{"text":"§7Когда во второй руке:"}'
+      - '{"text":"  §7+30% к скорости"}'
+      - '{"text":""}'
+      - '{"text":"§7======================"}'
+      attribute-modifiers:
+        GENERIC_MOVEMENT_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.3
+          name: ResourceKey[minecraft:attribute / minecraft:generic.movement_speed]
+          slot: OFF_HAND
+          uuid: d01df31b-5cbc-4005-b997-180f16f9bc60
+          operation: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      internal: H4sIAAAAAAAA/02Pu07DMBhGfxBIxSAGxMwTgOQ0NKhiQjRqHdUOSUMuZurFJRe7rdIE1Vk78xidYWPg5cjIdj6dbzkIAMHFpKilfCnXy0wKBKiljSirTGzPoFOJXVWXYosA4KgDp+FU1gK+hXYwj1O8iB0518RqdzDB0iX55oGsQj17JhZRrR89WWPd//ftVdOoJxPTSfnKq2cqxGPTl2LkG3P1+kED0uUBxSwn96xraxr5GVcsZREx3CHdsYFTuEPPYI2tE+Xn7sBXrTNZ5GHa2JhHnk6C9ybJiaYqVFzZ2TI2+gDncEwWbcTJbfF7df31eNibN28/d5efAH/9aQi7BgEAAA==
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  Armor:
+  - null
+  - null
+  - null
+  - null

@@ -1,0 +1,223 @@
+#Owner:
+#  tabprefix: "&0&l[&a&lOwner&0&l] &a"
+#  tagprefix: "&2&lOwner &a"
+Player:
+  tabprefix: '&0&l[&7&lPlayer&0&l] &3'
+  tagprefix: '&2&lPlayer &3'
+example_group:
+  header:
+  - This is an example of per-group header/footer
+  footer:
+  - applied to a group
+owner:
+  tabprefix: ' %voicechat_installed%%voicechat_not_installed% %vault_prefix%%vault_suffix%&7'
+  tagprefix: ' %voicechat_installed%%voicechat_not_installed% %vault_prefix%%vault_suffix%&7'
+  tabsuffix: ' %nClans_clan_name%'
+  tagsuffix: ' %nClans_clan_name%'
+admin:
+  tabprefix: ' %voicechat_installed%%voicechat_not_installed% %vault_prefix%%vault_suffix%&7'
+  tagprefix: ' %voicechat_installed%%voicechat_not_installed% %vault_prefix%%vault_suffix%&7'
+  tabsuffix: ' %nClans_clan_name%'
+  tagsuffix: ' %nClans_clan_name%'
+dadmin:
+  tabprefix: ' %voicechat_installed%%voicechat_not_installed% %vault_prefix%%vault_suffix%&7'
+  tagprefix: ' %voicechat_installed%%voicechat_not_installed% %vault_prefix%%vault_suffix%&7'
+  tabsuffix: ' %nClans_clan_name%'
+  tagsuffix: ' %nClans_clan_name%'
+offcurator:
+  tabprefix: ' %voicechat_installed%%voicechat_not_installed% %vault_prefix%%vault_suffix%&7'
+  tagprefix: ' %voicechat_installed%%voicechat_not_installed% %vault_prefix%%vault_suffix%&7'
+  tabsuffix: ' %nClans_clan_name%'
+  tagsuffix: ' %nClans_clan_name%'
+mladmin:
+  tabprefix: ' %voicechat_installed%%voicechat_not_installed% %vault_prefix%%vault_suffix%&7'
+  tagprefix: ' %voicechat_installed%%voicechat_not_installed% %vault_prefix%%vault_suffix%&7'
+  tabsuffix: ' %nClans_clan_name%'
+  tagsuffix: ' %nClans_clan_name%'
+offmladmin:
+  tabprefix: ' %voicechat_installed%%voicechat_not_installed% %vault_prefix%%vault_suffix%&7'
+  tagprefix: ' %voicechat_installed%%voicechat_not_installed% %vault_prefix%%vault_suffix%&7'
+  tabsuffix: ' %nClans_clan_name%'
+  tagsuffix: ' %nClans_clan_name%'
+stmoder:
+  tabprefix: ' %voicechat_installed%%voicechat_not_installed% &x&f&c&5&c&0&e&lT&x&f&a&6&4&0&b&lI&x&f&8&6&c&0&7&lG&x&f&5&7&4&0&4&lE&x&f&3&7&c&0&0&lR
+    &7'
+  tagprefix: ' %voicechat_installed%%voicechat_not_installed% &x&f&c&5&c&0&e&lT&x&f&a&6&4&0&b&lI&x&f&8&6&c&0&7&lG&x&f&5&7&4&0&4&lE&x&f&3&7&c&0&0&lR
+    &7'
+  tabsuffix: ' %nClans_clan_name%'
+  tagsuffix: ' %nClans_clan_name%'
+offstmoder:
+  tabprefix: ' %voicechat_installed%%voicechat_not_installed% &x&f&c&5&c&0&e&lT&x&f&a&6&4&0&b&lI&x&f&8&6&c&0&7&lG&x&f&5&7&4&0&4&lE&x&f&3&7&c&0&0&lR
+    &7'
+  tagprefix: ' %voicechat_installed%%voicechat_not_installed% &x&f&c&5&c&0&e&lT&x&f&a&6&4&0&b&lI&x&f&8&6&c&0&7&lG&x&f&5&7&4&0&4&lE&x&f&3&7&c&0&0&lR
+    &7'
+  tabsuffix: ' %nClans_clan_name%'
+  tagsuffix: ' %nClans_clan_name%'
+yt+:
+  tabprefix: ' %voicechat_installed%%voicechat_not_installed% &#FF0000&lY&f&lT&6&l+%vault_suffix%
+    &7'
+  tagprefix: ' %voicechat_installed%%voicechat_not_installed% &#FF0000&lY&f&lT&6&l+%vault_suffix%
+    &7'
+  tabsuffix: ' %nClans_clan_name%'
+  tagsuffix: ' %nClans_clan_name%'
+yt:
+  tabprefix: ' %voicechat_installed%%voicechat_not_installed% &#FF0000&lY&f&lT%vault_suffix%
+    &7'
+  tagprefix: ' %voicechat_installed%%voicechat_not_installed% &#FF0000&lY&f&lT%vault_suffix%
+    &7'
+  tabsuffix: ' %nClans_clan_name%'
+  tagsuffix: ' %nClans_clan_name%'
+tt:
+  tabprefix: ' %voicechat_installed%%voicechat_not_installed% &0&r%vault_prefix%%vault_suffix%&7'
+  tagprefix: ' %voicechat_installed%%voicechat_not_installed% &0&r%vault_prefix%%vault_suffix%&7'
+  tabsuffix: ' %nClans_clan_name%'
+  tagsuffix: ' %nClans_clan_name%'
+grinch:
+  tabprefix: ' %voicechat_installed%%voicechat_not_installed% &0&r%vault_prefix%%vault_suffix%&7'
+  tagprefix: ' %voicechat_installed%%voicechat_not_installed% &0&r%vault_prefix%%vault_suffix%&7'
+  tabsuffix: ' %nClans_clan_name%'
+  tagsuffix: ' %nClans_clan_name%'
+twitch:
+  tabprefix: ' %voicechat_installed%%voicechat_not_installed% &0&r%vault_prefix%%vault_suffix%&7'
+  tagprefix: ' %voicechat_installed%%voicechat_not_installed% &0&r%vault_prefix%%vault_suffix%&7'
+  tabsuffix: ' %nClans_clan_name%'
+  tagsuffix: ' %nClans_clan_name%'
+sthelper:
+  tabprefix: ' %voicechat_installed%%voicechat_not_installed% &0&r%vault_prefix%%vault_suffix%&7'
+  tagprefix: ' %voicechat_installed%%voicechat_not_installed% &0&r%vault_prefix%%vault_suffix%&7'
+  tabsuffix: ' %nClans_clan_name%'
+  tagsuffix: ' %nClans_clan_name%'
+offsthelper:
+  tabprefix: ' %voicechat_installed%%voicechat_not_installed% &0&r%vault_prefix%%vault_suffix%&7'
+  tagprefix: ' %voicechat_installed%%voicechat_not_installed% &0&r%vault_prefix%%vault_suffix%&7'
+  tabsuffix: ' %nClans_clan_name%'
+  tagsuffix: ' %nClans_clan_name%'
+helper:
+  tabprefix: ' %voicechat_installed%%voicechat_not_installed% %vault_prefix%%vault_suffix%&7'
+  tagprefix: ' %voicechat_installed%%voicechat_not_installed% %vault_prefix%%vault_suffix%&7'
+  tabsuffix: ' %nClans_clan_name%'
+  tagsuffix: ' %nClans_clan_name%'
+offhelper:
+  tabprefix: ' %voicechat_installed%%voicechat_not_installed% %vault_prefix%%vault_suffix%&7'
+  tagprefix: ' %voicechat_installed%%voicechat_not_installed% %vault_prefix%%vault_suffix%&7'
+  tabsuffix: ' %nClans_clan_name%'
+  tagsuffix: ' %nClans_clan_name%'
+fake:
+  tabprefix: ' %voicechat_installed%%voicechat_not_installed% %vault_prefix%%vault_suffix%&7'
+  tagprefix: ' %voicechat_installed%%voicechat_not_installed% %vault_prefix%%vault_suffix%&7'
+  tabsuffix: ' %nClans_clan_name%'
+  tagsuffix: ' %nClans_clan_name%'
+cobra:
+  tabprefix: ' %voicechat_installed%%voicechat_not_installed% %vault_prefix%%vault_suffix%&7'
+  tagprefix: ' %voicechat_installed%%voicechat_not_installed% %vault_prefix%%vault_suffix%&7'
+  tabsuffix: ' %nClans_clan_name%'
+  tagsuffix: ' %nClans_clan_name%'
+hydra:
+  tabprefix: ' %voicechat_installed%%voicechat_not_installed% %vault_prefix%%vault_suffix%&7'
+  tagprefix: ' %voicechat_installed%%voicechat_not_installed% %vault_prefix%%vault_suffix%&7'
+  tabsuffix: ' %nClans_clan_name%'
+  tagsuffix: ' %nClans_clan_name%'
+curator:
+  tabprefix: ' %voicechat_installed%%voicechat_not_installed% &x&0&2&8&6&0&0&lH&x&0&2&9&6&0&1&lY&x&0&1&A&5&0&3&lD&x&0&1&B&5&0&4&lR&x&0&0&C&4&0&5&lA&7 '
+  tagprefix: ' %voicechat_installed%%voicechat_not_installed% &x&0&2&8&6&0&0&lH&x&0&2&9&6&0&1&lY&x&0&1&A&5&0&3&lD&x&0&1&B&5&0&4&lR&x&0&0&C&4&0&5&lA&7 '
+  tabsuffix: ' %nClans_clan_name%'
+  tagsuffix: ' %nClans_clan_name%'
+bunny:
+  tabprefix: ' %voicechat_installed%%voicechat_not_installed% %vault_prefix%%vault_suffix%&7'
+  tagprefix: ' %voicechat_installed%%voicechat_not_installed% %vault_prefix%%vault_suffix%&7'
+  tabsuffix: ' %nClans_clan_name%'
+  tagsuffix: ' %nClans_clan_name%'
+dhelper:
+  tabprefix: ' %voicechat_installed%%voicechat_not_installed% %vault_prefix%%vault_suffix%&7'
+  tagprefix: ' %voicechat_installed%%voicechat_not_installed% %vault_prefix%%vault_suffix%&7'
+  tabsuffix: ' %nClans_clan_name%'
+  tagsuffix: ' %nClans_clan_name%'
+dracula:
+  tabprefix: ' %voicechat_installed%%voicechat_not_installed% %vault_prefix%%vault_suffix%&7'
+  tagprefix: ' %voicechat_installed%%voicechat_not_installed% %vault_prefix%%vault_suffix%&7'
+  tabsuffix: ' %nClans_clan_name%'
+  tagsuffix: ' %nClans_clan_name%'
+tiger:
+  tabprefix: ' %voicechat_installed%%voicechat_not_installed% %vault_prefix%%vault_suffix%&7'
+  tagprefix: ' %voicechat_installed%%voicechat_not_installed% %vault_prefix%%vault_suffix%&7'
+  tabsuffix: ' %nClans_clan_name%'
+  tagsuffix: ' %nClans_clan_name%'
+glmoder:
+  tabprefix: ' %voicechat_installed%%voicechat_not_installed% &x&C&B&C&B&C&B&lR&x&D&5&D&5&D&5&lA&x&E&0&E&0&E&0&lB&x&E&A&E&A&E&A&lB&x&F&5&F&5&F&5&lI&x&F&F&F&F&F&F&lT
+    &7'
+  tagprefix: ' %voicechat_installed%%voicechat_not_installed% &x&C&B&C&B&C&B&lR&x&D&5&D&5&D&5&lA&x&E&0&E&0&E&0&lB&x&E&A&E&A&E&A&lB&x&F&5&F&5&F&5&lI&x&F&F&F&F&F&F&lT
+    &7'
+  tabsuffix: ' %nClans_clan_name%'
+  tagsuffix: ' %nClans_clan_name%'
+rabbit:
+  tabprefix: ' %voicechat_installed%%voicechat_not_installed% %vault_prefix%%vault_suffix%&7'
+  tagprefix: ' %voicechat_installed%%voicechat_not_installed% %vault_prefix%%vault_suffix%&7'
+  tabsuffix: ' %nClans_clan_name%'
+  tagsuffix: ' %nClans_clan_name%'
+moder:
+  tabprefix: ' %voicechat_installed%%voicechat_not_installed% &x&f&a&0&0&e&1&lD&x&e&f&0&7&e&6&lR&x&e&3&0&e&e&a&lA&x&d&8&1&6&e&f&lG&x&c&c&1&d&f&3&lO&x&c&1&2&4&f&8&lN
+    &7'
+  tagprefix: ' %voicechat_installed%%voicechat_not_installed% &x&f&a&0&0&e&1&lD&x&e&f&0&7&e&6&lR&x&e&3&0&e&e&a&lA&x&d&8&1&6&e&f&lG&x&c&c&1&d&f&3&lO&x&c&1&2&4&f&8&lN
+    &7'
+  tabsuffix: ' %nClans_clan_name%'
+  tagsuffix: ' %nClans_clan_name%'
+dmoder:
+  tabprefix: ' %voicechat_installed%%voicechat_not_installed% &x&f&a&0&0&e&1&lD&x&e&f&0&7&e&6&lR&x&e&3&0&e&e&a&lA&x&d&8&1&6&e&f&lG&x&c&c&1&d&f&3&lO&x&c&1&2&4&f&8&lN &7%vault_suffix%&7'
+  tagprefix: ' %voicechat_installed%%voicechat_not_installed% &x&f&a&0&0&e&1&lD&x&e&f&0&7&e&6&lR&x&e&3&0&e&e&a&lA&x&d&8&1&6&e&f&lG&x&c&c&1&d&f&3&lO&x&c&1&2&4&f&8&lN &7%vault_suffix%&7'
+  tabsuffix: ' %nClans_clan_name%'
+  tagsuffix: ' %nClans_clan_name%'
+bull:
+  tabprefix: ' %voicechat_installed%%voicechat_not_installed% %vault_prefix%%vault_suffix%&7'
+  tagprefix: ' %voicechat_installed%%voicechat_not_installed% %vault_prefix%%vault_suffix%&7'
+  tabsuffix: ' %nClans_clan_name%'
+  tagsuffix: ' %nClans_clan_name%'
+dragon:
+  tabprefix: ' %voicechat_installed%%voicechat_not_installed% %vault_prefix%%vault_suffix%&7'
+  tagprefix: ' %voicechat_installed%%voicechat_not_installed% %vault_prefix%%vault_suffix%&7'
+  tabsuffix: ' %nClans_clan_name%'
+  tagsuffix: ' %nClans_clan_name%'
+imperator:
+  tabprefix: ' %voicechat_installed%%voicechat_not_installed% %vault_prefix%%vault_suffix%&7'
+  tagprefix: ' %voicechat_installed%%voicechat_not_installed% %vault_prefix%%vault_suffix%&7'
+  tabsuffix: ' %nClans_clan_name%'
+  tagsuffix: ' %nClans_clan_name%'
+mlmoder:
+  tabprefix: ' %voicechat_installed%%voicechat_not_installed% &x&E&1&3&0&3&0&lI&x&E&5&3&4&3&4&lM&x&E&8&3&9&3&9&lP&x&E&C&3&D&3&D&lE&x&F&0&4&1&4&1&lR&x&F&3&4&5&4&5&lA&x&F&7&4&A&4&A&lT&x&F&A&4&E&4&E&lO&x&F&E&5&2&5&2&lR &7%vault_suffix%&7'
+  tagprefix: ' %voicechat_installed%%voicechat_not_installed% &x&E&1&3&0&3&0&lI&x&E&5&3&4&3&4&lM&x&E&8&3&9&3&9&lP&x&E&C&3&D&3&D&lE&x&F&0&4&1&4&1&lR&x&F&3&4&5&4&5&lA&x&F&7&4&A&4&A&lT&x&F&A&4&E&4&E&lO&x&F&E&5&2&5&2&lR &7%vault_suffix%&7'
+  tabsuffix: ' %nClans_clan_name%'
+  tagsuffix: ' %nClans_clan_name%'
+magister:
+  tabprefix: ' %voicechat_installed%%voicechat_not_installed% %vault_prefix%%vault_suffix%&7'
+  tagprefix: ' %voicechat_installed%%voicechat_not_installed% %vault_prefix%%vault_suffix%&7'
+  tabsuffix: ' %nClans_clan_name%'
+  tagsuffix: ' %nClans_clan_name%'
+overlord:
+  tabprefix: ' %voicechat_installed%%voicechat_not_installed% %vault_prefix%%vault_suffix%&7'
+  tagprefix: ' %voicechat_installed%%voicechat_not_installed% %vault_prefix%%vault_suffix%&7'
+  tabsuffix: ' %nClans_clan_name%'
+  tagsuffix: ' %nClans_clan_name%'
+avenger:
+  tabprefix: ' %voicechat_installed%%voicechat_not_installed% %vault_prefix%%vault_suffix%&7'
+  tagprefix: ' %voicechat_installed%%voicechat_not_installed% %vault_prefix%%vault_suffix%&7'
+  tabsuffix: ' %nClans_clan_name%'
+  tagsuffix: ' %nClans_clan_name%'
+titan:
+  tabprefix: ' %voicechat_installed%%voicechat_not_installed% %vault_prefix%%vault_suffix%&7'
+  tagprefix: ' %voicechat_installed%%voicechat_not_installed% %vault_prefix%%vault_suffix%&7'
+  tabsuffix: ' %nClans_clan_name%'
+  tagsuffix: ' %nClans_clan_name%'
+hero:
+  tabprefix: ' %voicechat_installed%%voicechat_not_installed% %vault_prefix%%vault_suffix%&7'
+  tagprefix: ' %voicechat_installed%%voicechat_not_installed% %vault_prefix%%vault_suffix%&7'
+  tabsuffix: ' %nClans_clan_name%'
+  tagsuffix: ' %nClans_clan_name%'
+default:
+  tabprefix: ' %voicechat_installed%%voicechat_not_installed% %vault_prefix%%vault_suffix%&7'
+  tagprefix: ' %voicechat_installed%%voicechat_not_installed% %vault_prefix%%vault_suffix%&7'
+  tabsuffix: ' %nClans_clan_name%'
+  tagsuffix: ' %nClans_clan_name%'
+per-world:
+  world1:
+    Owner:
+      tabprefix: '&0&l[&a&lOwner&0&l] &a'
+      tagprefix: '&2&lOwner &a'

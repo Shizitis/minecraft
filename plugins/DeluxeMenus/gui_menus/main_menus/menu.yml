@@ -1,0 +1,70 @@
+
+menu_title: '§fꈁꀀꈂꌁꈂꀁ§0ꈃꄀ&r'
+open_command: 
+- menu
+size: 53
+items:
+  '13':
+    display_name: '&r&#aaaaaa☀ &r&#ffaa00Донат&r'
+    slot: 13
+    material: emerald
+    hide_attributes: true
+    left_click_commands:
+    - '[openguimenu] donate'
+    right_click_commands:
+    - '[openguimenu] donate'
+  '21':
+    display_name: '&r&#aaaaaa⟰ &r&#ffaa00Телепорты&r'
+    slot: 21
+    material: compass
+    hide_attributes: true
+    left_click_commands:
+    - '[openguimenu] warps'
+    right_click_commands:
+    - '[openguimenu] warps'
+  '22':
+    display_name: '&r&#aaaaaa⚠ &r&#ffaa00Путеводитель&r'
+    slot: 22
+    material: writable_book
+    hide_attributes: true
+    left_click_commands:
+    - '[openguimenu] putevoditel'
+    right_click_commands:
+    - '[openguimenu] putevoditel'
+  '23':
+    display_name: '&r&#aaaaaa⚑ &r&#ffaa00Контракты&r'
+    slot: 23
+    material: player_head
+    hide_attributes: true
+  '30':
+    display_name: '&r&#ffff55Р &r&#ffaa00Донат магазин&r'
+    slot: 30
+    material: book
+    hide_attributes: true
+    left_click_commands:
+    - '[openguimenu] donateshop'
+    right_click_commands:
+    - '[openguimenu] donateshop'
+  '31':
+    display_name: '&r&#aaaaaa⎙ &r&#ffaa00Префиксы&r'
+    slot: 31
+    material: paper
+    hide_attributes: true
+  '32':
+    display_name: '&r&#aaaaaa⚒ &r&#ffaa00Работы&r'
+    slot: 32
+    material: iron_pickaxe
+    hide_attributes: true
+    left_click_commands:
+    - '[openguimenu] jobs'
+    right_click_commands:
+    - '[openguimenu] jobs'
+  '40':
+    display_name: '&r&#aaaaaa۞ &r&#ffaa00Киты&r'
+    slot: 40
+    material: chest
+    hide_attributes: true
+    left_click_commands:
+    - '[openguimenu] kits'
+    right_click_commands:
+    - '[openguimenu] kits'

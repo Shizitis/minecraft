@@ -1,0 +1,22 @@
+location: world_spawn:65.500:44.000:5.500
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&5&lЗащита замка'
+    height: 0.3
+  - content: '&6Каждую субботу &bв &617:30'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&dОдолейте &bРигурда &dи его &bбанду гоблинов&d!'
+    height: 0.3
+  - content: '&dДля входа на арену используйте &6/siege join'
+    height: 0.3
+  - content: '&dИли &bкликните &dна NPC'
+    height: 0.3
+  actions: {}

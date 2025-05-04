@@ -1,0 +1,6 @@
+disableCommands:
+  enabled: true
+  commands:
+  - op
+  message: '#FB0000Команда заблокирована.'
+lastUpdateId: 0

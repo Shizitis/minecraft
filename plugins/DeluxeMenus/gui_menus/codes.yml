@@ -1,0 +1,89 @@
+menu_title: '&r&#ffffffꈁꀀꈂꌈꈂꀁ&0ꈃꄈ'
+open_command: 
+- codes
+- free
+- dragon
+- бибка
+- niranbib
+- bib
+- словед
+- код
+- коды
+- топка
+- topka
+- adminka
+- риллики
+- рилики
+- рилик
+- донат
+- бесплатныйдонат
+- slowed
+- slowed227
+- freedonate
+- donatefree
+- meikyt
+- мейкут
+- internalup
+- интерналап
+size: 57
+items:
+  'rewardsyt':
+        material: chest_minecart
+        priority: 2
+        amount: 1
+        slot: 21
+        display_name: ' &#FBBD08&lП&#FBB80A&lо&#FBB20B&lд&#FCAD0D&lа&#FCA70E&lр&#FCA210&lк&#FC9C11&lи &#FD9114&lо&#FD8C16&lт &#FD8119&lЮ&#FE7B1B&lт&#FE761C&lу&#FE701E&lб&#FE6B1F&lе&#FF6521&lр&#FF6022&lо&#FF5A24&lв'
+        lore:
+        - ''
+        - ' &fНажмите, чтобы открыть'
+        - ' &fМеню с Наградами от Ютуберов'
+        - ''
+        left_click_commands:
+        - '[openguimenu] rewardsyt'
+        hide_enchantments: true
+        enchantments:
+        - KNOCKBACK;1
+        hide_attributes: true
+  'emerald':
+        material: emerald
+        priority: 2
+        amount: 1
+        slot: 22
+        display_name: ' &#FBBD08&lБ&#FBB70A&lе&#FBB10B&lс&#FCAC0D&lп&#FCA60F&lл&#FCA010&lа&#FC9A12&lт&#FD9414&lн&#FD8E15&lы&#FD8917&lе &#FE7D1A&lН&#FE771C&lа&#FE711D&lг&#FE6B1F&lр&#FF6621&lа&#FF6022&lд&#FF5A24&lы'
+        lore:
+        - ''
+        - ' &fНажмите, чтобы открыть'
+        - ' &fМеню с Бесплатными Наградами'
+        - ''
+        left_click_commands:
+        - '[openguimenu] rewards'
+        hide_enchantments: true
+        enchantments:
+        - KNOCKBACK;1
+        hide_attributes: true
+  'kit':
+        material: chest_minecart
+        priority: 2
+        amount: 1
+        slot: 23
+        display_name: ' &#FBBD08&lС&#FBB60A&lт&#FCAF0C&lа&#FCA80E&lр&#FCA110&lт&#FC9A12&lо&#FD9314&lв&#FD8C16&lы&#FD8418&lй &#FE761C&lн&#FE6F1E&lа&#FE6820&lб&#FF6122&lо&#FF5A24&lр'
+        lore:
+        - ''
+        - ' &fНажмите, чтобы получить'
+        - ' &fБесплатный набор для пвп'
+        - ''
+        left_click_commands:
+        - '[player] kit free'
+        hide_enchantments: true
+        enchantments:
+        - KNOCKBACK;1
+        hide_attributes: true
+  'back':
+    material: arrow
+    model_data: 10002
+    slot: 45
+    display_name: '&6Назад'
+    left_click_commands:
+    - '[player] menu'
+    right_click_commands:
+    - '[player] menu'    

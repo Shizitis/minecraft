@@ -1,0 +1,92 @@
+# DeluxeMenus 1.14.0-Release main configuration file
+# 
+# A full wiki on how to use this plugin can be found at:
+# https://wiki.helpch.at/clips-plugins/deluxemenus
+
+debug: HIGHEST
+check_updates: true
+gui_menus:
+  menu:
+    file: main_menus/menu.yml
+  putevoditel:
+    file: main_menus/putevoditel.yml
+  codes:
+    file: codes.yml
+  rewardsyt:
+    file: rewardsyt.yml
+  bariga:
+    file: bariga.yml
+  season:
+    file: shop/season.yml
+  lesskup:
+    file: jobs/lesskup.yml
+  fermskup:
+    file: jobs/fermskup.yml
+  mineskup:
+    file: jobs/mineskup.yml
+  otselnik:
+    file: jobs/otselnik.yml
+  warps:
+    file: main_menus/warps.yml
+  MENU:
+    file: main_menus/menu.yml
+  rewards:
+    file: main_menus/rewards.yml
+  event:
+    file: main_menus/event.yml
+  jobs:
+    file: main_menus/jobs.yml
+  donate:
+    file: main_menus/donate.yml
+  rtp:
+    file: main_menus/rtp.yml
+  kits:
+    file: main_menus/kits.yml
+  potions:
+    file: shop/potions.yml
+  kitsbuy:
+    file: shop/kitsbuy.yml
+  furnace:
+    file: shop/furnace.yml
+  shulker:
+    file: shop/shulker.yml
+  grief:
+    file: shop/grief.yml
+  sphere:
+    file: shop/sphere.yml
+  spawners:
+    file: shop/spawners.yml
+  MAG:
+    file: shop/MAG.yml
+  warp_servernie:
+    file: warps/warp_servernie.yml
+  warp_donaters:
+    file: warps/warp_donaters.yml
+  trezybes:
+    file: shop/trezybes.yml
+  aurs:
+    file: shop/aurs.yml
+  quests1:
+    file: quests/quests1.yml
+  quests2:
+    file: quests/quests2.yml
+  quests3:
+    file: quests/quests3.yml
+  heads:
+    file: shop/heads.yml
+  boosters:
+    file: shop/boosters.yml
+  hub:
+    file: hub.yml
+  enderchest:
+    file: enderchest.yml
+  rwplus:
+    file: rwplus/plus.yml
+  rwplus2:
+    file: rwplus/plus2.yml
+  rwplusb:
+    file: rwplus/plus_buy_1.yml
+  rwplusb2:
+    file: rwplus/plus_buy_2.yml
+  donateshop:
+    file: donateshop.yml

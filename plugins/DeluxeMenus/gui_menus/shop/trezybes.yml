@@ -1,0 +1,138 @@
+menu_title: '&r&#ffffffꈁꀀꈂꌕꈂꀁ&r&0ꈃꄅ&r'
+open_command: trezybespiskanahuipopa
+size: 53
+items:
+  'clock':
+    material: clock
+    nbt_int: CustomModelData:10001
+    slot: 53
+    display_name: '&6ИНФОРМАЦИЯ'
+    lore:
+    - ''
+    - ' &fВаш баланс: &6%playerpoints_points% &fꐃ'
+    - ''
+    - '&7Пополнить баланс можно'
+    - '&7на сайте: &6FakeWorld.su'
+  'back':
+    material: arrow
+    slot: 45
+    nbt_int: CustomModelData:10002
+    display_name: '&6Назад'
+    left_click_commands:
+    - '[openguimenu] donateshop'
+    right_click_commands:
+    - '[openguimenu] donateshop'
+  'trezybes':
+    amount: 1
+    material: Trident
+    slot: 22
+    display_name: '&6Трезубец'
+    lore:
+    - '&7Когда в ведущей руке:'
+    - '&2 9 Урон'
+    - '&2 1.1 Скорость атаки'
+    - ''
+    - '&7======================'
+    - ''
+    - '  &fЦена: &6299 &6&6&6&eꐃ'
+    - ''
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 299
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6FakeWorld.su' 
+    left_click_commands:
+    - '[console] points take %player_name% 299'
+    - '[console] give %player_name% trident 1'
+  'tyagyn':
+    amount: 1
+    material: enchanted_book
+    slot: 30
+    display_name: '&6Чародейская книга'
+    lore:
+    - '&7Тягун III'
+    - ''
+    - '&7======================'
+    - ''
+    - '  &fЦена: &6499 &6&6&6&eꐃ'
+    - ''
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 499
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6FakeWorld.su' 
+    left_click_commands:
+    - '[console] points take %player_name% 499'
+    - '[console] minecraft:give %player_name% enchanted_book{StoredEnchantments:[{"id":riptide,"lvl":3}]}'
+  'vernost':
+    amount: 1
+    material: enchanted_book
+    slot: 31
+    display_name: '&6Чародейская книга'
+    lore:
+    - '&7Верность III'
+    - ''
+    - '&7======================'
+    - ''
+    - '  &fЦена: &6199 &6&6&6&eꐃ'
+    - ''
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 199
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6FakeWorld.su' 
+    left_click_commands:
+    - '[console] points take %player_name% 199'
+    - '[console] minecraft:give %player_name% enchanted_book{StoredEnchantments:[{"id":loyalty,"lvl":3}]}'
+  'gromoverges':
+    amount: 1
+    material: enchanted_book
+    slot: 32
+    display_name: '&6Чародейская книга'
+    lore:
+    - '&7Громовержец'
+    - ''
+    - '&7======================'
+    - ''
+    - '  &fЦена: &659 &6&6&6&eꐃ'
+    - ''
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 59
+          deny_commands:
+          - '[message] &6Риллики &7⟫ &cНедостаточно рилликов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить баланс можно на сайте - &6FakeWorld.su' 
+    left_click_commands:
+    - '[console] points take %player_name% 59'
+    - '[console] minecraft:give %player_name% enchanted_book{StoredEnchantments:[{"id":channeling,"lvl":1}]}'

@@ -1,0 +1,24 @@
+location: world_spawn:0.500:69.982:45.500
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&6Грандиозная битва в &c&lКолизее'
+    height: 0.3
+  - content: '&6Проходит каждое &c&lвоскресенье в 17:30'
+    height: 0.3
+  - content: '&6Срази всех претендетов и забери приз:'
+    height: 0.3
+  - content: '     &4&lСердце Гидры'
+    height: 0.3
+  - content: '&6&lПоследний победитель:'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '%voicechat_installed%%voicechat_not_installed% &x&F&3&0&F&1&0&lA&x&F&4&2&1&1&7&lD&x&F&4&3&3&1&E&lM&x&F&5&4&4&2&5&lI&x&F&5&5&6&2&C&lN &7slowed227'
+    height: 0.3
+  actions: {}

@@ -1,0 +1,83 @@
+cmi:heal:
+  cooldowns:
+    '*': 30.0
+  aliases: []
+litebans:mute:
+  cooldowns:
+    '*': 30.0
+  aliases: []
+tempmute:
+  cooldowns:
+    '*': 30.0
+  aliases:
+  - mute
+spec:
+  cooldowns:
+    '*': 30.0
+  aliases:
+  - sp
+heal:
+  cooldowns:
+    '*': 30.0
+  aliases:
+  - cmi:heal
+  - понял?
+30s:
+  cooldowns:
+    '*': 0.0
+  aliases: []
+fly:
+  cooldowns:
+    '*': 30.0
+  aliases:
+  - cmi:fly
+  - cmi fly
+  - fly
+day:
+  cooldowns:
+    '*': 300.0
+  aliases:
+  - cmi:day
+  - cmi:night
+  - night
+  - rain
+  - cmi:rain
+ah:
+  cooldowns:
+    '*': 0.0
+  aliases: []
+setwarp:
+  cooldowns:
+    '*': 604800.0
+  aliases:
+  - essentials:setwarp
+msg:
+  cooldowns:
+    '*': 20.0
+  aliases:
+  - tell
+  - cmi:msg
+  - minecraft:tell
+  - minecraft:msg
+  - cmi msg
+  - m
+  - r
+  - message
+  - w
+nick:
+  cooldowns:
+    '*': 600.0
+  aliases:
+  - nickname
+ban:
+  cooldowns:
+    '*': 30.0
+  aliases:
+  - tempban
+  - litebans:ban
+  - check
+  - c
+  - ca
+  - check
+  - checkany
+  - mod

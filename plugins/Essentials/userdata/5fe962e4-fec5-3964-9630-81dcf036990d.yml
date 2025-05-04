@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 192.168.31.15
+afk: true
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1746374727315
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1746373494331
+  login: 1746373502172
+money: '0'
+last-account-name: Shizitis
+lastlocation:
+  world: 3eeefd67-0a06-45f9-a786-62f13fd4cdba
+  world-name: world
+  x: -540.1327922849023
+  y: 69.0
+  z: 1160.4626930038107
+  yaw: -337.95355224609375
+  pitch: 6.568549633026123
+logoutlocation:
+  world: 65aadfe6-7ba4-436d-aa34-12ac1d742dcf
+  world-name: world_spawn
+  x: -8.699999988079107
+  y: 67.02113529188595
+  z: -7.126616222754021
+  yaw: -256.978515625
+  pitch: 30.60014533996582

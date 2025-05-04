@@ -66,8 +66,7 @@ bossbar:
       style: NOTCHED_12
       color: GREEN
       progress: '100'
-      text: Скидки на &#92F87BСАЙТЕ &fс промокодом &6FAKE25 &#92F87B&nFakeWorld.su&f
-        20%
+      text: ЧИНАЗЕС
 scoreboard:
   enabled: true
   toggle-command: /sb
